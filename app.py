@@ -16,9 +16,11 @@ def get_image_b64_string(image_path):
     with open(image_path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode("utf-8")
 
-
+# Get the logo base64 strings
 logo_path = "assets/images/logo/Teamfight_Tactics.png"
+github_logo_path = "assets/images/logo/github-mark-white.png"
 logo_b64 = get_image_b64_string(logo_path)
+github_logo_b64 = get_image_b64_string(github_logo_path)
 
 
 def get_html_template():
@@ -86,9 +88,9 @@ st.markdown(
 
 
 # Main UI
-st.title("TFT! GPT Embedded Recommender")
+st.title("TFT Embedded Helper")
 
-champion_names_input = st.text_input("Enter the champion name separated by comma:")
+champion_names_input = st.text_input("Enter the champion|s name separated by comma:")
 
 if champion_names_input:
     champion_names = champion_names_input.split(", ")
@@ -100,3 +102,24 @@ if champion_names_input:
         display_item_images_for_champ(selected_champ_cost)
     if selected_champ_distance:
         display_item_images_for_champ(selected_champ_distance)
+
+# Footer
+st.write("---")
+st.markdown("#### About")
+st.markdown(
+    """
+    TFT Embedded Helper is a recommendation system for the game Teamfight Tactics (TFT), 
+    built to suggest the best champions and items for a given player's champion or champions. 
+    This is a fun project to explore how well semantic-based search performs when comparing 
+    embeddings between champions and items. 
+    """,
+)
+st.write("---")
+st.markdown(
+    """
+    <p align="center">View the source on 
+    <a href="https://github.com/neo-con/tft-embedded-helper.git" target="_blank">
+    <img src="data:image/png;base64,{0}" alt="GitHub" width="32"></a></p>
+    """.format(github_logo_b64),
+    unsafe_allow_html=True,
+)
