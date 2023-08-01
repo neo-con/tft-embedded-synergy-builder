@@ -86,9 +86,9 @@ st.markdown(
 
 
 # Main UI
-st.title("TFT! GPT Embedded Recommender")
+st.title("TFT Embedded Helper")
 
-champion_names_input = st.text_input("Enter the champion name separated by comma:")
+champion_names_input = st.text_input("Enter the champion|s name separated by comma:")
 
 if champion_names_input:
     champion_names = champion_names_input.split(", ")
