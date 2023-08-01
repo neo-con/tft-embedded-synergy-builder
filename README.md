@@ -2,7 +2,7 @@
 
 
 ## Description
-TFT Embedded Helper is a recommendation system for the game Teamfight Tactics (TFT), built to suggest the best champions and items for a given player's champion or champions. This is a fun project to explore how well semantic-based search performs when comparing embeddings between champions and items.
+TFT Embedded Helper is a recommendation system for the game Teamfight Tactics (TFT). It utilizes semantic-based search and embeddings to provide players with personalized suggestions for the best champions and items based on their selected champion or champions. This project aims to explore the effectiveness of semantic search in the context of champion and item recommendations in TFT.
 
 ## Interactive Demo
 
