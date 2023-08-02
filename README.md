@@ -12,8 +12,8 @@ TFT Embedded Synergy Builder is a recommendation system for the game Teamfight T
 To set up the project, follow these steps:
 
 1. Ensure that pipenv is installed on your system. If not, you can install it using `pip install pipenv`.
-2. Clone the repository from GitHub using the following command: `git clone https://github.com/neo-con/tft-embedded-helper.git`
-3. Navigate to the cloned repository's directory. If you cloned the repository into your current directory, you can do this with: `cd tft-embedded-helper`
+2. Clone the repository from GitHub using the following command: `git clone https://github.com/neo-con/tft-embedded-synergy-builder.git`
+3. Navigate to the cloned repository's directory. If you cloned the repository into your current directory, you can do this with: `cd tft-embedded-synergy-builder`
 4. Run `pipenv install` to install all dependencies listed in the `Pipfile`. 
 5. After the installation completes, activate the Pipenv shell: `pipenv shell`
 6. You can now run the application using `streamlit run app.py`.
