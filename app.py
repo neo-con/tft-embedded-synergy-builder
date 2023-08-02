@@ -4,6 +4,7 @@ import os
 import builders.item_builder as item_builder
 import builders.synergy_builder as synergy_builder
 
+
 CHAMPION_IMAGE_FOLDER = "assets/images/champions"
 ITEM_IMAGE_FOLDER = "assets/images/items"
 
@@ -11,10 +12,18 @@ ITEM_IMAGE_FOLDER = "assets/images/items"
 config = item_builder.load_config()
 config_items = item_builder.load_config_items()
 
+# Setting the browser title
+st.set_page_config(
+    page_title="TFT Embedded Synergy Builder",
+    page_icon=None,
+    layout="centered",
+)
+
 
 def get_image_b64_string(image_path):
     with open(image_path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode("utf-8")
+
 
 # Get the logo base64 strings
 logo_path = "assets/images/logo/Teamfight_Tactics.png"
@@ -62,7 +71,7 @@ def display_champion_synergies(champion_names):
             top_champs_by_cost, CHAMPION_IMAGE_FOLDER, "cost"
         )
 
-    distance_expander = st.expander("Top Champions by Distance", expanded=False)
+    distance_expander = st.expander("Top Champions by Distance (FINAL)", expanded=False)
     with distance_expander:
         selected_champ_distance = display_images(
             top_champs_by_distance, CHAMPION_IMAGE_FOLDER, "distance"
@@ -88,9 +97,11 @@ st.markdown(
 
 
 # Main UI
-st.title("TFT Embedded Helper")
+st.title("TFT Embedded Synergy Builder")
 
-champion_names_input = st.text_input("Enter the champion|s name separated by comma:")
+champion_names_input = st.text_input(
+    "Enter the champion name(s) separated by comma (e.g. Ahri) or (Yasuo, Jinx):"
+)
 
 if champion_names_input:
     champion_names = champion_names_input.split(", ")
@@ -108,11 +119,12 @@ st.write("---")
 st.markdown("#### About")
 st.markdown(
     """
-    TFT Embedded Helper is a recommendation system for the game Teamfight Tactics (TFT), 
-    built to suggest the best champions and items for a given player's champion or champions. 
-    This is a fun project to explore how well semantic-based search performs when comparing 
-    embeddings between champions and items. 
-    """,
+    <p align="left">TFT Embedded Synergy Builder is a recommendation system for the game Teamfight Tactics (TFT). 
+    It utilizes semantic-based search and embeddings to provide players with personalized 
+    suggestions for the best champions and items based on their selected champion or champions. 
+    This project aims to explore the effectiveness of semantic search in the context of champion 
+    and item recommendations in TFT.</p>
+    <p align="center"> Expect fun, not perfection!</p>""", unsafe_allow_html=True,
 )
 st.write("---")
 st.markdown(
@@ -120,6 +132,8 @@ st.markdown(
     <p align="center">View the source on 
     <a href="https://github.com/neo-con/tft-embedded-helper.git" target="_blank">
     <img src="data:image/png;base64,{0}" alt="GitHub" width="32"></a></p>
-    """.format(github_logo_b64),
+    """.format(
+        github_logo_b64
+    ),
     unsafe_allow_html=True,
 )
