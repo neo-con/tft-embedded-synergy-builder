@@ -1,8 +1,8 @@
-# tft-embedded-helper
+# tft-embedded-synergy-builder
 
 
 ## Description
-TFT Embedded Helper is a recommendation system for the game Teamfight Tactics (TFT). It utilizes semantic-based search and embeddings to provide players with personalized suggestions for the best champions and items based on their selected champion or champions. This project aims to explore the effectiveness of semantic search in the context of champion and item recommendations in TFT.
+TFT Embedded Synergy Builder is a recommendation system for the game Teamfight Tactics (TFT). It utilizes semantic-based search and embeddings to provide players with personalized suggestions for the best champions and items based on their selected champion or champions. This project aims to explore the effectiveness of semantic search in the context of champion and item recommendations in TFT.
 
 ## Interactive Demo
 
