@@ -130,7 +130,7 @@ st.write("---")
 st.markdown(
     """
     <p align="center">View the source on 
-    <a href="https://github.com/neo-con/tft-embedded-helper.git" target="_blank">
+    <a href="https://github.com/neo-con/tft-embedded-synergy-builder.git" target="_blank">
     <img src="data:image/png;base64,{0}" alt="GitHub" width="32"></a></p>
     """.format(
         github_logo_b64
