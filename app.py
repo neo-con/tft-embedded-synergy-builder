@@ -61,9 +61,15 @@ def display_images(data_names, folder, category=None):
 
 def display_champion_synergies(champion_names):
     config = synergy_builder.load_config()
-    top_champs_by_cost, top_champs_by_distance = synergy_builder.main(
-        config, champion_names
-    )
+    result = synergy_builder.main(config, champion_names)
+
+    if result is None:
+        st.write(
+            "No champion synergies found. Please make sure you've entered the correct champion name(s), separated by commas with a space after each comma"
+        )
+        return None, None
+
+    top_champs_by_cost, top_champs_by_distance = result
 
     cost_expander = st.expander("Top Champions by Cost", expanded=False)
     with cost_expander:
@@ -124,7 +130,8 @@ st.markdown(
     suggestions for the best champions and items based on their selected champion or champions. 
     This project aims to explore the effectiveness of semantic search in the context of champion 
     and item recommendations in TFT.</p>
-    <p align="center"> Expect fun, not perfection!</p>""", unsafe_allow_html=True,
+    <p align="center"> Expect fun, not perfection!</p>""",
+    unsafe_allow_html=True,
 )
 st.write("---")
 st.markdown(
