@@ -97,9 +97,15 @@ def search(
 def main(config, champion_names, top_k_champs=15):
     champ_data_pkl = load_pickle_data(config["champ_data_pkl"])
     original_champ_data = load_json_data(config["champ_data_json"])
-    queries = [
-        champ_data_pkl["embeddings"][champion_name] for champion_name in champion_names
-    ]
+    
+    try:
+        queries = [
+            champ_data_pkl["embeddings"][champion_name.title()] for champion_name in champion_names
+        ]
+    except KeyError:
+        print("Make sure you enter a champ from the recent set.")
+        return None
+
     avg_query = np.mean(queries, axis=0)
 
     top_champs_by_cost = search(
