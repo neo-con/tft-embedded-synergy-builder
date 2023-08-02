@@ -100,7 +100,7 @@ def main(config, champion_names, top_k_champs=15):
     
     try:
         queries = [
-            champ_data_pkl["embeddings"][champion_name.title()] for champion_name in champion_names
+            champ_data_pkl["embeddings"][champion_name] for champion_name in champion_names
         ]
     except KeyError:
         print("Make sure you enter a champ from the recent set.")

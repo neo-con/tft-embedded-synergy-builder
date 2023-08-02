@@ -65,7 +65,12 @@ def display_champion_synergies(champion_names):
 
     if result is None:
         st.write(
-            "No champion synergies found. Please make sure you've entered the correct champion name(s), separated by commas with a space after each comma"
+            "No champion synergies found. Please make sure you've entered the correct champion name(s), separated by commas with a space after each comma."
+        )
+        st.write(
+            """Example:
+
+            Teemo, Jarvan IV"""
         )
         return None, None
 
