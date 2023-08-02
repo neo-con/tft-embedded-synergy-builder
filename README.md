@@ -35,6 +35,9 @@ Below is a brief overview of the key files and folders:
 ## Acknowledgments
 Special thanks to the Facebook team for their work on [FAISS](https://github.com/facebookresearch/faiss), and OpenAI for their [Embedding API](https://platform.openai.com/docs/guides/embeddings).
 
+## Known Issues:
+Layout on mobile device sucks. This is due to Streamlit's lack of responsiveness controls. Hoping to switch frameworks in the future, perhaps Django or Flask, or even React.
+
 ## License
 This project is licensed under the terms of the MIT License. You are free to use, modify, and distribute the code, provided that proper credit is given.
 
