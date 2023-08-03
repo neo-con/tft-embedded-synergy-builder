@@ -2,7 +2,7 @@
 
 
 ## Description
-TFT Embedded Synergy Builder is a recommendation system for the game Teamfight Tactics (TFT). It utilizes semantic-based search and embeddings to provide players with personalized suggestions for the best champions and items based on their selected champion or champions. This project aims to explore the effectiveness of semantic search in the context of champion and item recommendations in TFT.
+TFT Embedded Synergy Builder is a recommendation system for the game Teamfight Tactics (TFT). It utilizes semantic-based search and embeddings to provide players with personalized suggestions for the best champions and items based on their selected champion or champions. The system manages multiple champion embeddings by calculating the average embedding of the selected champions. This average embedding is then used to find similar champions based on their embeddings. This project aims to explore the effectiveness of semantic search in the context of champion and item recommendations in TFT.
 
 ## Interactive Demo
 
