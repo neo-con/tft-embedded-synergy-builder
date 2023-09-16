@@ -1,68 +1,56 @@
 {
     "Aatrox": {
         "cost": 5,
-        "ability_text": "Transform for 10/10/30 seconds, gaining 15% Omnivamp. While transformed, attacks deal 275%/275%/2500% physical damage.",
+        "ability_text": "Transform for 12/12/30 seconds, converting 80% of bonus Attack Speed to Attack Damage. While transformed, attacks deal 200/300/4500 physical damage in an area.\n\nDarkin Blade: Gain 350 Health and 15% Omnivamp. If another unit holds this weapon for at least 5 seconds, Aatrox will revive upon their death.",
         "origin_details": {
-            "Darkin": "When Aatrox or the holder of the Darkin Blade dies, the Darkin Blade is equipped to the nearest allied champion, granting them 400 Health and 15% Omnivamp.\n\nAfter being equipped to a champion for 4 seconds, Aatrox will revive upon their death instead."
+            "Darkin": "(1) Darkin are possessed by a weapon. When they die, the weapon possesses the nearest ally champion, granting them the weapon's power.\n(2) Weapon powers become 50% stronger."
         },
         "class_details": {
-            "Juggernaut": "Juggernaut champions take less damage as their Health decreases.\n\n2: 10% to 25% damage reduction\n4: 20% to 40% damage reduction\n6: 30% to 50% damage reduction\n\n",
-            "Slayer": "Slayers gain 12% Omnivamp.\nSlayers deal bonus damage, doubled against units below 60% Health.\n\n2: +5% bonus damage\n3: +10% bonus damage\n4: +25% bonus damage\n5: +35% bonus damage\n6: +50% bonus damage\n\n"
+            "Juggernaut": "Juggernaut champions take less damage as their Health decreases.\n\n2: 15% to 25% damage reduction\n4: 25% to 40% damage reduction\n6: 35% to 50% damage reduction\n\n",
+            "Slayer": "Slayers gain 12% Omnivamp.\nSlayers deal bonus damage, doubled against units below 66% Health.\n\n2: +6% bonus damage\n4: +20% bonus damage\n6: +40% bonus damage\n\n"
         }
     },
     "Ahri": {
         "cost": 5,
-        "ability_text": "Steal essence from enemies around the current target, dealing 115/170/1000 magic damage and Mana Reaving them.\nEvery 3/3/1 casts, unleash a wave that deals 250/375/3000 magic damage to all enemies hit. This deals 33% more damage to enemies whose essence has been stolen.\n\nIonia Bonus: +3 Mana per second.",
+        "ability_text": "Steal essence from enemies around the current target, dealing 90/135/1000 magic damage and 20% Mana Reaving them.\n\nEvery 3/3/1 casts, unleash a wave that deals 230/350/1888 magic damage to all enemies hit. This deals 33% more damage to enemies whose essence has been stolen.\n\nIonia Bonus: +3 Mana per second.",
         "origin_details": {
-            "Ionia": "Each Ionian has a unique bonus within their Ability.\nEvery 4 seconds, a number of Ionians are enlightened to their spirit form, gaining 20 mana and doubling stat bonuses for 4 seconds.\n\n3: 100% Ionian bonus, 1 enlightened\n6: 200% Ionian bonus, 2 enlightened\n9: 325% Ionian bonus, 3 enlightened\n\n"
+            "Ionia": "Each Ionian has a unique bonus within their Ability. Every 4 seconds, a number of Ionians are enlightened to their spirit form, gaining 20 mana and doubling stat bonuses for 4 seconds.\n\n3: 100% Ionian bonus, 1 enlightened\n6: 200% Ionian bonus, 2 enlightened\n9: 380% Ionian bonus, 3 enlightened\n\n"
         },
         "class_details": {
-            "Sorcerer": "Sorcerers gain bonus Ability Power.\nWhen an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.\n\n2: 25 AP, 10% max HP\n4: 50 AP, 15% max HP\n6: 85 AP, 15% max HP to 2 enemies\n8: 125 AP, 20% max HP to 2 enemies\n\n"
-        }
-    },
-    "Akshan": {
-        "cost": 3,
-        "ability_text": "Lock on to the farthest enemy and unleash a hail of 6 shots toward them. Each deals 101/157/243 physical damage to the first enemy hit.",
-        "origin_details": {
-            "Shurima": "Every 4 seconds, Shurimans heal 5% maximum Health. After 8 seconds, select Shurimans Ascend and gain 25% maximum Health and 35% Attack Speed.\n\n3: The strongest Shuriman Ascends\n5: All Shurimans Ascend\n7: All Ascend at the Start of Combat, boosts Ascension bonuses by +20%\n9: +25% Ascension bonus, Ascends a second time after 8 seconds\n\n"
-        },
-        "class_details": {
-            "Deadeye": "Innate: +1 Range\nEvery 3 seconds, Deadeyes attack the enemy with the highest percent Health and deal bonus damage.\n\n2: +20% damage\n4: +65% damage\n6: +150% damage\n\n"
+            "Sorcerer": "Sorcerers gain bonus Ability Power.\nWhen an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.\n\n2: 25 AP, 7% max HP\n4: 45 AP, 10% max HP\n6: 80 AP, 12% max HP to 2 enemies\n8: 125 AP, 15% max HP to 2 enemies\n\n"
         }
     },
     "Aphelios": {
         "cost": 4,
-        "ability_text": "Fire a moon blast at the largest group of enemies that deals 120/180/743 physical damage to enemies within 2 hexes.\n\nFor 7 seconds, equip 3 Chakram, plus 1 more for each enemy hit by the blast. Attacks deal 8/8/40% bonus physical damage for each Chakram equipped. Aphelios heals for 50% of damage dealt by Chakrams.",
+        "ability_text": "Fire a moon blast at the largest group of enemies that deals 120/180/675 physical damage to enemies within 2 hexes.\n\nFor 7 seconds, equip 3 Chakram, plus 1 more for each enemy hit by the blast. Attacks deal 3/4.5/20 bonus physical damage for each Chakram equipped. Aphelios heals for 75% of damage dealt by Chakrams.",
         "origin_details": {
-            "Targon": "All of your units' healing and shielding is improved.\n\n2: 20% increased healing and shielding\n3: 40% increased healing and shielding\n4: 70% increased healing and shielding\n\n"
+            "Targon": "All of your units' healing and shielding is improved.\n\n2: 18% increased healing and shielding\n3: 35% increased healing and shielding\n4: 55% increased healing and shielding\n\n"
         },
         "class_details": {
-            "Deadeye": "Innate: +1 Range\nEvery 3 seconds, Deadeyes attack the enemy with the highest percent Health and deal bonus damage.\n\n2: +20% damage\n4: +65% damage\n6: +150% damage\n\n"
+            "Gunner": "When Gunner champions attack, they gain bonus Attack Damage, up to 8 stacks.\n\n2: 6% AD per stack\n4: 14% AD per stack\n6: 25% AD per stack\n\n"
         }
     },
     "Ashe": {
         "cost": 2,
-        "ability_text": "Fire 8 arrows in a cone, each dealing physical damage to the first enemy hit and Chilling them for a few seconds.\n\nDamage : 150% / 150% / 160% AD",
+        "ability_text": "Fire 8 arrows in a cone, each dealing 83/124/198 physical damage to the first enemy hit and Chilling them for 2 seconds.",
         "origin_details": {
-            "Freljord": "After 7 seconds, an ice storm strikes the battlefield. Enemies take a percentage of their maximum Health as true damage and gain debuffs.\n\n2: 5% Health, enemies are 40% Sundered and Shredded for 15 seconds\n3: 10% Health, enemies are also 30% Mana Reaved\n4: 15% Health, enemies are also stunned for 1.5 seconds\n\n"
+            "Freljord": "After 8 seconds, an ice storm strikes the battlefield. Enemies take a percentage of their max Health as true damage and gain debuffs.\n\n2: 8% Health, enemies are 20% Sundered and Shredded for 10 seconds\n3: 15% Health, enemies are also Stunned for 1.5 seconds\n\n"
         },
-        "class_details": {
-            "Deadeye": "Innate: +1 Range\nEvery 3 seconds, Deadeyes attack the enemy with the highest percent Health and deal bonus damage.\n\n2: +20% damage\n4: +65% damage\n6: +150% damage\n\n"
-        }
+        "class_details": {}
     },
     "Azir": {
         "cost": 4,
-        "ability_text": "Passive: Every third attack, a Sand Soldier deals 95/140/500 magic damage to their target.\n\nActive: Summon a Sand Soldier to attack your target. If Azir already has 3 Soldiers, they all immediately deal 67/98/350 magic damage instead.",
+        "ability_text": "Passive: Every third attack, a Sand Soldier deals 105/160/550 magic damage to their target.\n\nActive: Summon a Sand Soldier to attack your target. If Azir already has 3 Soldiers, they all immediately deal 74/112/38 magic damage instead.",
         "origin_details": {
-            "Shurima": "Every 4 seconds, Shurimans heal 5% maximum Health. After 8 seconds, select Shurimans Ascend and gain 25% maximum Health and 35% Attack Speed.\n\n3: The strongest Shuriman Ascends\n5: All Shurimans Ascend\n7: All Ascend at the Start of Combat, boosts Ascension bonuses by +20%\n9: +25% Ascension bonus, Ascends a second time after 8 seconds\n\n"
+            "Shurima": "Every 4 seconds, Shurimans heal 5% maximum Health. After 8 seconds, select Shurimans Ascend and gain 20% maximum Health and 30% Attack Speed.\n\n2: The strongest Shuriman Ascends\n4: All Shurimans Ascend. +15% Ascension bonus\n6: Instead, Ascend at combat start. +45% Ascension bonus\n9: Ascend twice, at combat start and after 8 seconds. +75% Ascension bonus\n\n"
         },
         "class_details": {
-            "Strategist": "Combat Start: Allies in the front 2 rows gain a Shield for 15 seconds. Allies in the back 2 rows gain Ability Power.\n\n2: 200 Shield, 15 AP\n3: 350 Shield, 25 AP\n4: 500 Shield, 40 AP\n5: 800 Shield, 60 AP\n\n"
+            "Strategist": "Combat Start: Allies in the front 2 rows gain a Shield for 15 seconds. Allies in the back 2 rows gain Ability Power.\n\n2: 250 Shield, 15 AP\n3: 400 Shield, 25 AP\n4: 600 Shield, 40 AP\n5: 900 Shield, 60 AP\n\n"
         }
     },
     "Bel'Veth": {
         "cost": 5,
-        "ability_text": "Lash out at the lowest Health enemy in range 6/6/30 times. Each lash deals 76/114/177 physical damage and 2% of the target's max Health as true damage.",
+        "ability_text": "Lash out at the lowest Health enemy in range 6/6/30 times. Each lash deals 70/108/167 physical damage and 2% of the target's max Health as true damage.",
         "origin_details": {
             "Void": "Get a placeable void egg. At the start of combat, it hatches into an unspeakable horror and knocks up adjacent enemies.\nEach Void star level increases the horror's Health and Ability Power by 25%.\n\n3: Void Remora\n6: Rift Herald\n8: Baron Nashor\n\n"
         },
@@ -72,92 +60,114 @@
     },
     "Cassiopeia": {
         "cost": 1,
-        "ability_text": "Deal 170/255/385 magic damage to the current target and Wound them for 5 seconds. If they are already Wounded, deal 60/90/135 bonus magic damage.",
+        "ability_text": "Deal 170/255/385 magic damage to the current target and Wound them for 5 seconds. If they are already Wounded, deal 51/77/116 bonus magic damage.",
         "origin_details": {
-            "Noxus": "Noxus champions gain Health, Ability Power and Attack Damage. This is increased by 10% for each different opponent that either you have conquered in combat or is dead.\n\n3: 160 Health, 16 AP, 16% AD\n6: 280 Health, 28 AP, 28% AD\n9: 420 Health, 42 AP, 42% AD\n\n",
-            "Shurima": "Every 4 seconds, Shurimans heal 5% maximum Health. After 8 seconds, select Shurimans Ascend and gain 25% maximum Health and 35% Attack Speed.\n\n3: The strongest Shuriman Ascends\n5: All Shurimans Ascend\n7: All Ascend at the Start of Combat, boosts Ascension bonuses by +20%\n9: +25% Ascension bonus, Ascends a second time after 8 seconds\n\n"
+            "Noxus": "Noxus champions gain Health, Ability Power and Attack Damage. This is increased by 5% for each different opponent that either you have conquered in combat or is dead.\n\n3: 160 Health, 16 AP, 16% AD\n5: 320 Health, 32 AP, 32% AD\n7: 500 Health, 50 AP, 50% AD\n9: 750 Health, 75 AP, 75% AD\n\n",
+            "Shurima": "Every 4 seconds, Shurimans heal 5% maximum Health. After 8 seconds, select Shurimans Ascend and gain 20% maximum Health and 30% Attack Speed.\n\n2: The strongest Shuriman Ascends\n4: All Shurimans Ascend. +15% Ascension bonus\n6: Instead, Ascend at combat start. +45% Ascension bonus\n9: Ascend twice, at combat start and after 8 seconds. +75% Ascension bonus\n\n"
         },
         "class_details": {
-            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana\n4: Additional 15 Mana to Invokers\n6: 20 Mana to all, additional 15 Mana to Invokers\n\n"
+            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana to all\n4: Additional 15 Mana to Invokers\n6: 15 Mana to all, additional 15 Mana to Invokers\n6: 40 Mana to all, and start with an additional 30 Ability Power\n\n"
         }
     },
     "Cho'Gath": {
         "cost": 1,
-        "ability_text": "Deal 334/486/722 magic damage to the lowest Health enemy in range. If this kills them, devour them and permanently gain 30/35/40 maximum Health.",
+        "ability_text": "Deal 355/524/790 magic damage to the lowest Health enemy in range. If this kills them, devour them and permanently gain 30/35/40 maximum Health.",
         "origin_details": {
             "Void": "Get a placeable void egg. At the start of combat, it hatches into an unspeakable horror and knocks up adjacent enemies.\nEach Void star level increases the horror's Health and Ability Power by 25%.\n\n3: Void Remora\n6: Rift Herald\n8: Baron Nashor\n\n"
         },
         "class_details": {
-            "Bruiser": "Your units gain 100 Health. Bruisers gain additional maximum Health.\n\n2: +10% max HP\n4: +40% max HP\n6: +70% max HP\n\n"
+            "Bruiser": "Your units gain 100 Health. Bruisers gain additional maximum Health.\n\n2: +10% max HP\n4: +45% max HP\n6: +80% max HP\n\n"
         }
     },
     "Darius": {
         "cost": 3,
-        "ability_text": "Deal 345/488/701 physical damage to the current target. If they die, immediately cast this again with 82/85/90% damage.",
+        "ability_text": "Deal 235/350/515 physical damage to the current target. If they die, immediately cast this again with 82/85/90% damage.",
         "origin_details": {
-            "Noxus": "Noxus champions gain Health, Ability Power and Attack Damage. This is increased by 10% for each different opponent that either you have conquered in combat or is dead.\n\n3: 160 Health, 16 AP, 16% AD\n6: 280 Health, 28 AP, 28% AD\n9: 420 Health, 42 AP, 42% AD\n\n"
+            "Noxus": "Noxus champions gain Health, Ability Power and Attack Damage. This is increased by 5% for each different opponent that either you have conquered in combat or is dead.\n\n3: 160 Health, 16 AP, 16% AD\n5: 320 Health, 32 AP, 32% AD\n7: 500 Health, 50 AP, 50% AD\n9: 750 Health, 75 AP, 75% AD\n\n"
         },
         "class_details": {
-            "Juggernaut": "Juggernaut champions take less damage as their Health decreases.\n\n2: 10% to 25% damage reduction\n4: 20% to 40% damage reduction\n6: 30% to 50% damage reduction\n\n"
+            "Juggernaut": "Juggernaut champions take less damage as their Health decreases.\n\n2: 15% to 25% damage reduction\n4: 25% to 40% damage reduction\n6: 35% to 50% damage reduction\n\n",
+            "Vanquisher": "Damage from Vanquisher Abilities can critically strike. Vanquishers gain bonus Critical Strike Chance and Critical Strike Damage.\n\n2: 15% Crit Chance , 10% Crit DMG\n4: 35% Crit Chance , 25% Crit DMG\n6: 55% Crit Chance , 40% Crit DMG\n\n"
         }
     },
     "Ekko": {
         "cost": 3,
-        "ability_text": "Heal 20% of damage taken in the last 4 seconds and deal 290/435/710 magic damage to the current target.",
+        "ability_text": "Heal 20% of damage taken in the last 4 seconds and deal 300/450/725 magic damage to the current target.",
         "origin_details": {
-            "Piltover": "Gain the T-Hex. Every time you lose a player combat, the T-Hex gains Charges. Winning converts the Charges to Power for the T-Hex.\nYou may also sell the T-Hex if it has any Power, resetting the T-Hex and converting its Power to loot.\n\n3: Gain the T-Hex.\n6: Gain bonus loot every round. Each loss counts as 2 losses instead.\n\n",
-            "Zaun": "Zaun champions create random chem-mods that only they can use. Champions can be modded once, and mods can only be removed by selling the champion.\n\n2: Gain 1 chem-mod\n4: Gain 2 chem-mods\n6: Gain 3 chem-mods and Overcharge them\n\n"
+            "Piltover": "Gain the T-Hex. Every time you lose a player combat, the T-Hex gains Charges. Winning converts the Charges to Power for the T-Hex and grants you loot based on the number of Charges converted.\n\n3: Gain the T-Hex.\n6: Gain bonus loot every round. Each loss counts as 2 losses instead.\n\n",
+            "Zaun": "Zaun champions create random chem-mods that only they can use. Champions can be modded once, and mods can be removed by benching or selling the champion.\n\n2: Gain 1 chem-mod\n4: Gain 2 chem-mods and Overcharge them\n6: Gain 5 chem-mods and Overcharge them\n\n"
         },
         "class_details": {
-            "Rogue": "\n\n2: When a Rogue falls below 50% Health, they briefly become untargetable and dash to an enemy within 4 hexes (preferring enemy backline).\n4: Additionally, a Rogue's first attack on an enemy bleeds them for 40% of their max Health as magic damage over 5 seconds.\n\n"
+            "Rogue": "\n\n2: When a Rogue falls below 50% Health, they briefly become untargetable and dash to an enemy within 4 hexes (preferring enemy backline).\n4: Additionally, a Rogue's first attack on an enemy bleeds them for 75% of their max Health as magic damage over 2.5 seconds.\n\n"
+        }
+    },
+    "Fiora": {
+        "cost": 4,
+        "ability_text": "Become untargetable and strike the current target 4 times. Each strike deals 150/150/175 physical damage and 60/90/270 true damage. Heal for 20% of the total damage dealt. If the target dies, change targets to the nearest enemy.",
+        "origin_details": {
+            "Demacia": "Your strongest Demacians become Elite and equip a Radiant item each combat. Elites grant Armor and Magic Resist to themselves and adjacent allies, but this does not stack.\n\n3: 1 Elite, +5 AR and MR\n5: 2 Elite, +25 AR and MR\n7: 4 Elite, +35 AR and MR\n9: 6 Elite, +150 AR and MR\n\n"
+        },
+        "class_details": {
+            "Challenger": "Challengers gain bonus Attack Speed. When their target dies, Challengers dash to a new target and increase their Attack Speed bonus by 50% for 2.5 seconds.\n\n2: 30% AS\n4: 60% AS\n6: 95% AS\n8: 140% AS\n\n"
         }
     },
     "Galio": {
         "cost": 2,
-        "ability_text": "Reduce damage taken by 20%/20%/25% and heal for 350/400/450 over 4 seconds. After, deal 200/300/450 magic damage to adjacent enemies.",
+        "ability_text": "Reduce damage taken by 25/25/35% and heal for 300/350/400 over 2.5 seconds. After, deal 200/300/450 magic damage to adjacent enemies.",
         "origin_details": {
-            "Demacia": "Your strongest Demacians become Elite and equip a random Radiant item each combat. Elites grant Armor and Magic Resist to themselves and adjacent allies, but this does not stack.\n\n3: 1 Elite, +5 AR and MR\n5: 2 Elite, +25 AR and MR\n7: 3 Elite, +60 AR and MR\n9: 5 Elite, +125 AR and MR\n\n"
+            "Demacia": "Your strongest Demacians become Elite and equip a Radiant item each combat. Elites grant Armor and Magic Resist to themselves and adjacent allies, but this does not stack.\n\n3: 1 Elite, +5 AR and MR\n5: 2 Elite, +25 AR and MR\n7: 4 Elite, +35 AR and MR\n9: 6 Elite, +150 AR and MR\n\n"
         },
         "class_details": {
-            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana\n4: Additional 15 Mana to Invokers\n6: 20 Mana to all, additional 15 Mana to Invokers\n\n"
+            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana to all\n4: Additional 15 Mana to Invokers\n6: 15 Mana to all, additional 15 Mana to Invokers\n6: 40 Mana to all, and start with an additional 30 Ability Power\n\n"
         }
     },
-    "Garen": {
-        "cost": 3,
-        "ability_text": "Spin 2 times every second for the next 4 seconds. Each spin deals 72%/75%/80% AD to adjacent enemies.",
+    "Gangplank": {
+        "cost": 5,
+        "ability_text": "Cutlass Passive: Gain 50 Armor and Magic Resist. Attacks ignite the target, dealing 200/300/4500 true damage over 3 seconds.\nPistol Passive: Gain 3 range. Attacks grant 3 bonus mana.\n\nActive: Summon the Dreadway to sail across the board, crashing into the first enemy hit and dealing 450/675/9001 magic damage in a 3-hex radius. Allies the Dreadway passes through or hits with the crash are empowered by citrus, gaining 35/50/300% Attack Speed and immunity to crowd control for 3 seconds.",
         "origin_details": {
-            "Demacia": "Your strongest Demacians become Elite and equip a random Radiant item each combat. Elites grant Armor and Magic Resist to themselves and adjacent allies, but this does not stack.\n\n3: 1 Elite, +5 AR and MR\n5: 2 Elite, +25 AR and MR\n7: 3 Elite, +60 AR and MR\n9: 5 Elite, +125 AR and MR\n\n"
+            "Bilgewater": "Bilgerat attacks and Abilities mark enemies. The mark stores a percentage of damage dealt to the enemy by Bilgerats.\nMarked enemies are struck by a cannonball after 2 seconds, dealing the stored damage plus a flat value as physical damage.\n\n3: 150 + 35% damage dealt\n5: 250 + 50% damage dealt\n7: 400 + 100% damage dealt\n9: 650 + 125% damage dealt; nearby enemies take 50% of cannonball damage\n\n"
         },
         "class_details": {
-            "Juggernaut": "Juggernaut champions take less damage as their Health decreases.\n\n2: 10% to 25% damage reduction\n4: 20% to 40% damage reduction\n6: 30% to 50% damage reduction\n\n"
+            "Gunner": "When Gunner champions attack, they gain bonus Attack Damage, up to 8 stacks.\n\n2: 6% AD per stack\n4: 14% AD per stack\n6: 25% AD per stack\n\n",
+            "Reaver King": "Gangplank uses his cutlass passive when placed in the front 2 rows and his pistol passive when placed in the back 2 rows."
         }
     },
-    "Gwen": {
-        "cost": 4,
-        "ability_text": "Dash around the current target and snip 3 times in a cone, each dealing 100/150/500 magic damage to enemies hit.\n\nEvery 3 casts, gain 120/120/300 Armor and Magic Resist for 3/3/6 seconds.",
+    "Graves": {
+        "cost": 1,
+        "ability_text": "Launch a smoke grenade at the current target. It explodes on impact, dealing 157/235/357 physical damage to adjacent enemies, leaving behind a smoke cloud that Chills for 3/3.5/4 seconds.",
         "origin_details": {
-            "Shadow Isles": "After dealing or receiving damage 10 times, Shadow Isles champions gain a Shield for 15 seconds and become Spectral for the rest of combat. Spectral champions gain Mana every second.\n\n2: 40% HP Shield, 5 Mana\n4: 70% HP Shield, 10 Mana\n6: 111% HP Shield, 15 Mana\n\n"
+            "Bilgewater": "Bilgerat attacks and Abilities mark enemies. The mark stores a percentage of damage dealt to the enemy by Bilgerats.\nMarked enemies are struck by a cannonball after 2 seconds, dealing the stored damage plus a flat value as physical damage.\n\n3: 150 + 35% damage dealt\n5: 250 + 50% damage dealt\n7: 400 + 100% damage dealt\n9: 650 + 125% damage dealt; nearby enemies take 50% of cannonball damage\n\n"
         },
         "class_details": {
-            "Slayer": "Slayers gain 12% Omnivamp.\nSlayers deal bonus damage, doubled against units below 60% Health.\n\n2: +5% bonus damage\n3: +10% bonus damage\n4: +25% bonus damage\n5: +35% bonus damage\n6: +50% bonus damage\n\n"
+            "Gunner": "When Gunner champions attack, they gain bonus Attack Damage, up to 8 stacks.\n\n2: 6% AD per stack\n4: 14% AD per stack\n6: 25% AD per stack\n\n",
+            "Rogue": "\n\n2: When a Rogue falls below 50% Health, they briefly become untargetable and dash to an enemy within 4 hexes (preferring enemy backline).\n4: Additionally, a Rogue's first attack on an enemy bleeds them for 75% of their max Health as magic damage over 2.5 seconds.\n\n"
         }
     },
     "Heimerdinger": {
         "cost": 5,
-        "ability_text": "Hurl a grenade towards the largest group of enemies, dealing 150/225/3141 magic damage to enemies in a large area and Stunning them for 2/2/15 seconds.\n\n4-Star Upgrade: YES YES YES, IT WORKS!!!",
+        "ability_text": "Hurl a grenade towards the largest group of enemies, dealing 150/225/3141 magic damage to enemies in a large area and Stunning them for 1.5/2/15 seconds.",
         "origin_details": {
-            "Piltover": "Gain the T-Hex. Every time you lose a player combat, the T-Hex gains Charges. Winning converts the Charges to Power for the T-Hex.\nYou may also sell the T-Hex if it has any Power, resetting the T-Hex and converting its Power to loot.\n\n3: Gain the T-Hex.\n6: Gain bonus loot every round. Each loss counts as 2 losses instead.\n\n"
+            "Piltover": "Gain the T-Hex. Every time you lose a player combat, the T-Hex gains Charges. Winning converts the Charges to Power for the T-Hex and grants you loot based on the number of Charges converted.\n\n3: Gain the T-Hex.\n6: Gain bonus loot every round. Each loss counts as 2 losses instead.\n\n"
         },
         "class_details": {
-            "Technogenius": "Gain a placeable Apex Turret with 3 upgrade slots. Upgrades to the Apex Turret will show up in your shop for 6 gold. The Apex Turret shares Heimerdinger's Attack Speed and Ability Power. You may only have 1 Apex Turret.",
-            "Yordle": "Your units gain 10% Attack Speed per star level.\nIf you have three 3-star champions, your Yordles can become 4-star, which gives their Ability a wacky upgrade!\n\n3: Your strongest 3-star Yordle\n5: Two 3-star Yordles\n\n"
+            "Technogenius": "Gain a placeable Apex Turret with 3 upgrade slots. Upgrades to the Apex Turret will show up in your shop for 6 gold. The Apex Turret shares Heimerdinger's Attack Speed and Ability Power. You may only have 1 Apex Turret."
+        }
+    },
+    "Illaoi": {
+        "cost": 1,
+        "ability_text": "Deal 220/330/500 magic damage to the current target and link souls for 5 seconds. While linked, heal for 25/30/40% of all damage taken by the target.",
+        "origin_details": {
+            "Bilgewater": "Bilgerat attacks and Abilities mark enemies. The mark stores a percentage of damage dealt to the enemy by Bilgerats.\nMarked enemies are struck by a cannonball after 2 seconds, dealing the stored damage plus a flat value as physical damage.\n\n3: 150 + 35% damage dealt\n5: 250 + 50% damage dealt\n7: 400 + 100% damage dealt\n9: 650 + 125% damage dealt; nearby enemies take 50% of cannonball damage\n\n"
+        },
+        "class_details": {
+            "Bastion": "Bastion champions gain Armor and Magic Resist. This is increased by 100% for the first 10 seconds of combat.\n\n2: +20 AR and MR\n4: +40 AR and MR\n6: +65 AR and MR\n8: +125 AR and MR\n\n"
         }
     },
     "Irelia": {
         "cost": 1,
-        "ability_text": "Enter a defensive stance and gain 350/400/450 Shield that rapidly decays over 3 seconds. When it expires, deal 70/100/150 magic damage + 30% of the damage absorbed to enemies around and in front of Irelia.\n\nIonia Bonus: +40 Armor and Magic Resist",
+        "ability_text": "Enter a defensive stance and gain 350/400/450 Shield that rapidly decays over 3 seconds. When it expires, deal 70/100/150 magic damage + 30% of the damage absorbed to enemies around and in front of Irelia.\n\nIonia Bonus: +25 Armor and Magic Resist",
         "origin_details": {
-            "Ionia": "Each Ionian has a unique bonus within their Ability.\nEvery 4 seconds, a number of Ionians are enlightened to their spirit form, gaining 20 mana and doubling stat bonuses for 4 seconds.\n\n3: 100% Ionian bonus, 1 enlightened\n6: 200% Ionian bonus, 2 enlightened\n9: 325% Ionian bonus, 3 enlightened\n\n"
+            "Ionia": "Each Ionian has a unique bonus within their Ability. Every 4 seconds, a number of Ionians are enlightened to their spirit form, gaining 20 mana and doubling stat bonuses for 4 seconds.\n\n3: 100% Ionian bonus, 1 enlightened\n6: 200% Ionian bonus, 2 enlightened\n9: 380% Ionian bonus, 3 enlightened\n\n"
         },
         "class_details": {
             "Challenger": "Challengers gain bonus Attack Speed. When their target dies, Challengers dash to a new target and increase their Attack Speed bonus by 50% for 2.5 seconds.\n\n2: 30% AS\n4: 60% AS\n6: 95% AS\n8: 140% AS\n\n"
@@ -165,69 +175,59 @@
     },
     "Jarvan IV": {
         "cost": 4,
-        "ability_text": "Leap on a nearby enemy. Deal 140/210/800 magic damage to enemies within 2 hexes and Stun them for 2/3/8 seconds.",
+        "ability_text": "Leap on a nearby enemy. Deal 140/210/800 magic damage to enemies within 2 hexes and Stun them for 1.75/2.25/8 seconds.",
         "origin_details": {
-            "Demacia": "Your strongest Demacians become Elite and equip a random Radiant item each combat. Elites grant Armor and Magic Resist to themselves and adjacent allies, but this does not stack.\n\n3: 1 Elite, +5 AR and MR\n5: 2 Elite, +25 AR and MR\n7: 3 Elite, +60 AR and MR\n9: 5 Elite, +125 AR and MR\n\n"
+            "Demacia": "Your strongest Demacians become Elite and equip a Radiant item each combat. Elites grant Armor and Magic Resist to themselves and adjacent allies, but this does not stack.\n\n3: 1 Elite, +5 AR and MR\n5: 2 Elite, +25 AR and MR\n7: 4 Elite, +35 AR and MR\n9: 6 Elite, +150 AR and MR\n\n"
         },
         "class_details": {
-            "Strategist": "Combat Start: Allies in the front 2 rows gain a Shield for 15 seconds. Allies in the back 2 rows gain Ability Power.\n\n2: 200 Shield, 15 AP\n3: 350 Shield, 25 AP\n4: 500 Shield, 40 AP\n5: 800 Shield, 60 AP\n\n"
+            "Strategist": "Combat Start: Allies in the front 2 rows gain a Shield for 15 seconds. Allies in the back 2 rows gain Ability Power.\n\n2: 250 Shield, 15 AP\n3: 400 Shield, 25 AP\n4: 600 Shield, 40 AP\n5: 900 Shield, 60 AP\n\n"
         }
     },
     "Jayce": {
         "cost": 3,
-        "ability_text": "Grant 30/35/45% Attack Speed to Jayce and allies on his left and right for 3 seconds. Fire a blast at the current target that explodes on the first enemy hit. It deals 143/215/336 physical damage to enemies near the blast.",
+        "ability_text": "Grant 30/40/50% Attack Speed to Jayce and 15% to the allies on his left and right for 3 seconds. Fire a blast at the current target that explodes on the first enemy hit. It deals 179/268/431 physical damage to enemies near the blast.",
         "origin_details": {
-            "Piltover": "Gain the T-Hex. Every time you lose a player combat, the T-Hex gains Charges. Winning converts the Charges to Power for the T-Hex.\nYou may also sell the T-Hex if it has any Power, resetting the T-Hex and converting its Power to loot.\n\n3: Gain the T-Hex.\n6: Gain bonus loot every round. Each loss counts as 2 losses instead.\n\n"
+            "Piltover": "Gain the T-Hex. Every time you lose a player combat, the T-Hex gains Charges. Winning converts the Charges to Power for the T-Hex and grants you loot based on the number of Charges converted.\n\n3: Gain the T-Hex.\n6: Gain bonus loot every round. Each loss counts as 2 losses instead.\n\n"
         },
         "class_details": {
-            "Gunner": "When Gunner champions attack, they gain bonus Attack Damage, up to 8 stacks.\n\n2: 6% AD per stack\n4: 11% AD per stack\n6: 20% AD per stack\n\n"
+            "Gunner": "When Gunner champions attack, they gain bonus Attack Damage, up to 8 stacks.\n\n2: 6% AD per stack\n4: 14% AD per stack\n6: 25% AD per stack\n\n"
         }
     },
     "Jhin": {
         "cost": 1,
-        "ability_text": "Take aim at the current target and deal 462/693/1039 physical damage to enemies in a line; each hit reduces damage by 40%.\n\nIonia Bonus: +20% Attack Damage",
+        "ability_text": "Take aim at the current target and deal 462/693/1039 physical damage to enemies in a line, each hit reduces damage by 40%.\n\nIonia Bonus: +25% Attack Damage",
         "origin_details": {
-            "Ionia": "Each Ionian has a unique bonus within their Ability.\nEvery 4 seconds, a number of Ionians are enlightened to their spirit form, gaining 20 mana and doubling stat bonuses for 4 seconds.\n\n3: 100% Ionian bonus, 1 enlightened\n6: 200% Ionian bonus, 2 enlightened\n9: 325% Ionian bonus, 3 enlightened\n\n"
+            "Ionia": "Each Ionian has a unique bonus within their Ability. Every 4 seconds, a number of Ionians are enlightened to their spirit form, gaining 20 mana and doubling stat bonuses for 4 seconds.\n\n3: 100% Ionian bonus, 1 enlightened\n6: 200% Ionian bonus, 2 enlightened\n9: 380% Ionian bonus, 3 enlightened\n\n"
         },
         "class_details": {
-            "Deadeye": "Innate: +1 Range\nEvery 3 seconds, Deadeyes attack the enemy with the highest percent Health and deal bonus damage.\n\n2: +20% damage\n4: +65% damage\n6: +150% damage\n\n"
+            "Vanquisher": "Damage from Vanquisher Abilities can critically strike. Vanquishers gain bonus Critical Strike Chance and Critical Strike Damage.\n\n2: 15% Crit Chance , 10% Crit DMG\n4: 35% Crit Chance , 25% Crit DMG\n6: 55% Crit Chance , 40% Crit DMG\n\n"
         }
     },
     "Jinx": {
         "cost": 2,
-        "ability_text": "Fire 5 rockets at random enemies within 2 hexes of the current target. Each rocket deals 150%/150%/160% attack damage.",
+        "ability_text": "Fire 5 rockets at random enemies within 2 hexes of the current target. Each rocket deals 93/139/223 physical damage.",
         "origin_details": {
-            "Zaun": "Zaun champions create random chem-mods that only they can use. Champions can be modded once, and mods can only be removed by selling the champion.\n\n2: Gain 1 chem-mod\n4: Gain 2 chem-mods\n6: Gain 3 chem-mods and Overcharge them\n\n"
+            "Zaun": "Zaun champions create random chem-mods that only they can use. Champions can be modded once, and mods can be removed by benching or selling the champion.\n\n2: Gain 1 chem-mod\n4: Gain 2 chem-mods and Overcharge them\n6: Gain 5 chem-mods and Overcharge them\n\n"
         },
         "class_details": {
-            "Gunner": "When Gunner champions attack, they gain bonus Attack Damage, up to 8 stacks.\n\n2: 6% AD per stack\n4: 11% AD per stack\n6: 20% AD per stack\n\n"
+            "Gunner": "When Gunner champions attack, they gain bonus Attack Damage, up to 8 stacks.\n\n2: 6% AD per stack\n4: 14% AD per stack\n6: 25% AD per stack\n\n"
         }
     },
     "K'Sante": {
         "cost": 5,
-        "ability_text": "Knock up the current target before smashing them to the edge of the battlefield. Deal\n250/400/1000 magic damage and Stun them for 2/3/10 seconds. Deal 250/400/1000 magic damage to enemies the target collides with and Stun them for 1/1/5 second.\n\nIf the target can't be pushed back any further, knock them off the battlefield. Otherwise, K'Sante will chase after them.",
+        "ability_text": "Heal for 100/180/324, then knock up the current target before smashing them to the edge of the battlefield. Deal 250/400/1000 magic damage and Stun them for 2/2.5/10 seconds. Deal 250/400/1000 magic damage to enemies the target collides with and Stun them for 1/1.25/5 seconds.\n\nIf the target can't be pushed back any further, knock them off the battlefield. Otherwise, chase after them.",
         "origin_details": {
-            "Shurima": "Every 4 seconds, Shurimans heal 5% maximum Health. After 8 seconds, select Shurimans Ascend and gain 25% maximum Health and 35% Attack Speed.\n\n3: The strongest Shuriman Ascends\n5: All Shurimans Ascend\n7: All Ascend at the Start of Combat, boosts Ascension bonuses by +20%\n9: +25% Ascension bonus, Ascends a second time after 8 seconds\n\n"
+            "Shurima": "Every 4 seconds, Shurimans heal 5% maximum Health. After 8 seconds, select Shurimans Ascend and gain 20% maximum Health and 30% Attack Speed.\n\n2: The strongest Shuriman Ascends\n4: All Shurimans Ascend. +15% Ascension bonus\n6: Instead, Ascend at combat start. +45% Ascension bonus\n9: Ascend twice, at combat start and after 8 seconds. +75% Ascension bonus\n\n"
         },
         "class_details": {
-            "Bastion": "Bastion champions gain Armor and Magic Resist. This is increased by 100% for the first 10 seconds of combat.\n\n2: +20 AR and MR\n4: +50 AR and MR\n6: +100 AR and MR\n8: +240 AR and MR\n\n"
+            "Bastion": "Bastion champions gain Armor and Magic Resist. This is increased by 100% for the first 10 seconds of combat.\n\n2: +20 AR and MR\n4: +40 AR and MR\n6: +65 AR and MR\n8: +125 AR and MR\n\n"
         }
     },
     "Kai'Sa": {
         "cost": 4,
-        "ability_text": "Dash away from all enemies, then fire 15/15/25 missiles split across the 4 nearest enemies. Each missile deals 80/120/300 magic damage.",
+        "ability_text": "Dash away from all enemies, then fire 15/15/25 missiles split across the 4 nearest enemies. Each missile deals 75/111/240 magic damage.",
         "origin_details": {
             "Void": "Get a placeable void egg. At the start of combat, it hatches into an unspeakable horror and knocks up adjacent enemies.\nEach Void star level increases the horror's Health and Ability Power by 25%.\n\n3: Void Remora\n6: Rift Herald\n8: Baron Nashor\n\n"
-        },
-        "class_details": {
-            "Challenger": "Challengers gain bonus Attack Speed. When their target dies, Challengers dash to a new target and increase their Attack Speed bonus by 50% for 2.5 seconds.\n\n2: 30% AS\n4: 60% AS\n6: 95% AS\n8: 140% AS\n\n"
-        }
-    },
-    "Kalista": {
-        "cost": 3,
-        "ability_text": "Passive: Attacks impale a spear in the target, which deals 16/24/40 true damage when removed. Kalista rips the spears out if it would kill the target.\n\nActive: Impale 6 spears in the current target.",
-        "origin_details": {
-            "Shadow Isles": "After dealing or receiving damage 10 times, Shadow Isles champions gain a Shield for 15 seconds and become Spectral for the rest of combat. Spectral champions gain Mana every second.\n\n2: 40% HP Shield, 5 Mana\n4: 70% HP Shield, 10 Mana\n6: 111% HP Shield, 15 Mana\n\n"
         },
         "class_details": {
             "Challenger": "Challengers gain bonus Attack Speed. When their target dies, Challengers dash to a new target and increase their Attack Speed bonus by 50% for 2.5 seconds.\n\n2: 30% AS\n4: 60% AS\n6: 95% AS\n8: 140% AS\n\n"
@@ -237,159 +237,210 @@
         "cost": 3,
         "ability_text": "Fire a burst of energy that explodes upon impact, dealing 170/255/420 magic damage to adjacent enemies. Every third cast launches 3 bursts.\n\nIonia Bonus: +20 Ability Power.",
         "origin_details": {
-            "Ionia": "Each Ionian has a unique bonus within their Ability.\nEvery 4 seconds, a number of Ionians are enlightened to their spirit form, gaining 20 mana and doubling stat bonuses for 4 seconds.\n\n3: 100% Ionian bonus, 1 enlightened\n6: 200% Ionian bonus, 2 enlightened\n9: 325% Ionian bonus, 3 enlightened\n\n"
+            "Ionia": "Each Ionian has a unique bonus within their Ability. Every 4 seconds, a number of Ionians are enlightened to their spirit form, gaining 20 mana and doubling stat bonuses for 4 seconds.\n\n3: 100% Ionian bonus, 1 enlightened\n6: 200% Ionian bonus, 2 enlightened\n9: 380% Ionian bonus, 3 enlightened\n\n"
         },
         "class_details": {
-            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana\n4: Additional 15 Mana to Invokers\n6: 20 Mana to all, additional 15 Mana to Invokers\n\n"
+            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana to all\n4: Additional 15 Mana to Invokers\n6: 15 Mana to all, additional 15 Mana to Invokers\n6: 40 Mana to all, and start with an additional 30 Ability Power\n\n"
         }
     },
     "Kassadin": {
         "cost": 2,
-        "ability_text": "Gain 250/300/400 Shield for 4 seconds. Deal 150/225/325 magic damage to enemies in a cone and Disarm them for 2 seconds.",
+        "ability_text": "Gain 250/300/400 Shield for 4 seconds. Deal 135/200/300 magic damage to enemies in a cone and Disarm them for 1.5/1.75/2 seconds.",
         "origin_details": {
             "Void": "Get a placeable void egg. At the start of combat, it hatches into an unspeakable horror and knocks up adjacent enemies.\nEach Void star level increases the horror's Health and Ability Power by 25%.\n\n3: Void Remora\n6: Rift Herald\n8: Baron Nashor\n\n"
         },
         "class_details": {
-            "Bastion": "Bastion champions gain Armor and Magic Resist. This is increased by 100% for the first 10 seconds of combat.\n\n2: +20 AR and MR\n4: +50 AR and MR\n6: +100 AR and MR\n8: +240 AR and MR\n\n"
+            "Bastion": "Bastion champions gain Armor and Magic Resist. This is increased by 100% for the first 10 seconds of combat.\n\n2: +20 AR and MR\n4: +40 AR and MR\n6: +65 AR and MR\n8: +125 AR and MR\n\n"
         }
     },
     "Katarina": {
         "cost": 3,
-        "ability_text": "Throw three daggers that land next to enemies within 2 (Range) hexes. Then, teleport to each and deal 130/195/320 magic damage to adjacent enemies and Wound them for 6 seconds.",
+        "ability_text": "Throw three daggers that land next to enemies within 2 hexes. Then, teleport to each and deal 145/220/350 magic damage to adjacent enemies and Wound them for 6 seconds.",
         "origin_details": {
-            "Noxus": "Noxus champions gain Health, Ability Power and Attack Damage. This is increased by 10% for each different opponent that either you have conquered in combat or is dead.\n\n3: 160 Health, 16 AP, 16% AD\n6: 280 Health, 28 AP, 28% AD\n9: 420 Health, 42 AP, 42% AD\n\n"
+            "Noxus": "Noxus champions gain Health, Ability Power and Attack Damage. This is increased by 5% for each different opponent that either you have conquered in combat or is dead.\n\n3: 160 Health, 16 AP, 16% AD\n5: 320 Health, 32 AP, 32% AD\n7: 500 Health, 50 AP, 50% AD\n9: 750 Health, 75 AP, 75% AD\n\n"
         },
         "class_details": {
-            "Rogue": "\n\n2: When a Rogue falls below 50% Health, they briefly become untargetable and dash to an enemy within 4 hexes (preferring enemy backline).\n4: Additionally, a Rogue's first attack on an enemy bleeds them for 40% of their max Health as magic damage over 5 seconds.\n\n"
+            "Rogue": "\n\n2: When a Rogue falls below 50% Health, they briefly become untargetable and dash to an enemy within 4 hexes (preferring enemy backline).\n4: Additionally, a Rogue's first attack on an enemy bleeds them for 75% of their max Health as magic damage over 2.5 seconds.\n\n"
         }
     },
     "Kayle": {
         "cost": 1,
-        "ability_text": "Passive: Gains new Passive effects as your Tactician levels up.\n\nLevel 1: Attacks deal 33/44/66 bonus magic damage.\n\nLevel 6: Every 3rd attack launches a wave that deals 30/45/65 magic damage and 40% Shreds enemies for 4 seconds.\n\nLevel 9: Every attack launches a wave and they travel farther.",
+        "ability_text": "Passive: Gains new Passive effects as your Tactician levels up.\n\nLevel 1: Attacks deal 30/45/70% bonus magic damage.\n\nLevel 6: Every 3rd attack launches a wave that deals 30/40/60 magic damage and 20% Shreds enemies for 4 seconds.\n\nLevel 9: Every attack launches a wave and they travel farther.",
         "origin_details": {
-            "Demacia": "Your strongest Demacians become Elite and equip a random Radiant item each combat. Elites grant Armor and Magic Resist to themselves and adjacent allies, but this does not stack.\n\n3: 1 Elite, +5 AR and MR\n5: 2 Elite, +25 AR and MR\n7: 3 Elite, +60 AR and MR\n9: 5 Elite, +125 AR and MR\n\n"
+            "Demacia": "Your strongest Demacians become Elite and equip a Radiant item each combat. Elites grant Armor and Magic Resist to themselves and adjacent allies, but this does not stack.\n\n3: 1 Elite, +5 AR and MR\n5: 2 Elite, +25 AR and MR\n7: 4 Elite, +35 AR and MR\n9: 6 Elite, +150 AR and MR\n\n"
         },
         "class_details": {
-            "Slayer": "Slayers gain 12% Omnivamp.\nSlayers deal bonus damage, doubled against units below 60% Health.\n\n2: +5% bonus damage\n3: +10% bonus damage\n4: +25% bonus damage\n5: +35% bonus damage\n6: +50% bonus damage\n\n"
-        }
-    },
-    "Kled": {
-        "cost": 2,
-        "ability_text": "Passive: Start combat with 30% max HP Shield. When it expires, dismount and gain 60/65/70/75% stacking Attack Speed for the rest of combat.\n\nActive: Remount and gain 30% max HP Shield.\n\n4-Star Upgrade: Execute enemies under 25% Health.",
-        "origin_details": {
-            "Noxus": "Noxus champions gain Health, Ability Power and Attack Damage. This is increased by 10% for each different opponent that either you have conquered in combat or is dead.\n\n3: 160 Health, 16 AP, 16% AD\n6: 280 Health, 28 AP, 28% AD\n9: 420 Health, 42 AP, 42% AD\n\n"
-        },
-        "class_details": {
-            "Slayer": "Slayers gain 12% Omnivamp.\nSlayers deal bonus damage, doubled against units below 60% Health.\n\n2: +5% bonus damage\n3: +10% bonus damage\n4: +25% bonus damage\n5: +35% bonus damage\n6: +50% bonus damage\n\n",
-            "Yordle": "Your units gain 10% Attack Speed per star level.\nIf you have three 3-star champions, your Yordles can become 4-star, which gives their Ability a wacky upgrade!\n\n3: Your strongest 3-star Yordle\n5: Two 3-star Yordles\n\n"
-        }
-    },
-    "Lissandra": {
-        "cost": 3,
-        "ability_text": "Stun the current target for 2 seconds and deal 180/270/450 magic damage to enemies within 2 hexes of them. They take 10% more damage for the next 4 seconds.",
-        "origin_details": {
-            "Freljord": "After 7 seconds, an ice storm strikes the battlefield. Enemies take a percentage of their maximum Health as true damage and gain debuffs.\n\n2: 5% Health, enemies are 40% Sundered and Shredded for 15 seconds\n3: 10% Health, enemies are also 30% Mana Reaved\n4: 15% Health, enemies are also stunned for 1.5 seconds\n\n"
-        },
-        "class_details": {
-            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana\n4: Additional 15 Mana to Invokers\n6: 20 Mana to all, additional 15 Mana to Invokers\n\n"
-        }
-    },
-    "Lux": {
-        "cost": 4,
-        "ability_text": "Channel a barrage of light at the current target that deals 735/1100/3333 magic damage over 3 seconds, reducing their Magic Resist by 15/15/50 every second. If they die, shift to a new target.",
-        "origin_details": {
-            "Demacia": "Your strongest Demacians become Elite and equip a random Radiant item each combat. Elites grant Armor and Magic Resist to themselves and adjacent allies, but this does not stack.\n\n3: 1 Elite, +5 AR and MR\n5: 2 Elite, +25 AR and MR\n7: 3 Elite, +60 AR and MR\n9: 5 Elite, +125 AR and MR\n\n"
-        },
-        "class_details": {
-            "Sorcerer": "Sorcerers gain bonus Ability Power.\nWhen an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.\n\n2: 25 AP, 10% max HP\n4: 50 AP, 15% max HP\n6: 85 AP, 15% max HP to 2 enemies\n8: 125 AP, 20% max HP to 2 enemies\n\n"
+            "Slayer": "Slayers gain 12% Omnivamp.\nSlayers deal bonus damage, doubled against units below 66% Health.\n\n2: +6% bonus damage\n4: +20% bonus damage\n6: +40% bonus damage\n\n"
         }
     },
     "Malzahar": {
         "cost": 1,
-        "ability_text": "Open two portals near the current target. Destroy 50% of Shields and deal 200/300/450 magic damage to all enemies caught between the portals.",
+        "ability_text": "Open two portals near the current target. Destroy 50% of Shields and deal 205/310/460 magic damage to all enemies caught between the portals.",
         "origin_details": {
             "Void": "Get a placeable void egg. At the start of combat, it hatches into an unspeakable horror and knocks up adjacent enemies.\nEach Void star level increases the horror's Health and Ability Power by 25%.\n\n3: Void Remora\n6: Rift Herald\n8: Baron Nashor\n\n"
         },
         "class_details": {
-            "Sorcerer": "Sorcerers gain bonus Ability Power.\nWhen an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.\n\n2: 25 AP, 10% max HP\n4: 50 AP, 15% max HP\n6: 85 AP, 15% max HP to 2 enemies\n8: 125 AP, 20% max HP to 2 enemies\n\n"
+            "Sorcerer": "Sorcerers gain bonus Ability Power.\nWhen an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.\n\n2: 25 AP, 7% max HP\n4: 45 AP, 10% max HP\n6: 80 AP, 12% max HP to 2 enemies\n8: 125 AP, 15% max HP to 2 enemies\n\n"
         }
     },
-    "Maokai": {
+    "Milio": {
         "cost": 1,
-        "ability_text": "Passive: Whenever an enemy uses their Ability, gain 5 Mana.\n\nActive: On next attack, heal for 220/260/300.",
+        "ability_text": "Kick a ball at the current target that deals 140/210/315 magic damage and Stuns for 1.5 seconds. The ball bounces to the closest enemy behind the target, dealing 170/250/380 magic damage on impact and 85/125/190 magic damage to adjacent enemies.",
         "origin_details": {
-            "Shadow Isles": "After dealing or receiving damage 10 times, Shadow Isles champions gain a Shield for 15 seconds and become Spectral for the rest of combat. Spectral champions gain Mana every second.\n\n2: 40% HP Shield, 5 Mana\n4: 70% HP Shield, 10 Mana\n6: 111% HP Shield, 15 Mana\n\n"
+            "Ixtal": "Gain elemental hexes, which give a different bonus from game to game.\nWhen an empowered champion deals ability damage to an enemy, they set them on fire, dealing an additional 30% of the damage dealt as magic damage over time.\n\n2: 1 Hex\n3: 2 Hexes\n4: Fires heal the nearest damaged ally for 100% of damage dealt\n\n"
         },
         "class_details": {
-            "Bastion": "Bastion champions gain Armor and Magic Resist. This is increased by 100% for the first 10 seconds of combat.\n\n2: +20 AR and MR\n4: +50 AR and MR\n6: +100 AR and MR\n8: +240 AR and MR\n\n"
+            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana to all\n4: Additional 15 Mana to Invokers\n6: 15 Mana to all, additional 15 Mana to Invokers\n6: 40 Mana to all, and start with an additional 30 Ability Power\n\n"
+        }
+    },
+    "Miss Fortune": {
+        "cost": 3,
+        "ability_text": "Call down an X-shaped rain of bullets, destroying 35% of your target's shields and dealing 240/360/575 magic damage. For 5 seconds, enemies hit have incoming shields reduced by 35%.",
+        "origin_details": {
+            "Bilgewater": "Bilgerat attacks and Abilities mark enemies. The mark stores a percentage of damage dealt to the enemy by Bilgerats.\nMarked enemies are struck by a cannonball after 2 seconds, dealing the stored damage plus a flat value as physical damage.\n\n3: 150 + 35% damage dealt\n5: 250 + 50% damage dealt\n7: 400 + 100% damage dealt\n9: 650 + 125% damage dealt; nearby enemies take 50% of cannonball damage\n\n"
+        },
+        "class_details": {
+            "Strategist": "Combat Start: Allies in the front 2 rows gain a Shield for 15 seconds. Allies in the back 2 rows gain Ability Power.\n\n2: 250 Shield, 15 AP\n3: 400 Shield, 25 AP\n4: 600 Shield, 40 AP\n5: 900 Shield, 60 AP\n\n"
+        }
+    },
+    "Mordekaiser": {
+        "cost": 4,
+        "ability_text": "Passive: Attacks deal 100/150/375 bonus magic damage, increased to 275/415/1000 while God of Death is active.\n\nActive: Gain 400/720/1296 Shield and 1 range for 5 seconds. Killing enemies in this state steals 8/8/20% of their Health, Attack Damage, Ability Power, Armor, and Magic Resistance until combat ends.",
+        "origin_details": {
+            "Noxus": "Noxus champions gain Health, Ability Power and Attack Damage. This is increased by 5% for each different opponent that either you have conquered in combat or is dead.\n\n3: 160 Health, 16 AP, 16% AD\n5: 320 Health, 32 AP, 32% AD\n7: 500 Health, 50 AP, 50% AD\n9: 750 Health, 75 AP, 75% AD\n\n"
+        },
+        "class_details": {
+            "Slayer": "Slayers gain 12% Omnivamp.\nSlayers deal bonus damage, doubled against units below 66% Health.\n\n2: +6% bonus damage\n4: +20% bonus damage\n6: +40% bonus damage\n\n"
+        }
+    },
+    "Naafiri": {
+        "cost": 2,
+        "ability_text": "Passive: Gain 15% Omnivamp.\nActive: Deal 78/122/203 physical damage.\nDarkin Dagger: After casting, summon 2/3/4 packmates that attack the first enemy hit for a total of 114/176/270 damage.",
+        "origin_details": {
+            "Darkin": "(1) Darkin are possessed by a weapon. When they die, the weapon possesses the nearest ally champion, granting them the weapon's power.\n(2) Weapon powers become 50% stronger.",
+            "Shurima": "Every 4 seconds, Shurimans heal 5% maximum Health. After 8 seconds, select Shurimans Ascend and gain 20% maximum Health and 30% Attack Speed.\n\n2: The strongest Shuriman Ascends\n4: All Shurimans Ascend. +15% Ascension bonus\n6: Instead, Ascend at combat start. +45% Ascension bonus\n9: Ascend twice, at combat start and after 8 seconds. +75% Ascension bonus\n\n"
+        },
+        "class_details": {
+            "Challenger": "Challengers gain bonus Attack Speed. When their target dies, Challengers dash to a new target and increase their Attack Speed bonus by 50% for 2.5 seconds.\n\n2: 30% AS\n4: 60% AS\n6: 95% AS\n8: 140% AS\n\n"
         }
     },
     "Nasus": {
         "cost": 4,
-        "ability_text": "Steal 5/5/15% maximum Health, 10% Attack Damage, 5/5/30 Armor, and 5/5/30 Magic Resist from the nearest 4/5/9 enemies for 8 seconds.\nWhile empowered, every third attack deals 210/315/945 physical damage.",
+        "ability_text": "Steal 5/5/15% maximum Health, 10% Attack Damage, 5/5/30 Armor, and 5/5/30 Magic Resist from the nearest 4/5/9 enemies for 8 seconds.\n\nWhile empowered, every third attack deals 228/342/945 physical damage.",
         "origin_details": {
-            "Shurima": "Every 4 seconds, Shurimans heal 5% maximum Health. After 8 seconds, select Shurimans Ascend and gain 25% maximum Health and 35% Attack Speed.\n\n3: The strongest Shuriman Ascends\n5: All Shurimans Ascend\n7: All Ascend at the Start of Combat, boosts Ascension bonuses by +20%\n9: +25% Ascension bonus, Ascends a second time after 8 seconds\n\n"
+            "Shurima": "Every 4 seconds, Shurimans heal 5% maximum Health. After 8 seconds, select Shurimans Ascend and gain 20% maximum Health and 30% Attack Speed.\n\n2: The strongest Shuriman Ascends\n4: All Shurimans Ascend. +15% Ascension bonus\n6: Instead, Ascend at combat start. +45% Ascension bonus\n9: Ascend twice, at combat start and after 8 seconds. +75% Ascension bonus\n\n"
         },
         "class_details": {
-            "Juggernaut": "Juggernaut champions take less damage as their Health decreases.\n\n2: 10% to 25% damage reduction\n4: 20% to 40% damage reduction\n6: 30% to 50% damage reduction\n\n"
+            "Juggernaut": "Juggernaut champions take less damage as their Health decreases.\n\n2: 15% to 25% damage reduction\n4: 25% to 40% damage reduction\n6: 35% to 50% damage reduction\n\n"
+        }
+    },
+    "Nautilus": {
+        "cost": 3,
+        "ability_text": "Passive: Gain 30% bonus Armor and Magic Resistance from all sources.\n\nActive: Deal 150/225/360 magic damage to enemies within two hexes. Knock them up and pull them together, Stunning them for 1.5/1.5/2 seconds.",
+        "origin_details": {
+            "Bilgewater": "Bilgerat attacks and Abilities mark enemies. The mark stores a percentage of damage dealt to the enemy by Bilgerats.\nMarked enemies are struck by a cannonball after 2 seconds, dealing the stored damage plus a flat value as physical damage.\n\n3: 150 + 35% damage dealt\n5: 250 + 50% damage dealt\n7: 400 + 100% damage dealt\n9: 650 + 125% damage dealt; nearby enemies take 50% of cannonball damage\n\n"
+        },
+        "class_details": {
+            "Juggernaut": "Juggernaut champions take less damage as their Health decreases.\n\n2: 15% to 25% damage reduction\n4: 25% to 40% damage reduction\n6: 35% to 50% damage reduction\n\n"
+        }
+    },
+    "Neeko": {
+        "cost": 3,
+        "ability_text": "Leap towards the current target and gain 200/300/400 Shield for 3 seconds. Slam down after a brief delay, dealing 270/410/650 magic damage to enemies within two hexes.",
+        "origin_details": {
+            "Ixtal": "Gain elemental hexes, which give a different bonus from game to game.\nWhen an empowered champion deals ability damage to an enemy, they set them on fire, dealing an additional 30% of the damage dealt as magic damage over time.\n\n2: 1 Hex\n3: 2 Hexes\n4: Fires heal the nearest damaged ally for 100% of damage dealt\n\n"
+        },
+        "class_details": {
+            "Bastion": "Bastion champions gain Armor and Magic Resist. This is increased by 100% for the first 10 seconds of combat.\n\n2: +20 AR and MR\n4: +40 AR and MR\n6: +65 AR and MR\n8: +125 AR and MR\n\n"
+        }
+    },
+    "Nilah": {
+        "cost": 4,
+        "ability_text": "Passive: Attacks strike in a cone, dealing 75/75/100% physical damage to up to 2 additional enemies. Every 3rd attack strikes in a line for 150/155/375 physical damage and grants 25/25/40% stacking Attack Speed.\n\nActive: Gain 250/375/700 Shield for 3 seconds and dash to a safe location.",
+        "origin_details": {
+            "Bilgewater": "Bilgerat attacks and Abilities mark enemies. The mark stores a percentage of damage dealt to the enemy by Bilgerats.\nMarked enemies are struck by a cannonball after 2 seconds, dealing the stored damage plus a flat value as physical damage.\n\n3: 150 + 35% damage dealt\n5: 250 + 50% damage dealt\n7: 400 + 100% damage dealt\n9: 650 + 125% damage dealt; nearby enemies take 50% of cannonball damage\n\n"
+        },
+        "class_details": {
+            "Vanquisher": "Damage from Vanquisher Abilities can critically strike. Vanquishers gain bonus Critical Strike Chance and Critical Strike Damage.\n\n2: 15% Crit Chance , 10% Crit DMG\n4: 35% Crit Chance , 25% Crit DMG\n6: 55% Crit Chance , 40% Crit DMG\n\n"
         }
     },
     "Orianna": {
         "cost": 1,
-        "ability_text": "Orianna shields her lowest-health ally for 225/250/325 and empowers her next attack to deal bonus\n260/390/585 magic damage.",
+        "ability_text": "Grant the lowest Health ally 225/250/325 Shield for 4 seconds and empowers Orianna's next attack to deal 260/390/585 bonus magic damage.",
         "origin_details": {
-            "Piltover": "Gain the T-Hex. Every time you lose a player combat, the T-Hex gains Charges. Winning converts the Charges to Power for the T-Hex.\nYou may also sell the T-Hex if it has any Power, resetting the T-Hex and converting its Power to loot.\n\n3: Gain the T-Hex.\n6: Gain bonus loot every round. Each loss counts as 2 losses instead.\n\n"
+            "Piltover": "Gain the T-Hex. Every time you lose a player combat, the T-Hex gains Charges. Winning converts the Charges to Power for the T-Hex and grants you loot based on the number of Charges converted.\n\n3: Gain the T-Hex.\n6: Gain bonus loot every round. Each loss counts as 2 losses instead.\n\n"
         },
         "class_details": {
-            "Sorcerer": "Sorcerers gain bonus Ability Power.\nWhen an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.\n\n2: 25 AP, 10% max HP\n4: 50 AP, 15% max HP\n6: 85 AP, 15% max HP to 2 enemies\n8: 125 AP, 20% max HP to 2 enemies\n\n"
+            "Sorcerer": "Sorcerers gain bonus Ability Power.\nWhen an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.\n\n2: 25 AP, 7% max HP\n4: 45 AP, 10% max HP\n6: 80 AP, 12% max HP to 2 enemies\n8: 125 AP, 15% max HP to 2 enemies\n\n"
         }
     },
     "Poppy": {
         "cost": 1,
-        "ability_text": "Gain 270/300/330/360 Shield for 3 seconds. Deal 140/210/315/315 magic damage to the current target.\n\n4-Star Upgrade: Knock the target into the largest clump of enemies, dealing 33% of the target's max Health as magic damage to the target and 25% of that amount to the clump. Stun them for 0.25 seconds.",
+        "ability_text": "Gain 250/325/400/350 Shield for 4 seconds. Deal 140/210/315/315 magic damage to the current target.",
         "origin_details": {
-            "Demacia": "Your strongest Demacians become Elite and equip a random Radiant item each combat. Elites grant Armor and Magic Resist to themselves and adjacent allies, but this does not stack.\n\n3: 1 Elite, +5 AR and MR\n5: 2 Elite, +25 AR and MR\n7: 3 Elite, +60 AR and MR\n9: 5 Elite, +125 AR and MR\n\n"
+            "Demacia": "Your strongest Demacians become Elite and equip a Radiant item each combat. Elites grant Armor and Magic Resist to themselves and adjacent allies, but this does not stack.\n\n3: 1 Elite, +5 AR and MR\n5: 2 Elite, +25 AR and MR\n7: 4 Elite, +35 AR and MR\n9: 6 Elite, +150 AR and MR\n\n"
         },
         "class_details": {
-            "Bastion": "Bastion champions gain Armor and Magic Resist. This is increased by 100% for the first 10 seconds of combat.\n\n2: +20 AR and MR\n4: +50 AR and MR\n6: +100 AR and MR\n8: +240 AR and MR\n\n",
-            "Yordle": "Your units gain 10% Attack Speed per star level.\nIf you have three 3-star champions, your Yordles can become 4-star, which gives their Ability a wacky upgrade!\n\n3: Your strongest 3-star Yordle\n5: Two 3-star Yordles\n\n"
+            "Bastion": "Bastion champions gain Armor and Magic Resist. This is increased by 100% for the first 10 seconds of combat.\n\n2: +20 AR and MR\n4: +40 AR and MR\n6: +65 AR and MR\n8: +125 AR and MR\n\n"
+        }
+    },
+    "Qiyana": {
+        "cost": 2,
+        "ability_text": "Dash to strike enemies in a line and deal 180/270/424 physical damage, Stunning and knocking up the first target hit for 1.5 seconds and all other targets for 0.5 seconds.",
+        "origin_details": {
+            "Ixtal": "Gain elemental hexes, which give a different bonus from game to game.\nWhen an empowered champion deals ability damage to an enemy, they set them on fire, dealing an additional 30% of the damage dealt as magic damage over time.\n\n2: 1 Hex\n3: 2 Hexes\n4: Fires heal the nearest damaged ally for 100% of damage dealt\n\n"
+        },
+        "class_details": {
+            "Rogue": "\n\n2: When a Rogue falls below 50% Health, they briefly become untargetable and dash to an enemy within 4 hexes (preferring enemy backline).\n4: Additionally, a Rogue's first attack on an enemy bleeds them for 75% of their max Health as magic damage over 2.5 seconds.\n\n",
+            "Slayer": "Slayers gain 12% Omnivamp.\nSlayers deal bonus damage, doubled against units below 66% Health.\n\n2: +6% bonus damage\n4: +20% bonus damage\n6: +40% bonus damage\n\n"
+        }
+    },
+    "Quinn": {
+        "cost": 3,
+        "ability_text": "Launch Valor through the row or column with the most enemies, marking them to take 10% increased damage for 4 seconds. Then rain down arrows, dealing 345/522/810 physical damage split between all marked enemies.",
+        "origin_details": {
+            "Demacia": "Your strongest Demacians become Elite and equip a Radiant item each combat. Elites grant Armor and Magic Resist to themselves and adjacent allies, but this does not stack.\n\n3: 1 Elite, +5 AR and MR\n5: 2 Elite, +25 AR and MR\n7: 4 Elite, +35 AR and MR\n9: 6 Elite, +150 AR and MR\n\n"
+        },
+        "class_details": {
+            "Slayer": "Slayers gain 12% Omnivamp.\nSlayers deal bonus damage, doubled against units below 66% Health.\n\n2: +6% bonus damage\n4: +20% bonus damage\n6: +40% bonus damage\n\n"
         }
     },
     "Rek'Sai": {
         "cost": 3,
-        "ability_text": "Deal 195/293/461 physical damage to the current target. If they are below 70% Health, deal 234/351/553 true damage instead.\nIf this kills the target, rip through them 1 hex and heal for 10% of max health.",
+        "ability_text": "Deal 174/261/405 physical damage to the current target. If they are below 66% Health, deal true damage instead. If this kills the target, rip through them 1 hex and heal for 80/144/259.",
         "origin_details": {
             "Void": "Get a placeable void egg. At the start of combat, it hatches into an unspeakable horror and knocks up adjacent enemies.\nEach Void star level increases the horror's Health and Ability Power by 25%.\n\n3: Void Remora\n6: Rift Herald\n8: Baron Nashor\n\n"
         },
         "class_details": {
-            "Bruiser": "Your units gain 100 Health. Bruisers gain additional maximum Health.\n\n2: +10% max HP\n4: +40% max HP\n6: +70% max HP\n\n"
+            "Bruiser": "Your units gain 100 Health. Bruisers gain additional maximum Health.\n\n2: +10% max HP\n4: +45% max HP\n6: +80% max HP\n\n",
+            "Slayer": "Slayers gain 12% Omnivamp.\nSlayers deal bonus damage, doubled against units below 66% Health.\n\n2: +6% bonus damage\n4: +20% bonus damage\n6: +40% bonus damage\n\n"
         }
     },
     "Renekton": {
         "cost": 1,
         "ability_text": "Deal 180/270/400 magic damage to adjacent enemies. Heal 220/270/320 for the first enemy hit and another 30 for each additional one.",
         "origin_details": {
-            "Shurima": "Every 4 seconds, Shurimans heal 5% maximum Health. After 8 seconds, select Shurimans Ascend and gain 25% maximum Health and 35% Attack Speed.\n\n3: The strongest Shuriman Ascends\n5: All Shurimans Ascend\n7: All Ascend at the Start of Combat, boosts Ascension bonuses by +20%\n9: +25% Ascension bonus, Ascends a second time after 8 seconds\n\n"
+            "Shurima": "Every 4 seconds, Shurimans heal 5% maximum Health. After 8 seconds, select Shurimans Ascend and gain 20% maximum Health and 30% Attack Speed.\n\n2: The strongest Shuriman Ascends\n4: All Shurimans Ascend. +15% Ascension bonus\n6: Instead, Ascend at combat start. +45% Ascension bonus\n9: Ascend twice, at combat start and after 8 seconds. +75% Ascension bonus\n\n"
         },
         "class_details": {
-            "Bruiser": "Your units gain 100 Health. Bruisers gain additional maximum Health.\n\n2: +10% max HP\n4: +40% max HP\n6: +70% max HP\n\n"
+            "Bruiser": "Your units gain 100 Health. Bruisers gain additional maximum Health.\n\n2: +10% max HP\n4: +45% max HP\n6: +80% max HP\n\n"
         }
     },
     "Ryze": {
         "cost": 5,
         "ability_text": "Ryze's ability changes depending on the portal the lobby chooses at the beginning of the game.",
         "origin_details": {
-            "Wanderer": "Wanderers spell changes depending on the Region Portal players voted for at the start of the game."
+            "Wanderer": "Ryze's ability changes depending on the Region Portal players voted for at the start of the game."
         },
         "class_details": {
-            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana\n4: Additional 15 Mana to Invokers\n6: 20 Mana to all, additional 15 Mana to Invokers\n\n"
+            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana to all\n4: Additional 15 Mana to Invokers\n6: 15 Mana to all, additional 15 Mana to Invokers\n6: 40 Mana to all, and start with an additional 30 Ability Power\n\n"
         }
     },
     "Samira": {
         "cost": 1,
-        "ability_text": "Shoot at the current target and deal 175% Attack Damage to the first enemy hit. Reduce their Armor by 10/15/20 for the rest of combat.",
+        "ability_text": "Shoot at the current target and deal 100/150/236 to the first enemy hit. Reduce their Armor by 10/15/20 for the rest of combat.",
         "origin_details": {
-            "Noxus": "Noxus champions gain Health, Ability Power and Attack Damage. This is increased by 10% for each different opponent that either you have conquered in combat or is dead.\n\n3: 160 Health, 16 AP, 16% AD\n6: 280 Health, 28 AP, 28% AD\n9: 420 Health, 42 AP, 42% AD\n\n"
+            "Noxus": "Noxus champions gain Health, Ability Power and Attack Damage. This is increased by 5% for each different opponent that either you have conquered in combat or is dead.\n\n3: 160 Health, 16 AP, 16% AD\n5: 320 Health, 32 AP, 32% AD\n7: 500 Health, 50 AP, 50% AD\n9: 750 Health, 75 AP, 75% AD\n\n"
         },
         "class_details": {
             "Challenger": "Challengers gain bonus Attack Speed. When their target dies, Challengers dash to a new target and increase their Attack Speed bonus by 50% for 2.5 seconds.\n\n2: 30% AS\n4: 60% AS\n6: 95% AS\n8: 140% AS\n\n"
@@ -397,208 +448,157 @@
     },
     "Sejuani": {
         "cost": 4,
-        "ability_text": "Passive: Whenever an ally attacks a Chilled enemy, they deal 1.5/1.5/10% bonus true damage.\n\nActive: Gain 600/700/2000 Shield for 4 seconds. Deal 160/240/1200 magic damage to nearby enemies and Chill them for 4 seconds.",
+        "ability_text": "Passive: Whenever an ally attacks a Chilled enemy, they deal 15/27/324 bonus true damage.\n\nActive: Gain 600/700/2000 Shield for 4 seconds. Deal 160/240/1200 magic damage to nearby enemies and Chill them for 4 seconds.",
         "origin_details": {
-            "Freljord": "After 7 seconds, an ice storm strikes the battlefield. Enemies take a percentage of their maximum Health as true damage and gain debuffs.\n\n2: 5% Health, enemies are 40% Sundered and Shredded for 15 seconds\n3: 10% Health, enemies are also 30% Mana Reaved\n4: 15% Health, enemies are also stunned for 1.5 seconds\n\n"
+            "Freljord": "After 8 seconds, an ice storm strikes the battlefield. Enemies take a percentage of their max Health as true damage and gain debuffs.\n\n2: 8% Health, enemies are 20% Sundered and Shredded for 10 seconds\n3: 15% Health, enemies are also Stunned for 1.5 seconds\n\n"
         },
         "class_details": {
-            "Bruiser": "Your units gain 100 Health. Bruisers gain additional maximum Health.\n\n2: +10% max HP\n4: +40% max HP\n6: +70% max HP\n\n"
-        }
-    },
-    "Senna": {
-        "cost": 5,
-        "ability_text": "Fire a massive beam at the furthest enemy, dealing 124/195/2925 physical damage to all enemies hit. Any allies hit gain 250/325/4000 Shield for 4/4/15 seconds.",
-        "origin_details": {
-            "Shadow Isles": "After dealing or receiving damage 10 times, Shadow Isles champions gain a Shield for 15 seconds and become Spectral for the rest of combat. Spectral champions gain Mana every second.\n\n2: 40% HP Shield, 5 Mana\n4: 70% HP Shield, 10 Mana\n6: 111% HP Shield, 15 Mana\n\n"
-        },
-        "class_details": {
-            "Gunner": "When Gunner champions attack, they gain bonus Attack Damage, up to 8 stacks.\n\n2: 6% AD per stack\n4: 11% AD per stack\n6: 20% AD per stack\n\n",
-            "Redeemer": "Whenever an ally gains a Shield, Senna grants them 8% stacking Attack Speed for the rest of combat."
+            "Bruiser": "Your units gain 100 Health. Bruisers gain additional maximum Health.\n\n2: +10% max HP\n4: +45% max HP\n6: +80% max HP\n\n"
         }
     },
     "Sett": {
         "cost": 2,
-        "ability_text": "Grab an enemy from either side and slam them together, knocking them up. Deals 200/300/465 magic damage and Stuns them for 1/2/2 seconds.\nIf only one enemy is grabbed, the damage and Stun duration are increased by 50%.\n\nIonia Bonus: +200 maximum Health.",
+        "ability_text": "Grab an enemy from either side and slam them together, knocking them up. Deals 180/270/420 magic damage and Stuns them for 1.25/1.5/2 seconds. If only one enemy is grabbed, the damage and Stun duration are increased by 50%.\n\nIonia Bonus: +200 max Health",
         "origin_details": {
-            "Ionia": "Each Ionian has a unique bonus within their Ability.\nEvery 4 seconds, a number of Ionians are enlightened to their spirit form, gaining 20 mana and doubling stat bonuses for 4 seconds.\n\n3: 100% Ionian bonus, 1 enlightened\n6: 200% Ionian bonus, 2 enlightened\n9: 325% Ionian bonus, 3 enlightened\n\n"
+            "Ionia": "Each Ionian has a unique bonus within their Ability. Every 4 seconds, a number of Ionians are enlightened to their spirit form, gaining 20 mana and doubling stat bonuses for 4 seconds.\n\n3: 100% Ionian bonus, 1 enlightened\n6: 200% Ionian bonus, 2 enlightened\n9: 380% Ionian bonus, 3 enlightened\n\n"
         },
         "class_details": {
-            "Juggernaut": "Juggernaut champions take less damage as their Health decreases.\n\n2: 10% to 25% damage reduction\n4: 20% to 40% damage reduction\n6: 30% to 50% damage reduction\n\n"
+            "Juggernaut": "Juggernaut champions take less damage as their Health decreases.\n\n2: 15% to 25% damage reduction\n4: 25% to 40% damage reduction\n6: 35% to 50% damage reduction\n\n"
         }
     },
     "Shen": {
         "cost": 4,
-        "ability_text": "Gain 240/360/2000 Shield and grant 275/350/1800 Shield to the 2 lowest-Health allies for 4 seconds. After shielding his allies, Shen's Shield refreshes with a burst, dealing 225/355/1600 magic damage to adjacent enemies.\n\nIonia Bonus: +10% Damage Reduction.",
+        "ability_text": "Gain 350/450/2000 Shield and grant 225/275/1500 Shield to the 2 lowest-Health allies for 4 seconds. After shielding his allies, Shen's Shield refreshes with a burst, dealing 240/360/2500 magic damage to adjacent enemies.\n\nIonia Bonus: +8% Damage Reduction.",
         "origin_details": {
-            "Ionia": "Each Ionian has a unique bonus within their Ability.\nEvery 4 seconds, a number of Ionians are enlightened to their spirit form, gaining 20 mana and doubling stat bonuses for 4 seconds.\n\n3: 100% Ionian bonus, 1 enlightened\n6: 200% Ionian bonus, 2 enlightened\n9: 325% Ionian bonus, 3 enlightened\n\n"
+            "Ionia": "Each Ionian has a unique bonus within their Ability. Every 4 seconds, a number of Ionians are enlightened to their spirit form, gaining 20 mana and doubling stat bonuses for 4 seconds.\n\n3: 100% Ionian bonus, 1 enlightened\n6: 200% Ionian bonus, 2 enlightened\n9: 380% Ionian bonus, 3 enlightened\n\n"
         },
         "class_details": {
-            "Bastion": "Bastion champions gain Armor and Magic Resist. This is increased by 100% for the first 10 seconds of combat.\n\n2: +20 AR and MR\n4: +50 AR and MR\n6: +100 AR and MR\n8: +240 AR and MR\n\n",
-            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana\n4: Additional 15 Mana to Invokers\n6: 20 Mana to all, additional 15 Mana to Invokers\n\n"
+            "Bastion": "Bastion champions gain Armor and Magic Resist. This is increased by 100% for the first 10 seconds of combat.\n\n2: +20 AR and MR\n4: +40 AR and MR\n6: +65 AR and MR\n8: +125 AR and MR\n\n",
+            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana to all\n4: Additional 15 Mana to Invokers\n6: 15 Mana to all, additional 15 Mana to Invokers\n6: 40 Mana to all, and start with an additional 30 Ability Power\n\n"
+        }
+    },
+    "Silco": {
+        "cost": 4,
+        "ability_text": "Throw a vial at a nearby enemy, covering adjacent hexes in shimmer for 6/6/10 seconds. Enemies affected by shimmer take 90/140/450 magic damage per second. Allies affected by shimmer heal 20/30/120 Health per second.",
+        "origin_details": {
+            "Zaun": "Zaun champions create random chem-mods that only they can use. Champions can be modded once, and mods can be removed by benching or selling the champion.\n\n2: Gain 1 chem-mod\n4: Gain 2 chem-mods and Overcharge them\n6: Gain 5 chem-mods and Overcharge them\n\n"
+        },
+        "class_details": {
+            "Sorcerer": "Sorcerers gain bonus Ability Power.\nWhen an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.\n\n2: 25 AP, 7% max HP\n4: 45 AP, 10% max HP\n6: 80 AP, 12% max HP to 2 enemies\n8: 125 AP, 15% max HP to 2 enemies\n\n"
         }
     },
     "Sion": {
         "cost": 5,
-        "ability_text": "Passive: Upon death, reanimate with 100% Health, decaying at 12/8/0% maximum Health per second. Sion can no longer use his Ability, but is immune to crowd control and gains 2/2/10 Attack Speed.\n\nActive: Charge towards the most enemies within 4 hexes. Deal 158/247/788 physical damage to any enemies along the way and knock them up, Stunning them for 1/2/15 seconds.",
+        "ability_text": "Passive: Upon death, reanimate with 100% Health, decaying at 20/13/0% maximum Health per second. Sion can no longer use his Ability, but is immune to crowd control and gains 150/150/1000% Attack Speed.\n\nActive: Charge towards the most enemies within 4 hexes. Deal 158/247/788 physical damage to any enemies along the way and knock them up, Stunning them for 1.25/1.5/15 seconds.",
         "origin_details": {
-            "Noxus": "Noxus champions gain Health, Ability Power and Attack Damage. This is increased by 10% for each different opponent that either you have conquered in combat or is dead.\n\n3: 160 Health, 16 AP, 16% AD\n6: 280 Health, 28 AP, 28% AD\n9: 420 Health, 42 AP, 42% AD\n\n"
+            "Noxus": "Noxus champions gain Health, Ability Power and Attack Damage. This is increased by 5% for each different opponent that either you have conquered in combat or is dead.\n\n3: 160 Health, 16 AP, 16% AD\n5: 320 Health, 32 AP, 32% AD\n7: 500 Health, 50 AP, 50% AD\n9: 750 Health, 75 AP, 75% AD\n\n"
         },
         "class_details": {
-            "Bruiser": "Your units gain 100 Health. Bruisers gain additional maximum Health.\n\n2: +10% max HP\n4: +40% max HP\n6: +70% max HP\n\n"
+            "Bruiser": "Your units gain 100 Health. Bruisers gain additional maximum Health.\n\n2: +10% max HP\n4: +45% max HP\n6: +80% max HP\n\n"
         }
     },
     "Sona": {
         "cost": 3,
-        "ability_text": "Send a wave of sound at the largest clump of enemies and deal 105/155/255 magic damage to enemies hit. Allies hit by the wave gain 30/35/40% Attack Speed for 5 seconds.",
+        "ability_text": "Send a wave of sound at the largest clump of enemies and deal 105/155/255 magic damage to enemies hit. Allies hit by the wave gain 35/40/45% Attack Speed for 5 seconds.",
         "origin_details": {
-            "Demacia": "Your strongest Demacians become Elite and equip a random Radiant item each combat. Elites grant Armor and Magic Resist to themselves and adjacent allies, but this does not stack.\n\n3: 1 Elite, +5 AR and MR\n5: 2 Elite, +25 AR and MR\n7: 3 Elite, +60 AR and MR\n9: 5 Elite, +125 AR and MR\n\n"
+            "Demacia": "Your strongest Demacians become Elite and equip a Radiant item each combat. Elites grant Armor and Magic Resist to themselves and adjacent allies, but this does not stack.\n\n3: 1 Elite, +5 AR and MR\n5: 2 Elite, +25 AR and MR\n7: 4 Elite, +35 AR and MR\n9: 6 Elite, +150 AR and MR\n\n"
         },
         "class_details": {
-            "Multicaster": "Multicasters cast their Ability multiple times. Bonus casts have 50% reduced effectiveness.\n\n2: 1 extra cast\n4: 2 extra casts\n\n"
+            "Multicaster": "Multicasters cast their Ability multiple times. Bonus casts have 66% reduced effectiveness.\n\n2: 1 extra cast\n4: 2 extra casts\n\n"
         }
     },
     "Soraka": {
         "cost": 2,
-        "ability_text": "Heal the lowest health ally for 170/190/220 . If the ally is below 40% Health, heal them for an additional 100/120/140.\n\nOver the next 5 seconds, 5 stars hit the enemy closest to them. Each deals 115/170/265 magic damage.",
+        "ability_text": "Heal the lowest health ally for 170/190/220. If the ally is below 50% Health, heal them for an additional 56/63/73.\n\nOver the next 5 seconds, 5 stars hit the enemy closest to them. Each deals 115/165/260 magic damage.",
         "origin_details": {
-            "Targon": "All of your units' healing and shielding is improved.\n\n2: 20% increased healing and shielding\n3: 40% increased healing and shielding\n4: 70% increased healing and shielding\n\n"
+            "Targon": "All of your units' healing and shielding is improved.\n\n2: 18% increased healing and shielding\n3: 35% increased healing and shielding\n4: 55% increased healing and shielding\n\n"
         },
         "class_details": {
-            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana\n4: Additional 15 Mana to Invokers\n6: 20 Mana to all, additional 15 Mana to Invokers\n\n"
+            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana to all\n4: Additional 15 Mana to Invokers\n6: 15 Mana to all, additional 15 Mana to Invokers\n6: 40 Mana to all, and start with an additional 30 Ability Power\n\n"
         }
     },
     "Swain": {
         "cost": 2,
-        "ability_text": "Transform and gain 450/475/500 max Health for 5 seconds. While transformed, deal 25/40/60 magic damage to enemies within 2 hexes every second.",
+        "ability_text": "Transform and gain 350/400/650 max Health. While transformed, deal 25/40/60 magic damage to enemies within 2 hexes every second.\n\nIf already transformed, gain an additional 240/280/425 max Health and deal 100/160/300 magic damage to enemies within.",
         "origin_details": {
-            "Noxus": "Noxus champions gain Health, Ability Power and Attack Damage. This is increased by 10% for each different opponent that either you have conquered in combat or is dead.\n\n3: 160 Health, 16 AP, 16% AD\n6: 280 Health, 28 AP, 28% AD\n9: 420 Health, 42 AP, 42% AD\n\n"
+            "Noxus": "Noxus champions gain Health, Ability Power and Attack Damage. This is increased by 5% for each different opponent that either you have conquered in combat or is dead.\n\n3: 160 Health, 16 AP, 16% AD\n5: 320 Health, 32 AP, 32% AD\n7: 500 Health, 50 AP, 50% AD\n9: 750 Health, 75 AP, 75% AD\n\n"
         },
         "class_details": {
-            "Sorcerer": "Sorcerers gain bonus Ability Power.\nWhen an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.\n\n2: 25 AP, 10% max HP\n4: 50 AP, 15% max HP\n6: 85 AP, 15% max HP to 2 enemies\n8: 125 AP, 20% max HP to 2 enemies\n\n",
-            "Strategist": "Combat Start: Allies in the front 2 rows gain a Shield for 15 seconds. Allies in the back 2 rows gain Ability Power.\n\n2: 200 Shield, 15 AP\n3: 350 Shield, 25 AP\n4: 500 Shield, 40 AP\n5: 800 Shield, 60 AP\n\n"
+            "Sorcerer": "Sorcerers gain bonus Ability Power.\nWhen an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.\n\n2: 25 AP, 7% max HP\n4: 45 AP, 10% max HP\n6: 80 AP, 12% max HP to 2 enemies\n8: 125 AP, 15% max HP to 2 enemies\n\n",
+            "Strategist": "Combat Start: Allies in the front 2 rows gain a Shield for 15 seconds. Allies in the back 2 rows gain Ability Power.\n\n2: 250 Shield, 15 AP\n3: 400 Shield, 25 AP\n4: 600 Shield, 40 AP\n5: 900 Shield, 60 AP\n\n"
         }
     },
     "Taliyah": {
         "cost": 2,
-        "ability_text": "Passive: Whenever an enemy is knocked up or back by anything, throw a boulder towards them. It deals 125/190/290 magic damage to the first enemy hit.\n\nActive: Deal 150/225/350 magic damage to your target and knock them up, Stunning them for 2 seconds.",
+        "ability_text": "Passive: Whenever an enemy is knocked up or back by anything, throw a boulder towards them. It deals 110/160/240 magic damage to the first enemy hit.\n\nActive: Deal 160/240/370 magic damage to the current target and knock them up, Stunning them for 2 seconds.",
         "origin_details": {
-            "Shurima": "Every 4 seconds, Shurimans heal 5% maximum Health. After 8 seconds, select Shurimans Ascend and gain 25% maximum Health and 35% Attack Speed.\n\n3: The strongest Shuriman Ascends\n5: All Shurimans Ascend\n7: All Ascend at the Start of Combat, boosts Ascension bonuses by +20%\n9: +25% Ascension bonus, Ascends a second time after 8 seconds\n\n"
+            "Shurima": "Every 4 seconds, Shurimans heal 5% maximum Health. After 8 seconds, select Shurimans Ascend and gain 20% maximum Health and 30% Attack Speed.\n\n2: The strongest Shuriman Ascends\n4: All Shurimans Ascend. +15% Ascension bonus\n6: Instead, Ascend at combat start. +45% Ascension bonus\n9: Ascend twice, at combat start and after 8 seconds. +75% Ascension bonus\n\n"
         },
         "class_details": {
-            "Multicaster": "Multicasters cast their Ability multiple times. Bonus casts have 50% reduced effectiveness.\n\n2: 1 extra cast\n4: 2 extra casts\n\n"
+            "Multicaster": "Multicasters cast their Ability multiple times. Bonus casts have 66% reduced effectiveness.\n\n2: 1 extra cast\n4: 2 extra casts\n\n"
         }
     },
     "Taric": {
         "cost": 3,
-        "ability_text": "Gain 550/650/750 Shield for 4 seconds. It absorbs damage received by adjacent allies.",
+        "ability_text": "Gain 550/650/750 Shield for 4 seconds. It redirects 50% of the damage received by adjacent allies.",
         "origin_details": {
-            "Targon": "All of your units' healing and shielding is improved.\n\n2: 20% increased healing and shielding\n3: 40% increased healing and shielding\n4: 70% increased healing and shielding\n\n"
+            "Targon": "All of your units' healing and shielding is improved.\n\n2: 18% increased healing and shielding\n3: 35% increased healing and shielding\n4: 55% increased healing and shielding\n\n"
         },
         "class_details": {
-            "Bastion": "Bastion champions gain Armor and Magic Resist. This is increased by 100% for the first 10 seconds of combat.\n\n2: +20 AR and MR\n4: +50 AR and MR\n6: +100 AR and MR\n8: +240 AR and MR\n\n",
-            "Sorcerer": "Sorcerers gain bonus Ability Power.\nWhen an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.\n\n2: 25 AP, 10% max HP\n4: 50 AP, 15% max HP\n6: 85 AP, 15% max HP to 2 enemies\n8: 125 AP, 20% max HP to 2 enemies\n\n"
+            "Bastion": "Bastion champions gain Armor and Magic Resist. This is increased by 100% for the first 10 seconds of combat.\n\n2: +20 AR and MR\n4: +40 AR and MR\n6: +65 AR and MR\n8: +125 AR and MR\n\n",
+            "Sorcerer": "Sorcerers gain bonus Ability Power.\nWhen an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.\n\n2: 25 AP, 7% max HP\n4: 45 AP, 10% max HP\n6: 80 AP, 12% max HP to 2 enemies\n8: 125 AP, 15% max HP to 2 enemies\n\n"
         }
     },
-    "Teemo": {
+    "Twisted Fate": {
         "cost": 2,
-        "ability_text": "Hurl an explosive heat-seeking mushroom at the current target. When it detonates, enemies within 1 hex are Wounded and dealt 200/300/465/500 magic damage over 3 seconds.\n\n4-Star Upgrade: Increase the explosion radius by 1 hex.",
-        "origin_details": {},
-        "class_details": {
-            "Multicaster": "Multicasters cast their Ability multiple times. Bonus casts have 50% reduced effectiveness.\n\n2: 1 extra cast\n4: 2 extra casts\n\n",
-            "Strategist": "Combat Start: Allies in the front 2 rows gain a Shield for 15 seconds. Allies in the back 2 rows gain Ability Power.\n\n2: 200 Shield, 15 AP\n3: 350 Shield, 25 AP\n4: 500 Shield, 40 AP\n5: 800 Shield, 60 AP\n\n",
-            "Yordle": "Your units gain 10% Attack Speed per star level.\nIf you have three 3-star champions, your Yordles can become 4-star, which gives their Ability a wacky upgrade!\n\n3: Your strongest 3-star Yordle\n5: Two 3-star Yordles\n\n"
-        }
-    },
-    "Tristana": {
-        "cost": 1,
-        "ability_text": "Gain 70% Attack Speed for 4 seconds. For the duration, attacks explode on impact and deal 18/27/41/54 physical damage to enemies within 1 hex.\n\n4-Star Upgrade: Every 10th attack deals 45/68/101/135 bonus physical damage and ricochets to the largest clump of enemies, dealing 23/34/51/68 physical damage to enemies within 1 hex.",
-        "origin_details": {},
-        "class_details": {
-            "Gunner": "When Gunner champions attack, they gain bonus Attack Damage, up to 8 stacks.\n\n2: 6% AD per stack\n4: 11% AD per stack\n6: 20% AD per stack\n\n",
-            "Yordle": "Your units gain 10% Attack Speed per star level.\nIf you have three 3-star champions, your Yordles can become 4-star, which gives their Ability a wacky upgrade!\n\n3: Your strongest 3-star Yordle\n5: Two 3-star Yordles\n\n"
-        }
-    },
-    "Urgot": {
-        "cost": 4,
-        "ability_text": "Passive: Whenever an enemy enters Attack Range, fire a blast from the leg facing that direction that deals 243/364/933 physical damage. Each of Urgot's 6 legs has a 4/4/1 second cooldown.\n\nActive: Gain 375/450/1200 Shield for 5 seconds and dash behind the current target. Reset all leg cooldowns.",
+        "ability_text": "Throw a hand of cards at the current target that deal 165/250/375 magic damage. After 1.5 seconds the cards explode, dealing 210/315/490 magic damage to nearby enemies.",
         "origin_details": {
-            "Zaun": "Zaun champions create random chem-mods that only they can use. Champions can be modded once, and mods can only be removed by selling the champion.\n\n2: Gain 1 chem-mod\n4: Gain 2 chem-mods\n6: Gain 3 chem-mods and Overcharge them\n\n"
+            "Bilgewater": "Bilgerat attacks and Abilities mark enemies. The mark stores a percentage of damage dealt to the enemy by Bilgerats.\nMarked enemies are struck by a cannonball after 2 seconds, dealing the stored damage plus a flat value as physical damage.\n\n3: 150 + 35% damage dealt\n5: 250 + 50% damage dealt\n7: 400 + 100% damage dealt\n9: 650 + 125% damage dealt; nearby enemies take 50% of cannonball damage\n\n"
         },
         "class_details": {
-            "Deadeye": "Innate: +1 Range\nEvery 3 seconds, Deadeyes attack the enemy with the highest percent Health and deal bonus damage.\n\n2: +20% damage\n4: +65% damage\n6: +150% damage\n\n"
+            "Multicaster": "Multicasters cast their Ability multiple times. Bonus casts have 66% reduced effectiveness.\n\n2: 1 extra cast\n4: 2 extra casts\n\n"
         }
     },
     "Vel'Koz": {
         "cost": 3,
-        "ability_text": "Fire a plasma bolt towards the current target that deals 190/285/470 magic damage to the first enemy hit. It then splits in two, dealing 50% less damage whenever it passes through an enemy.",
+        "ability_text": "Fire a plasma bolt towards the current target that deals 250/375/600 magic damage to the first enemy hit. It then splits in two, dealing 50% less damage whenever it passes through an enemy.",
         "origin_details": {
             "Void": "Get a placeable void egg. At the start of combat, it hatches into an unspeakable horror and knocks up adjacent enemies.\nEach Void star level increases the horror's Health and Ability Power by 25%.\n\n3: Void Remora\n6: Rift Herald\n8: Baron Nashor\n\n"
         },
         "class_details": {
-            "Multicaster": "Multicasters cast their Ability multiple times. Bonus casts have 50% reduced effectiveness.\n\n2: 1 extra cast\n4: 2 extra casts\n\n",
-            "Sorcerer": "Sorcerers gain bonus Ability Power.\nWhen an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.\n\n2: 25 AP, 10% max HP\n4: 50 AP, 15% max HP\n6: 85 AP, 15% max HP to 2 enemies\n8: 125 AP, 20% max HP to 2 enemies\n\n"
+            "Multicaster": "Multicasters cast their Ability multiple times. Bonus casts have 66% reduced effectiveness.\n\n2: 1 extra cast\n4: 2 extra casts\n\n",
+            "Sorcerer": "Sorcerers gain bonus Ability Power.\nWhen an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.\n\n2: 25 AP, 7% max HP\n4: 45 AP, 10% max HP\n6: 80 AP, 12% max HP to 2 enemies\n8: 125 AP, 15% max HP to 2 enemies\n\n"
         }
     },
     "Vi": {
         "cost": 2,
-        "ability_text": "Gain 325/350/400 Shield for 4 seconds. Deal 120/180/270 physical damage to enemies within 1 hex of the current target and 40% Sunder them for 4 seconds.",
+        "ability_text": "Gain 350/400/450 Shield for 4 seconds. Deal 120/180/270 physical damage to enemies within 1 hex of the current target and 20% Sunder them for 4 seconds.",
         "origin_details": {
-            "Piltover": "Gain the T-Hex. Every time you lose a player combat, the T-Hex gains Charges. Winning converts the Charges to Power for the T-Hex.\nYou may also sell the T-Hex if it has any Power, resetting the T-Hex and converting its Power to loot.\n\n3: Gain the T-Hex.\n6: Gain bonus loot every round. Each loss counts as 2 losses instead.\n\n"
+            "Piltover": "Gain the T-Hex. Every time you lose a player combat, the T-Hex gains Charges. Winning converts the Charges to Power for the T-Hex and grants you loot based on the number of Charges converted.\n\n3: Gain the T-Hex.\n6: Gain bonus loot every round. Each loss counts as 2 losses instead.\n\n"
         },
         "class_details": {
-            "Bruiser": "Your units gain 100 Health. Bruisers gain additional maximum Health.\n\n2: +10% max HP\n4: +40% max HP\n6: +70% max HP\n\n"
-        }
-    },
-    "Viego": {
-        "cost": 1,
-        "ability_text": "Deal 110/165/250 magic damage to the current target. For the rest of combat, Viego's attacks deal 20/30/45 bonus stacking magic damage.",
-        "origin_details": {
-            "Shadow Isles": "After dealing or receiving damage 10 times, Shadow Isles champions gain a Shield for 15 seconds and become Spectral for the rest of combat. Spectral champions gain Mana every second.\n\n2: 40% HP Shield, 5 Mana\n4: 70% HP Shield, 10 Mana\n6: 111% HP Shield, 15 Mana\n\n"
-        },
-        "class_details": {
-            "Rogue": "\n\n2: When a Rogue falls below 50% Health, they briefly become untargetable and dash to an enemy within 4 hexes (preferring enemy backline).\n4: Additionally, a Rogue's first attack on an enemy bleeds them for 40% of their max Health as magic damage over 5 seconds.\n\n"
+            "Bruiser": "Your units gain 100 Health. Bruisers gain additional maximum Health.\n\n2: +10% max HP\n4: +45% max HP\n6: +80% max HP\n\n"
         }
     },
     "Warwick": {
         "cost": 2,
-        "ability_text": "Passive: Attacks heal for 30/35/40.\n\nActive: Increase the Passive healing by 50% for 3 seconds. Then, Stun adjacent enemies for 1/2/2 seconds.",
+        "ability_text": "Passive: Attacks heal for 30/35/40.\n\nActive: Gain 100% Attack Speed for 2.5 seconds. Then, Stun adjacent enemies for 1.25/1.5/2 seconds.",
         "origin_details": {
-            "Zaun": "Zaun champions create random chem-mods that only they can use. Champions can be modded once, and mods can only be removed by selling the champion.\n\n2: Gain 1 chem-mod\n4: Gain 2 chem-mods\n6: Gain 3 chem-mods and Overcharge them\n\n"
+            "Zaun": "Zaun champions create random chem-mods that only they can use. Champions can be modded once, and mods can be removed by benching or selling the champion.\n\n2: Gain 1 chem-mod\n4: Gain 2 chem-mods and Overcharge them\n6: Gain 5 chem-mods and Overcharge them\n\n"
         },
         "class_details": {
             "Challenger": "Challengers gain bonus Attack Speed. When their target dies, Challengers dash to a new target and increase their Attack Speed bonus by 50% for 2.5 seconds.\n\n2: 30% AS\n4: 60% AS\n6: 95% AS\n8: 140% AS\n\n",
-            "Juggernaut": "Juggernaut champions take less damage as their Health decreases.\n\n2: 10% to 25% damage reduction\n4: 20% to 40% damage reduction\n6: 30% to 50% damage reduction\n\n"
+            "Juggernaut": "Juggernaut champions take less damage as their Health decreases.\n\n2: 15% to 25% damage reduction\n4: 25% to 40% damage reduction\n6: 35% to 50% damage reduction\n\n"
         }
     },
-    "Yasuo": {
+    "Xayah": {
         "cost": 4,
-        "ability_text": "Send a whirlwind at the furthest enemy within 3 hexes, Stunning all enemies hit. Dash to and slash the original target, dealing physical damage to them. Slam them into the ground and deal physical damage to enemies within 1 hex.\n\nIonia Bonus: +15% Omnivamp.\n\nSlash Damage AD: 475%/475%/1500%\nSlam Damage: 300%/300%/750%",
+        "ability_text": "Summon 7/7/12 feathers that converge on and pierce the current target, dealing 64/98/170 physical damage. Each feather removes 6 Armor from the first target they hit until the end of combat.\n\nIonia Bonus: Attacks restore an additional Mana 5 Mana.",
         "origin_details": {
-            "Ionia": "Each Ionian has a unique bonus within their Ability.\nEvery 4 seconds, a number of Ionians are enlightened to their spirit form, gaining 20 mana and doubling stat bonuses for 4 seconds.\n\n3: 100% Ionian bonus, 1 enlightened\n6: 200% Ionian bonus, 2 enlightened\n9: 325% Ionian bonus, 3 enlightened\n\n"
+            "Ionia": "Each Ionian has a unique bonus within their Ability. Every 4 seconds, a number of Ionians are enlightened to their spirit form, gaining 20 mana and doubling stat bonuses for 4 seconds.\n\n3: 100% Ionian bonus, 1 enlightened\n6: 200% Ionian bonus, 2 enlightened\n9: 380% Ionian bonus, 3 enlightened\n\n"
         },
         "class_details": {
-            "Challenger": "Challengers gain bonus Attack Speed. When their target dies, Challengers dash to a new target and increase their Attack Speed bonus by 50% for 2.5 seconds.\n\n2: 30% AS\n4: 60% AS\n6: 95% AS\n8: 140% AS\n\n"
-        }
-    },
-    "Zed": {
-        "cost": 2,
-        "ability_text": "Create a shadow at the furthest enemy within 3 hexes. Zed and his shadow slash adjacent enemies, dealing physical damage.\n\nIonia Bonus: +15% Critical Strike Chance and Critical Strike Damage.\n\nAD: 120%/120%/125%\nAP: 20%/30%/50%\nDamage: AD + AP",
-        "origin_details": {
-            "Ionia": "Each Ionian has a unique bonus within their Ability.\nEvery 4 seconds, a number of Ionians are enlightened to their spirit form, gaining 20 mana and doubling stat bonuses for 4 seconds.\n\n3: 100% Ionian bonus, 1 enlightened\n6: 200% Ionian bonus, 2 enlightened\n9: 325% Ionian bonus, 3 enlightened\n\n"
-        },
-        "class_details": {
-            "Rogue": "\n\n2: When a Rogue falls below 50% Health, they briefly become untargetable and dash to an enemy within 4 hexes (preferring enemy backline).\n4: Additionally, a Rogue's first attack on an enemy bleeds them for 40% of their max Health as magic damage over 5 seconds.\n\n",
-            "Slayer": "Slayers gain 12% Omnivamp.\nSlayers deal bonus damage, doubled against units below 60% Health.\n\n2: +5% bonus damage\n3: +10% bonus damage\n4: +25% bonus damage\n5: +35% bonus damage\n6: +50% bonus damage\n\n"
-        }
-    },
-    "Zeri": {
-        "cost": 4,
-        "ability_text": "Passive: Execute enemies below 12% Health.\n\nActive: For the next 9/9/15 seconds, attacks chain lightning to 3/3/5 additional enemies, dealing 50/50/100% AD. Kills reset this duration.",
-        "origin_details": {
-            "Zaun": "Zaun champions create random chem-mods that only they can use. Champions can be modded once, and mods can only be removed by selling the champion.\n\n2: Gain 1 chem-mod\n4: Gain 2 chem-mods\n6: Gain 3 chem-mods and Overcharge them\n\n"
-        },
-        "class_details": {
-            "Gunner": "When Gunner champions attack, they gain bonus Attack Damage, up to 8 stacks.\n\n2: 6% AD per stack\n4: 11% AD per stack\n6: 20% AD per stack\n\n"
+            "Vanquisher": "Damage from Vanquisher Abilities can critically strike. Vanquishers gain bonus Critical Strike Chance and Critical Strike Damage.\n\n2: 15% Crit Chance , 10% Crit DMG\n4: 35% Crit Chance , 25% Crit DMG\n6: 55% Crit Chance , 40% Crit DMG\n\n"
         }
     }
 }
