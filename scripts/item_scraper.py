@@ -40,7 +40,7 @@ def save_image(url, item_name):
 
 
 def get_item_data(page):
-    item_list = page.select_one("div.items-wrap")
+    item_list = page.select_one("div.items-wrap__details")
     item_data = {}
 
     for item_table in item_list.select("div.items-wrap__details__item"):
@@ -74,7 +74,7 @@ def get_filtered_item_data(item_data):
     for item_name in filtered_item_data:
         image_name = item_name.replace(" ", "-").replace("'", "").lower()
         item_image_url = (
-            f"https://www.mobafire.com/images/tft/set9/item/icon/{image_name}.png"
+            f"https://www.mobafire.com/images/tft/set10/item/icon/{image_name}.png"
         )
         save_image(item_image_url, item_name)
 
