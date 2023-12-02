@@ -44,9 +44,6 @@
     "Hand of Justice": {
         "item_stats": "\n\n+15 Starting Mana\n+20% Critical Strike Chance\n\nGrant 2 effects:\n+15% Attack Damage and +15 Ability Power\n15% Omnivamp\n\nEach round, randomly double 1 of these effects.\n"
     },
-    "Heartsteel Emblem": {
-        "item_stats": "\n\n+150 Health\n\nThe holder gains the Heartsteel trait.\n\n[Unique - only 1 per champion]\n"
-    },
     "Hextech Gunblade": {
         "item_stats": "\n\n+10 Ability Power\n\nGrant 22% Omnivamp, which also heals the lowest percent Health ally.\n"
     },
