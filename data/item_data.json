@@ -1,134 +1,116 @@
 {
+    "Adaptive Helm": {
+        "item_stats": "\n\n+20 Magic Resist\n+15 Starting Mana\n+15 Ability Power\n\nCombat start: Gain different bonuses based on starting position.\nFront Two Rows: 35 Armor and Magic Resist. Gain 1 Mana when struck by an attack.\nBack Two Rows: 15 Ability Power. Gain 10 Mana every 3 seconds.\n"
+    },
     "Archangel's Staff": {
         "item_stats": "\n\n+20 Ability Power\n+15 Starting Mana\n\nCombat start: Grant 25 Ability Power every 5 seconds.\n"
     },
     "Bloodthirster": {
-        "item_stats": "\n\n+20% Attack Damage\n+20 Magic Resist\n\nGrant 20% Omnivamp. Once per combat at 40% Health, gain a 25% maximum Health shield that lasts up to 5 seconds.\n"
+        "item_stats": "\n\n+20 Magic Resist\n\nGrant 20% Omnivamp. Once per combat at 40% Health, gain a 25% maximum Health shield that lasts up to 5 seconds.\n"
     },
     "Blue Buff": {
-        "item_stats": "\n\n+40 Starting Mana\n+10 Ability Power\n\nAbilities cost 10 less Mana to cast. If the holder gets at least 1 takedown within 3 seconds of casting, gain 10 Mana.\n\n[Unique - Only One Per Champion]\n"
+        "item_stats": "\n\n+20 Starting Mana\n+20 Ability Power\n\nMax mana reduced by 10. When the holder gets a takedown, they deal 15% more damage for 8 seconds.\n\n[Unique - Only One Per Champion]\n"
     },
     "Bramble Vest": {
-        "item_stats": "\n\n+75 Armor\n\nNegates 60% bonus damage from incoming critical strikes. When struck by an attack, deal 75/100/150 (based on star level) magic damage to all nearby enemies (once every 2 seconds).\n"
+        "item_stats": "\n\n+55 Armor\n\nTake 8% reduced damage from attacks. When struck by any attack, deal 100 magic damage to all adjacent enemies. (once every 2 seconds). Grants 5% max health.\n"
     },
-    "Chalice of Power": {
-        "item_stats": "\n\n+250 Health\n\nCombat start: Grant 18 Ability Power and 10 Mana to the holder and allies within 2 hexes in the same row.\n"
+    "Crownguard": {
+        "item_stats": "\n\n+20 Ability Power\n+20 Armor\n+100 Health\n\nCombat start: Gain a 30% max Health Shield for 8 seconds. When the shield expires, gain 35 Ability Power.\n"
     },
     "Deathblade": {
-        "item_stats": "\n\n+66% Attack Damage\n"
-    },
-    "Deathfire Grasp": {
-        "item_stats": "\n\n+50 Ability Power\n+30 Mana\n\nCombat Start: Fire a blast of energy at the current target, marking them and dealing 20% of their maximum Health as magic damage.\n\nFor the next 10 seconds, the holder deals 35% increased damage to the marked enemy and 25% increased damage to other enemies.\n\nUnique - only 1 per champion\n"
+        "item_stats": "\n\n+55 Attack Damage\n\nDeal 8% bonus damage.\n"
     },
     "Dragon's Claw": {
-        "item_stats": "\n\n+65 Magic Resist\n\nEvery 2 seconds, regenerate 5% maximum Health.\n"
+        "item_stats": "\n\n+55 Magic Resist\n\nEvery 2 seconds, regenerate 5% maximum Health.\n"
     },
     "Edge of Night": {
-        "item_stats": "\n\n+10% Attack Damage\n+20 Armor\n\nOnce per combat: At 60% Health, briefly become untargetable and shed negative effects. Then, gain 15% bonus Attack Speed.\n\n[Unique - only 1 per champion]\n"
+        "item_stats": "\n\n+20 Armor\n\nOnce per combat: At 60% Health, briefly become untargetable and shed negative effects. Then, gain 15% bonus Attack Speed.\n\n[Unique - only 1 per champion]\n"
     },
-    "Eternal Winter": {
-        "item_stats": "\n\n+20 Armor\n+200 Health\n\nEnemies who damage the holder are 20% Chilled for 1.5 seconds. After 7 Chills from this item, the attacker is Stunned instead, but only once every 15 seconds.\n\nUnique - only 1 per champion\n"
+    "Evenshroud": {
+        "item_stats": "\n\n+150 Health\n+20 Magic Resist\n\n30% Sunder enemies within 2 hexes. Gain 20 Armor and Magic Resist for the first 10 seconds of combat.\n"
     },
     "Gargoyle Stoneplate": {
-        "item_stats": "\n\n+25 Armor\n+25 Magic Resist\n\nGrants 15 Armor and 15 Magic Resist for each enemy targeting the holder.\n"
+        "item_stats": "\n\n+30 Armor\n+30 Magic Resist\n\nGrants 10 Armor and 10 Magic Resist for each enemy targeting the holder.\n"
     },
     "Giant Slayer": {
-        "item_stats": "\n\n+30% Attack Damage\n+10% Attack Speed\n+20 Ability Power\n\nAbilities and attacks deal 25% more damage to enemies with more than 1600 maximum Health.\n"
-    },
-    "Gold Collector": {
-        "item_stats": "\n\n+20% Attack Damage\n+30% Critical Strike Chance\n\nAttacks and Abilities execute enemies below 12% of their maximum Health. Executions have a 40% chance to drop Gold 1 gold.\n\nUnique - only 1 per champion\n"
+        "item_stats": "\n\n+10% Attack Speed\n+20 Ability Power\n\nDeal 25% more damage to enemies with more than 1600 maximum Health.\n"
     },
     "Guardbreaker": {
-        "item_stats": "\n\n+150 Health\n+20% Critical Strike Chance\n+10 Ability Power\n+20% Attack Damage\n\nAfter damaging a shielded enemy, Abilities and attacks deal 25% more damage for 3 seconds.\n"
+        "item_stats": "\n\n+150 Health\n+20% Critical Strike Chance\n+10 Ability Power\n+20% Attack Speed\n\nAfter damaging a shielded enemy, Abilities and attacks deal 25% more damage for 3 seconds.\n"
     },
     "Guinsoo's Rageblade": {
-        "item_stats": "\n\n+10 Ability Power\n+18% Attack Speed\n\nAttacks grant +4% bonus Attack Speed for the rest of combat. This effect can stack any number of times.\n"
+        "item_stats": "\n\n+10 Ability Power\n+15% Attack Speed\n\nAttacks grant 5% stacking Attack Speed.\n"
     },
     "Hand of Justice": {
         "item_stats": "\n\n+15 Starting Mana\n+20% Critical Strike Chance\n\nGrant 2 effects:\n+15% Attack Damage and +15 Ability Power\n15% Omnivamp\n\nEach round, randomly double 1 of these effects.\n"
     },
-    "Hextech Gunblade": {
-        "item_stats": "\n\n+10% Attack Damage\n+10 Ability Power\n\nGrant 22% Omnivamp, which also heals the lowest percent Health ally.\n"
+    "Heartsteel Emblem": {
+        "item_stats": "\n\n+150 Health\n\nThe holder gains the Heartsteel trait.\n\n[Unique - only 1 per champion]\n"
     },
-    "Hullcrusher": {
-        "item_stats": "\n\n+30% Attack Speed\n+35 Armor\n+35 Magic Resist\n\nCombat start: If there are no adjacent allies, gain an additional 600 Health.\n"
+    "Hextech Gunblade": {
+        "item_stats": "\n\n+10 Ability Power\n\nGrant 22% Omnivamp, which also heals the lowest percent Health ally.\n"
     },
     "Infinity Edge": {
-        "item_stats": "\n\n+35% Critical Strike Chance\n+35% Attack Damage\n\nDamage from an Ability can critically strike.\n"
-    },
-    "Infinity Force": {
-        "item_stats": "\n\n+25% Attack Damage\n+25% Attack Speed\n+25 Ability Power\n+25 Mana\n+25 Armor\n+25 Magic Resist\n+250 Health\n"
+        "item_stats": "\n\n+35% Critical Strike Chance\n\nAbilities can critically strike. If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead.\n"
     },
     "Ionic Spark": {
         "item_stats": "\n\n+15 Ability Power\n+25 Magic Resist\n\n30% Shred enemies within 2 hexes. When enemies cast an Ability, they are also zapped for magic damage equal to 160% of their maximum Mana.\n"
     },
     "Jeweled Gauntlet": {
-        "item_stats": "\n\n+30 Ability Power\n+35% Critical Strike Chance\n\nDamage from an Ability can critically strike.\n"
+        "item_stats": "\n\n+30 Ability Power\n+35% Critical Strike Chance\n\nIf the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead.\n"
     },
     "Last Whisper": {
-        "item_stats": "\n\n+25% Attack Speed\n+15% Attack Damage\n+20% Critical Strike Chance\n\nAny physical damage dealt 30% Sunders the target for 3 seconds. This effect does not stack.\n\n[Unique - Only One Per Champion]\n"
-    },
-    "Locket of the Iron Solari": {
-        "item_stats": "\n\n+250 Health\n\nCombat start: The holder and allies within 2 hexes in the same row gain a 200 Shield, 20 Armor, and 20 Magic Resist for 20 seconds.\n"
+        "item_stats": "\n\n+25% Attack Speed\n+20% Critical Strike Chance\n\nAny physical damage dealt 30% Sunders the target for 3 seconds. This effect does not stack.\n\n[Unique - Only One Per Champion]\n"
     },
     "Morellonomicon": {
         "item_stats": "\n\n+25 Ability Power\n+150 Health\n\nAbility damage deals 1% Burn and 33% Wound to enemies for 10 seconds.\n\n[Unique - Only One Per Champion]\n"
     },
-    "Obsidian Cleaver": {
-        "item_stats": "\n\n+250 Health\n\nDamage dealt 30% Shreds and 30% Sunders enemies for 15 seconds. Your team gains 10% Attack Damage and 10 Ability Power.\n\u200b\u200b\n[Unique - only 1 per champion]\n"
+    "Nashor's Tooth": {
+        "item_stats": "\n\n+10% Attack Speed\n+30 Ability Power\n+150 Health\n\nAfter casting an Ability, gain 40% Attack Speed for 5 seconds.\n"
     },
     "Protector's Vow": {
-        "item_stats": "\n\n+20 Armor\n+45 Starting Mana\n\nOnce per combat: At 40% Health, gain a 25% maximum Health shield that lasts up to 5 seconds and 25 Armor and Magic Resist for the rest of combat.\n"
+        "item_stats": "\n\n+20 Armor\n+30 Starting Mana\n\nOnce per combat: At 40% Health, gain a 25% maximum Health shield that lasts up to 5 seconds and 20 Armor and Magic Resist for the rest of combat.\n"
     },
     "Quicksilver": {
-        "item_stats": "\n\n+30% Attack Speed\n+30 Magic Resist\n+20% Critical Strike Chance\n\nCombat start: Grant immunity to crowd control for 18 seconds.\n\n[Unique - Only One Per Champion]\n"
+        "item_stats": "\n\n+30% Attack Speed\n+20 Magic Resist\n+20% Critical Strike Chance\n\nCombat start: Gain immunity to crowd control for 14 seconds. During this time, gain 6% Attack Speed every 2 seconds.\n\n[Unique - Only One Per Champion]\n"
     },
     "Rabadon's Deathcap": {
-        "item_stats": "\n\n+70 Ability Power\n"
+        "item_stats": "\n\n+60 Ability Power\n\nDeal 8% bonus damage.\n"
     },
-    "Randuin's Sanctum": {
-        "item_stats": "\n\n+150 Health\n\nCombat start: Grant 40 Armor and 40 Magic Resistance to the holder and their adjacent allies.\n"
-    },
-    "Rapid Firecannon": {
-        "item_stats": "\n\n+35% Attack Speed\n\nDeal 12% bonus damage. Grant 1 bonus Attack Range.\n"
+    "Red Buff": {
+        "item_stats": "\n\n+45% Attack Speed\n\nDeal 8% bonus damage. Attacks and Abilities 1% Burn and 33% Wound enemies for 5 seconds.\n"
     },
     "Redemption": {
-        "item_stats": "\n\n+150 Health\n+15 Starting Mana\n\nHeal allies within 1 hex for 15% of their missing Health every 5 seconds. They also take 12% less damage for 5 seconds (damage reduction does not stack).\n"
+        "item_stats": "\n\n+150 Health\n+15 Starting Mana\n\nHeal allies within 1 hex for 15% of their missing Health every 5 seconds. They also take 10% less damage for 5 seconds (damage reduction does not stack).\n"
     },
     "Runaan's Hurricane": {
-        "item_stats": "\n\n+20% Attack Damage\n+10% Attack Speed\n+20 Magic Resist\n\nAttacks fire a bolt at a nearby enemy, dealing 50% attack damage as physical damage.\n"
-    },
-    "Shroud of Stillness": {
-        "item_stats": "\n\n+250 Health\n\nCombat start: Shoot a beam that 30% Mana Reaves enemies. Your team gains 80 Health.\n\n[Unique - only 1 per champion]\n"
-    },
-    "Sniper's Focus": {
-        "item_stats": "\n\n+15% Attack Damage\n+15 Ability Power\n+15% Attack Speed\n\nGain 1 Attack Range. Damage is increased by 10% for each hex between the holder and their target.\n"
+        "item_stats": "\n\n+10% Attack Speed\n+20 Magic Resist\n\nAttacks fire a bolt at a nearby enemy, dealing 50% attack damage as physical damage.\n"
     },
     "Spear of Shojin": {
-        "item_stats": "\n\n+10% Attack Damage\n+25 Ability Power\n+30 Starting Mana\n\nAttacks restores 5 additional mana.\n"
+        "item_stats": "\n\n+25 Ability Power\n+15 Starting Mana\n\nAttacks restores 5 additional mana.\n"
     },
     "Statikk Shiv": {
-        "item_stats": "\n\n+15% Attack Speed\n+15 Starting Mana\n+20 Ability Power\n\nEvery 3rd attack unleashes chain lightning that bounces to 4 enemies, dealing 30 magic damage and 30% Shredding them for 5 seconds.\n"
+        "item_stats": "\n\n+20% Attack Speed\n+15 Starting Mana\n+15 Ability Power\n\nEvery 3rd attack unleashes chain lightning that bounces to 4 enemies, dealing 30 magic damage and 30% Shredding them for 5 seconds.\n"
+    },
+    "Steadfast Heart": {
+        "item_stats": "\n\n+20 Armor\n+200 Health\n+20% Critical Strike Chance\n\nTake 8% less damage. While above 50% Health, take 15% less damage, instead.\n"
+    },
+    "Sterak's Gage": {
+        "item_stats": "\n\n+200 Health\n\nOnce per combat at 60% Health, gain 25% max Health and 35% Attack Damage.\n"
     },
     "Sunfire Cape": {
         "item_stats": "\n\n+250 Health\n+20 Armor\n\nEvery 2 seconds, an enemy within 2 hexes is 1% Burned and 33% Wounded for 10 seconds.\n\n[Unique - Only One Per Champion]\n"
     },
+    "Tear of the Goddess": {
+        "item_stats": "\n\n+15 Mana\n"
+    },
+    "Thief's Gloves": {
+        "item_stats": "\n\n+20% Critical Strike Chance\n+150 Health\n\nEach round: Equip 2 random items. Consumes 3 item slots.\n"
+    },
     "Titan's Resolve": {
         "item_stats": "\n\n+10% Attack Speed\n+20 Armor\n\nGrants 2% Attack Damage and 2 Ability Power when attacking or taking damage, stacking up to 25 times. At full stacks, grant 20 Armor and 20 Magic Resist.\n"
     },
-    "Trickster's Glass": {
-        "item_stats": "\n\n+10% Attack Speed\n+10 Armor\n+10 Magic Resist\n+15% Critical Strike Chance\n\nSummon a clone with 70% maximum Health and 30% increased maximum Mana. You cannot equip items to the clone. The clone benefits from active traits.\n\nUnique - only 1 per champion\n"
-    },
     "Warmog's Armor": {
-        "item_stats": "\n\n+800 Health\n"
-    },
-    "Zeke's Herald": {
-        "item_stats": "\n\n+250 Health\n\nCombat start: Grant Attack speed 25% Attack Speed to the holder and allies within 2 hexes in the same row.\n"
-    },
-    "Zephyr": {
-        "item_stats": "\n\n+250 Health\n\nCombat start: Summon a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds. Your team gains 8% Attack Speed.\n\n[Ignores crowd control immunity.]\n"
-    },
-    "Zz'Rot Portal": {
-        "item_stats": "\n\n+10% Attack Speed\n+150 Health\n\nCombat start: Taunt. On death, a Voidspawn arises, Taunting nearby enemies. The Voidspawn has massively reduced effectiveness when created by a summoned unit.\n"
+        "item_stats": "\n\n+650 Health\n\nGain 8% max health.\n"
     }
 }

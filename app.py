@@ -111,7 +111,7 @@ st.markdown(
 st.title("TFT Embedded Synergy Builder")
 
 champion_names_input = st.text_input(
-    "Enter the champion name(s) separated by comma (e.g. Ahri) or (Yasuo, Jinx):"
+    "Enter the champion name(s) separated by comma (e.g. K/DA Akali) or (Kai'Sa, Illaoi):"
 )
 
 if champion_names_input:

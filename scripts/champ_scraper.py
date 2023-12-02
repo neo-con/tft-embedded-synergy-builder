@@ -34,7 +34,8 @@ def save_image(url, champ_name):
     except (requests.RequestException, ValueError):
         print("Network or URL error")
         return
-    with open(os.path.join(IMAGE_FOLDER, f"{champ_name}.png"), "wb") as handler:
+    name = champ_name.replace("/", "-")
+    with open(os.path.join(IMAGE_FOLDER, f"{name}.png"), "wb") as handler:
         handler.write(img_data)
 
 
@@ -76,9 +77,9 @@ def get_champion_data(page, origin_details, class_details):
                     champion_class_details[synergy] = class_details[synergy]
 
         # Save the image for each champion
-        image_name = name.replace(" ", "-").replace("'", "").lower()
+        image_name = name.replace(" ", "-").replace("'", "").replace("/","-").lower()
         champ_image_url = (
-            f"https://www.mobafire.com/images/tft/set9/champion/icon/{image_name}.png"
+            f"https://www.mobafire.com/images/tft/set10/champion/icon/{image_name}.png"
         )
         save_image(champ_image_url, name)
 
