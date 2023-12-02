@@ -47,6 +47,7 @@ def display_images(data_names, folder, category=None):
         columns = st.columns(len(row_data))
         for data, column in zip(row_data, columns):
             try:
+                data = data.replace("/","-") # For K/DA Akali
                 with open(os.path.join(folder, f"{data}.png"), "rb") as f:
                     img_data = base64.b64encode(f.read()).decode()
             except FileNotFoundError:
