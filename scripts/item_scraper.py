@@ -39,19 +39,40 @@ def save_image(url, item_name):
         handler.write(img_data)
 
 
-def get_item_data(page):
-    item_list = page.select_one("div.items-wrap__details")
-    item_data = {}
 
-    for item_table in item_list.select("div.items-wrap__details__item"):
-        item_stats = item_table.select_one(
-            "div.items-wrap__details__item__description"
-        ).text
-        item_name = item_stats.split("\n")[1]
-        item_stats = item_stats.replace(item_name, "")
+from bs4 import BeautifulSoup
+
+def get_item_data(page):
+    # Find the <h2> tag with class "title" and text "Normal"
+    normal_header = page.find("h2", class_="title", string="Normal")
+    
+    # Check if the header is found
+    if not normal_header:
+        return "Normal header not found"
+    
+    # Find the next occurrence of div.items-wrap__details after the Normal header
+    # We need to navigate through following elements until we find the correct div
+    current_element = normal_header
+    while current_element:
+        # Move to the next element in the DOM
+        current_element = current_element.find_next()
+        # Check if it's the div we're looking for
+        if current_element and current_element.name == 'div' and 'items-wrap__details' in current_element.get('class', []):
+            break
+    
+    # Check if the correct div is found
+    if not current_element:
+        return "Item details container not found after Normal header"
+    
+    item_data = {}
+    for item_table in current_element.select("div.items-wrap__details__item"):
+        item_stats = item_table.select_one("div.items-wrap__details__item__description").text
+        item_name = item_stats.split("\n")[1].strip()  # Added strip() to clean any leading/trailing whitespace
+        item_stats = item_stats.replace(item_name, "").strip()  # Clean up the stats string
         item_data[item_name] = {"item_stats": item_stats}
 
     return item_data
+
 
 
 def get_filtered_item_data(item_data):
@@ -74,7 +95,7 @@ def get_filtered_item_data(item_data):
     for item_name in filtered_item_data:
         image_name = item_name.replace(" ", "-").replace("'", "").lower()
         item_image_url = (
-            f"https://www.mobafire.com/images/tft/set10/item/icon/{image_name}.png"
+            f"https://www.mobafire.com/images/tft/set11/item/icon/{image_name}.png"
         )
         save_image(item_image_url, item_name)
 

@@ -88,6 +88,7 @@ def search(
     # faiss requires the query to be a 2D array
     query = np.array([query_embedding])
     _, nearest_indices = index.search(query, top_k)
+    print(_)
     nearest_items = [list(embeddings.keys())[i] for i in nearest_indices[0]]
 
     return nearest_items[:top_k]
