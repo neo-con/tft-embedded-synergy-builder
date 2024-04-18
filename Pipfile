@@ -4,12 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-[[source]]
-url = "https://pypi.org/simple"
-verify_ssl = true
-name = "pypi"
-
-[packages]
 requests = "*"
 openai = "==0.27.8"
 python-dotenv = "*"
