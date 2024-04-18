@@ -10,21 +10,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-requests = "==2.31.0"
+requests = "*"
 openai = "==0.27.8"
-python-dotenv = "==1.0.0"
-numpy = "==1.25.2"
-tenacity = "==8.2.2"
+python-dotenv = "*"
+numpy = "*"
+tenacity = "*"
 beautifulsoup4 = "*"
-faiss-cpu = "==1.7.4"
+faiss-cpu = "*"
 streamlit = "==1.29.0"
-pillow = "==9.5.0"
-
-[dev-packages]
-
-[requires]
-python_version = "3.11"
-
+pillow = "*"
 
 [dev-packages]
 
