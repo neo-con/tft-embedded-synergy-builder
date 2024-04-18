@@ -4,15 +4,27 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-requests = "*"
-openai = "*"
-python-dotenv = "*"
-numpy = "*"
-tenacity = "*"
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "==2.31.0"
+openai = "==0.27.8"
+python-dotenv = "==1.0.0"
+numpy = "==1.25.2"
+tenacity = "==8.2.2"
 beautifulsoup4 = "*"
-faiss-cpu = "*"
-streamlit = "*"
-pillow = "*"
+faiss-cpu = "==1.7.4"
+streamlit = "==1.29.0"
+pillow = "==9.5.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+
 
 [dev-packages]
 

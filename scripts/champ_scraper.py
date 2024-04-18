@@ -79,7 +79,7 @@ def get_champion_data(page, origin_details, class_details):
         # Save the image for each champion
         image_name = name.replace(" ", "-").replace("'", "").replace("/","-").lower()
         champ_image_url = (
-            f"https://www.mobafire.com/images/tft/set10/champion/icon/{image_name}.png"
+            f"https://www.mobafire.com/images/tft/set11/champion/icon/{image_name}.png"
         )
         save_image(champ_image_url, name)
 

@@ -19,7 +19,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 ITEM_DATA_PKL = os.getenv("ITEM_DATA_PKL")
 ITEM_DATA_JSON = os.getenv("ITEM_DATA_JSON")
 I_EMBEDDINGS_PATH = os.getenv("I_EMBEDDINGS_PATH")
-EMBEDDING_MODEL = "text-embedding-ada-002"
+EMBEDDING_MODEL = "text-embedding-3-small"
 
 if not all([OPENAI_API_KEY, ITEM_DATA_PKL, ITEM_DATA_JSON, I_EMBEDDINGS_PATH]):
     raise EnvironmentError("Some required environment variables are missing.")
@@ -89,7 +89,7 @@ def build_faiss_index(embeddings):
     dimension = embeddings[list(embeddings.keys())[0]].shape[0]
 
     # Initialize the index
-    index = faiss.IndexFlatL2(dimension)
+    index = faiss.IndexFlatIP(dimension)
 
     # Add vectors to the index
     for i, (title, embedding) in enumerate(embeddings.items()):

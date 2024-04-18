@@ -1,583 +1,626 @@
 {
-    "Ahri": {
-        "cost": 4,
-        "ability_text": "Blow a kiss at the current target. It deals 300/450/1500 magic damage and briefly Stuns them. If the target has been kissed before, deal 480/720/2400 magic damage instead.\n\nHeadliner Effect: +15 Ability power",
-        "origin_details": {},
+    "Aatrox": {
+        "cost": 2,
+        "ability_text": "20% Shred the current target for 4 seconds and deal 260/390/600 magic damage to them. Heal 200/250/300 Health.",
+        "origin_details": {
+            "Ghostly": "Upon dealing or taking damage 7 times, Ghostly units send 2 spectres to haunt nearby enemies and heal 3% max Health every 2 seconds.\nHaunted enemies take bonus damage for each spectre on them, and pass spectres on death.\n\n2: 5% per spectre\n4: 10% per spectre\n6: 16% per spectre\n8: 32% per spectre\n\n",
+            "Inkshadow": "Gain unique Inkshadow items. Inkshadow champions gain 5/10/20% bonus damage and damage reduction.\n\n3: 1 Item\n5: 2 Items and 5% more bonus damage and damage reduction\n7: 4 Items\n\n"
+        },
         "class_details": {
-            "Spellweaver": "Your team gains 15 Ability Power. Spellweavers gain more, plus extra Ability Power whenever a Spellweaver casts an Ability.\n\n3: +20 Ability power, +1 Ability power per cast\n5: +35 Ability power, +1 Ability power per cast\n7: +60 Ability power, +2 Ability power per cast\n10: +120 Ability power, +10 Ability power per cast\n\n"
+            "Bruiser": "Your team gains 100 maximum Health. Bruisers gain additional maximum Health.\n\n2: 20% Health\n4: 40% Health\n6: 65% Health\n8: 80% Health; Every 3 seconds, Bruisers deal 6% Health bonus physical damage on their next attack.\n\n"
+        }
+    },
+    "Ahri": {
+        "cost": 1,
+        "ability_text": "Deal 220/330/500 magic damage to the current target and 110/165/250 magic damage to adjacent enemies.\n\nFated Bonus: Gain 25 Ability power.",
+        "origin_details": {
+            "Fated": "Hover one Fated unit over another to form a pair and unlock a Fated Bonus. Your pair gains 20% Health.\n\n3: Pair gets the Fated Bonus.\n5: All Fated champions get 200% of the Fated Bonus\n7: All Fated champions get 300% of the Fated Bonus\n10: All Fated champions gain 300% of EVERY Fated Bonus\n\n"
+        },
+        "class_details": {
+            "Arcanist": "Arcanists gain Ability Power and grant Ability Power to allies.\n\n2: 20 Ability power to all allies.\n4: 50 Ability power for Arcanists; 20 Ability power for others\n6: 85 Ability power for Arcanists; 40 Ability power for others\n8: 125 Ability power for Arcanists; 125 Ability power for others\n\n"
+        }
+    },
+    "Alune": {
+        "cost": 3,
+        "ability_text": "Rain meteors through the row with the most total enemy Health. Meteors deal 380/570/900% magic damage split between all enemies hit. Deal 160/240/380 magic damage to the current target. All enemies hit are 20% Shredded for 6 seconds.\n\nGrant 20/25/30% Attack Speed split amongst allies in Alune's row for 5 seconds.",
+        "origin_details": {
+            "Umbral": "The moon illuminates hexes, Shielding units placed in them at the start of combat.\nUmbral units in illuminated hexes execute low Health enemies.\n\n2: 200 Shield; 10% Health execute\n4: 500 Shield; 18% Health execute. More hexes are illuminated.\n6: 1000 Shield and illuminate the whole board\n8: Executed enemies have a 100% chance to drop loot; 45% Health execute\n\n"
+        },
+        "class_details": {
+            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana to all allies.\n4: 20 Mana to Invokers; 5 Mana to others.\n6: 35 Mana to Invokers; 20 Mana to others.\n\n"
         }
     },
     "Amumu": {
         "cost": 3,
-        "ability_text": "Passive: When attacked, gain 2 Armor (stacks up to 30 times).\n\nActive: Deal 123/198/327 magic damage to adjacent enemies. Every 3rd cast hits enemies within 2 hexes and Stuns them for 1.5 seconds.\n\nHeadliner Effect: +150 Health When attacked, also gains Magic Resist.",
+        "ability_text": "Over the next 3 seconds, heal 250/300/375 Health per second and cry on adjacent units. Every second, tears heal allies for 60/85/110 Health and deal 150/225/360 magic damage to enemies.",
         "origin_details": {
-            "Emo": "Emo champions' Abilities cost less Mana to cast, and they gain Mana whenever an allied champion dies.\n\n2: 20% less, gain 10 Mana\n4: 25% less, gain 20 Mana\n6: 20 Ability power; 30% less, gain 25 Mana\n\n"
+            "Porcelain": "After casting, Porcelain champions boil, gaining Attack Speed and taking less damage for 4 seconds.\n\n2: 30% Attack speed; 20% reduced damage\n4: 60% Attack speed; 35% reduced damage\n6: 100% Attack speed; 50% reduced damage\n\n"
         },
         "class_details": {
-            "Guardian": "Once per combat at 50% Health, Guardians shield themselves and their closest ally for a percent of their max Health.\n\n2: 30%\n4: 50%\n6: 70%\n\n"
+            "Warden": "Wardens take less damage. For the first 10 seconds of combat, they take an additional 12% less damage.\n\n2: 15% less damage\n4: 25% less damage\n6: 40% less damage\n\n"
         }
     },
     "Annie": {
-        "cost": 1,
-        "ability_text": "Passive: After 4 casts, gain 50% Attack Speed and casts deal 115/170/255 magic damage to another nearby enemy.\n\nActive: Deal 170/255/385 magic damage to the current target.\n\nHeadliner Effect: +20 Ability power",
+        "cost": 4,
+        "ability_text": "Passive: Heal 43/77/138 Health when damaging a Burning enemy.\n\nActive: On first cast, hop on Tibbers, gaining 453/630/1913 max Health and Stunning enemies within 2 hexes for 1.5 seconds.\n\nDeal 180/270/2500 magic damage, Burn, and Wound enemies within 2 hexes for 8 seconds.",
         "origin_details": {
-            "Emo": "Emo champions' Abilities cost less Mana to cast, and they gain Mana whenever an allied champion dies.\n\n2: 20% less, gain 10 Mana\n4: 25% less, gain 20 Mana\n6: 20 Ability power; 30% less, gain 25 Mana\n\n"
+            "Fortune": "When you lose a fight, gain Luck. The more fights in a row you lose, the more Luck you get.\nLose Luck when you win.\n\n3: Roll a die; in that many player combats, hold a Festival where you may convert your Luck into rewards.\n5: Heal 2 player health at the start of each player combat.\n7: Fortune smiles! Gain extra rewards and more luck every turn no matter what, and hold a Festival every turn.\n\n"
         },
         "class_details": {
-            "Spellweaver": "Your team gains 15 Ability Power. Spellweavers gain more, plus extra Ability Power whenever a Spellweaver casts an Ability.\n\n3: +20 Ability power, +1 Ability power per cast\n5: +35 Ability power, +1 Ability power per cast\n7: +60 Ability power, +2 Ability power per cast\n10: +120 Ability power, +10 Ability power per cast\n\n"
+            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana to all allies.\n4: 20 Mana to Invokers; 5 Mana to others.\n6: 35 Mana to Invokers; 20 Mana to others.\n\n"
         }
     },
     "Aphelios": {
-        "cost": 2,
-        "ability_text": "Deal 399/598/897 physical damage and Stun the current target for 1.5/1.5/2 seconds. Deal 40/60/90 physical damage to enemies within 1 hex. If the original target dies, Stun enemies within 1 hex for 1 second.\n\nHeadliner Effect: +20% Attack damage",
+        "cost": 3,
+        "ability_text": "20% Sunder the nearest 3 enemies for 7 seconds. Then fire 3 shots at them, dealing 141/212/333 physical damage each.\n\nFated Bonus: Gain 25% Attack damage.",
         "origin_details": {
-            "Heartsteel": "Earn Hearts by killing enemies. Gain even more by losing player combat. Every 4 player combats, convert Hearts into powerful rewards!\n\n3: 1x Hearts\n5: 2.5x Hearts\n7: 6x Hearts\n9: 10x Hearts, Gain rewards every round and keep 80% of your Hearts!\n\n"
+            "Fated": "Hover one Fated unit over another to form a pair and unlock a Fated Bonus. Your pair gains 20% Health.\n\n3: Pair gets the Fated Bonus.\n5: All Fated champions get 200% of the Fated Bonus\n7: All Fated champions get 300% of the Fated Bonus\n10: All Fated champions gain 300% of EVERY Fated Bonus\n\n"
         },
         "class_details": {
-            "Rapidfire": "Your team gains 10% Attack Speed.\nRapidfire champions gain more on every attack, up to 10 stacks.\n\n2: 4% Attack speed\n4: 7% Attack speed\n6: 12% Attack speed\n\n"
+            "Sniper": "Innate: Snipers gain 1 Attack Range.\nSnipers deal more damage to targets farther away.\n\n2: 7% damage per hex.\n4: 15% damage per hex.\n6: 30% damage per hex. Snipers gain an additional 2 Attack Range.\n\n"
+        }
+    },
+    "Ashe": {
+        "cost": 4,
+        "ability_text": "Passive: Start with 15 arrows. Gain 1/1/3 every 3 attacks.\n\nActive: Fire a volley split between the current target and the 3 closest enemies within range, dealing 30/45/166 physical damage per stored arrow for a total of 300 physical damage.",
+        "origin_details": {
+            "Porcelain": "After casting, Porcelain champions boil, gaining Attack Speed and taking less damage for 4 seconds.\n\n2: 30% Attack speed; 20% reduced damage\n4: 60% Attack speed; 35% reduced damage\n6: 100% Attack speed; 50% reduced damage\n\n"
+        },
+        "class_details": {
+            "Sniper": "Innate: Snipers gain 1 Attack Range.\nSnipers deal more damage to targets farther away.\n\n2: 7% damage per hex.\n4: 15% damage per hex.\n6: 30% damage per hex. Snipers gain an additional 2 Attack Range.\n\n"
+        }
+    },
+    "Azir": {
+        "cost": 5,
+        "ability_text": "Fire a beam through the current target, dealing 500/750/5000 magic damage to enemies hit. Spawn a Guardian adjacent to the first enemy hit with 1100/1500/8000 Health. The Guardian does not move or attack.",
+        "origin_details": {
+            "Dryad": "Dryads gain Ability Power and 200 Health. Each enemy death grants permanent additional Health.\n\n2: 15 Ability power; 2 Health per enemy death\n4: 30 Ability power; 6 Health per enemy death\n6: 65 Ability power; 10 Health per enemy death\n\n"
+        },
+        "class_details": {
+            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana to all allies.\n4: 20 Mana to Invokers; 5 Mana to others.\n6: 35 Mana to Invokers; 20 Mana to others.\n\n"
         }
     },
     "Bard": {
-        "cost": 2,
-        "ability_text": "Play a 4-note tune at random using 3 possible notes:\n\nDoot - Deal 190/285/430 magic damage to the current target.\nChime - Heal the lowest Health ally for 120/150/180 Health.\nTip - Drop 1 gold and play another note. (3 Gold in Hyper Roll)\n\n\nHeadliner Effect: The finale of Bard's first cast each combat spreads an additional Doot for every 8 times he's cast this game. Doots deal 135/200/300 magic damage.",
+        "cost": 3,
+        "ability_text": "For the next 6 seconds, attacks instead throw 2 Meeps, each dealing 33/49/79 physical damage and 25/40/65 magic damage.",
         "origin_details": {
-            "Jazz": "For each active trait (except uniques), your team gains bonus Health and deals bonus damage.\n\n2: 2% Health, 1% Damage\n3: 3% Health, 2% Damage\n4: 4% Health, 3% Damage\n\n"
+            "Mythic": "Mythic champions gain Health, Ability Power, and Attack Damage.\nAfter 4 player combats, they become Epic, increasing the bonus by 50%.\n\n3: +8% Health, 10% Ability power & Attack damage\n5: +18% Health, 20% Ability power & Attack damage\n7: +25% Health, 32% Ability power & Attack damage\n10: Instantly become Epic. The bonus is increased by 250% instead.\n\n"
         },
         "class_details": {
-            "Dazzler": "Dazzlers' Abilities reduce their target's damage by 15% and deal bonus magic damage over 2 seconds.\n\n2: 20% magic damage\n4: 60% magic damage\n6: 100% magic damage\n\n"
-        }
-    },
-    "Blitzcrank": {
-        "cost": 4,
-        "ability_text": "Passive: Deal 100/150/1000 magic damage to a nearby enemy every 2 seconds.\n\nActive: Gain a 600/750/2000 Shield. For 5 seconds, Blitzcrank's Passive deals damage every second and deals an additional 1% of the target's max Health as magic damage.\n\nHeadliner Effect: +150 Health and the Passive always deals the max Health magic damage.",
-        "origin_details": {
-            "Disco": "Summon a movable Disco Ball.\nCombat start: Allies next to it gain Attack Speed and healing immediately and every 3 seconds.\n\n3: 5% Attack speed and 3% max Health\n4: 10% Attack speed and 4% max Health\n5: 2 Disco Balls, 15% Attack speed and 4% max Health\n6: 20% Attack speed and 6% max Health\n\n"
-        },
-        "class_details": {
-            "Sentinel": "Your team gains Armor and Magic Resist. Sentinels gain double.\n\n2: 16 Armor, 16 Magic resist\n4: 35 Armor, 35 Magic resist\n6: 60 Armor, 60 Magic resist\n8: 125 Armor, 125 Magic resist\n\n"
+            "Trickshot": "Trickshots' abilities ricochet. Each ricochet deals a percentage of the previous bounce's damage.\n\n2: 1 ricochet; 40% of previous damage\n4: 2 ricochets; 60% of previous damage\n\n"
         }
     },
     "Caitlyn": {
-        "cost": 4,
-        "ability_text": "Fire shots at the 4 furthest enemies. Shots deal 238/357/1071 physical damage to the first enemy they hit.\n\nHeadliner Effect: +5% Attack damage and fire another shot that deals 60% damage.",
-        "origin_details": {},
-        "class_details": {
-            "Rapidfire": "Your team gains 10% Attack Speed.\nRapidfire champions gain more on every attack, up to 10 stacks.\n\n2: 4% Attack speed\n4: 7% Attack speed\n6: 12% Attack speed\n\n"
-        }
-    },
-    "Corki": {
         "cost": 1,
-        "ability_text": "Deal 134/202/302 physical damage to the current target and adjacent enemies, then Wound them for 5 seconds.\n\nHeadliner Effect: +20% Attack damage",
-        "origin_details": {},
+        "ability_text": "Fire a bullet towards the farthest enemy, dealing 450/675/1013 physical damage to the first enemy hit.",
+        "origin_details": {
+            "Ghostly": "Upon dealing or taking damage 7 times, Ghostly units send 2 spectres to haunt nearby enemies and heal 3% max Health every 2 seconds.\nHaunted enemies take bonus damage for each spectre on them, and pass spectres on death.\n\n2: 5% per spectre\n4: 10% per spectre\n6: 16% per spectre\n8: 32% per spectre\n\n"
+        },
         "class_details": {
-            "Big Shot": "Big Shots gain Attack Damage, which increases for 3 seconds when they use their Ability.\n\n2: 10% Attack damage, 40% after casting\n4: 15% Attack damage, 60% after casting\n6: 25% Attack damage, 100% after casting\n\n"
+            "Sniper": "Innate: Snipers gain 1 Attack Range.\nSnipers deal more damage to targets farther away.\n\n2: 7% damage per hex.\n4: 15% damage per hex.\n6: 30% damage per hex. Snipers gain an additional 2 Attack Range.\n\n"
         }
     },
-    "Ekko": {
+    "Cho'Gath": {
+        "cost": 1,
+        "ability_text": "Gain 250/300/350 Shield for 4 seconds and breathe a cone of fire, dealing 200/300/450 magic damage, Burning, and Wounding enemies hit for 9 seconds.",
+        "origin_details": {
+            "Mythic": "Mythic champions gain Health, Ability Power, and Attack Damage.\nAfter 4 player combats, they become Epic, increasing the bonus by 50%.\n\n3: +8% Health, 10% Ability power & Attack damage\n5: +18% Health, 20% Ability power & Attack damage\n7: +25% Health, 32% Ability power & Attack damage\n10: Instantly become Epic. The bonus is increased by 250% instead.\n\n"
+        },
+        "class_details": {
+            "Behemoth": "Behemoths gain increased Armor and Magic Resist. Whenever a Behemoth dies, the nearest Behemoth gains 50% more for 5 seconds.\n\n2: 25 Armor & Magic resist\n4: 55 Armor & Magic resist\n6: 80 Armor & Magic resist\n\n"
+        }
+    },
+    "Darius": {
+        "cost": 1,
+        "ability_text": "Deal 200/300/450 magic damage to adjacent enemies. For the next 4 seconds, attacks deal 80/120/180 bonus magic damage.",
+        "origin_details": {
+            "Umbral": "The moon illuminates hexes, Shielding units placed in them at the start of combat.\nUmbral units in illuminated hexes execute low Health enemies.\n\n2: 200 Shield; 10% Health execute\n4: 500 Shield; 18% Health execute. More hexes are illuminated.\n6: 1000 Shield and illuminate the whole board\n8: Executed enemies have a 100% chance to drop loot; 45% Health execute\n\n"
+        },
+        "class_details": {
+            "Duelist": "Duelists gain Attack Speed on each attack, stacking up to 12 times.\n\n2: 5% Attack speed\n4: 9% Attack speed\n6: 13% Attack speed; Duelists take 12% less damage\n8: 18% Attack speed; Duelists take 18% less damage\n\n"
+        }
+    },
+    "Diana": {
         "cost": 3,
-        "ability_text": "Deal 60/90/145 magic damage to enemies within 2 hexes and Stun them for 1.5 seconds. Gain a 400/450/550 Health shield for 4 seconds.\n\nBling Bonus: While the shield is up, heal 100 every second.\n\nHeadliner Effect: +200 Health and +20 Ability power",
+        "ability_text": "Heal 300/325/400 Health and create a 1-hex sacred zone around Diana for 4 seconds, taking 30% reduced damage from enemies outside the zone. While the zone is up, Diana's attacks deal 100/150/235 bonus magic damage.",
         "origin_details": {
-            "True Damage": "True Damage champions deal bonus true damage. If they are holding an item, they gain a unique Bling Bonus for their Ability.\n\n2: 15% damage\n4: 30% damage\n6: 45% damage\n9: 125% damage, Bling Bonuses go Platinum!\n\n"
+            "Dragonlord": "After 8 seconds of combat, the Dragon strikes the board, dealing true damage to enemies and granting all allies Attack Speed for the rest of combat.\n\n2: 5% Health damage, 22% Attack speed\n3: 10% Health damage, 18% Attack speed\n4: 10% Health damage and Stuns for 1.5 seconds\n5: 15% Health damage, 45% Attack speed\n\n"
         },
         "class_details": {
-            "Sentinel": "Your team gains Armor and Magic Resist. Sentinels gain double.\n\n2: 16 Armor, 16 Magic resist\n4: 35 Armor, 35 Magic resist\n6: 60 Armor, 60 Magic resist\n8: 125 Armor, 125 Magic resist\n\n",
-            "Spellweaver": "Your team gains 15 Ability Power. Spellweavers gain more, plus extra Ability Power whenever a Spellweaver casts an Ability.\n\n3: +20 Ability power, +1 Ability power per cast\n5: +35 Ability power, +1 Ability power per cast\n7: +60 Ability power, +2 Ability power per cast\n10: +120 Ability power, +10 Ability power per cast\n\n"
+            "Sage": "Combat start: Allies in the front 2 rows gain Omnivamp. Allies in the back 2 rows gain Ability Power.\n\n2: 12% Omnivamp, 15 Ability power\n3: 20% Omnivamp, 30 Ability power\n4: 30% Omnivamp, 45 Ability power\n5: 45% Omnivamp, 75 Ability power\n\n"
         }
     },
-    "Evelynn": {
-        "cost": 1,
-        "ability_text": "Deal 200/300/450 magic damage to the current target. Gain 175% Attack Speed that decays over 4 seconds. While active, attacks restore 25/30/35 Health.\n\nHeadliner Effect: +100 Health +15 Ability power",
-        "origin_details": {},
-        "class_details": {
-            "Crowd Diver": "After Crowd Divers die, they leap onto the furthest enemy, dealing 400 magic damage. Enemies within 1 hex are Stunned for 1.5 seconds.\nThey also deal bonus damage, increased by 1% each second.\n\n2: 5% bonus damage\n4: 20% bonus damage\n6: 50% bonus damage\n\n"
-        }
-    },
-    "Ezreal": {
+    "Galio": {
         "cost": 4,
-        "ability_text": "Blink away from the current target and deal 231/347/1040 physical damage to them. Every 3rd cast, deal 325/488/1463 physical damage to all enemies in a line.\n\nHeadliner Effect: +15% Attack damage",
+        "ability_text": "Taunt enemies within 3 hexes and gain 130/195/568 Armor and 100/150/500 Magic Resist for 4 seconds. Galio is immobile and unstoppable during this time.\n\nAfter, deal 100/150/1800 magic damage to all enemies in range and grant 200/250/2000 Shield to allies in range for 4 seconds.",
         "origin_details": {
-            "Heartsteel": "Earn Hearts by killing enemies. Gain even more by losing player combat. Every 4 player combats, convert Hearts into powerful rewards!\n\n3: 1x Hearts\n5: 2.5x Hearts\n7: 6x Hearts\n9: 10x Hearts, Gain rewards every round and keep 80% of your Hearts!\n\n"
+            "Storyweaver": "Storyweavers summon a Hero named Kayle and evolve her. Storyweavers gain max Health.\n\n3: Pick a supportive effect. 60 Health\n5: Pick a combat effect. 100 Health\n7: Pick a combat effect. 150 Health\n10: Ascend. 250 Health\n\n"
         },
         "class_details": {
-            "Big Shot": "Big Shots gain Attack Damage, which increases for 3 seconds when they use their Ability.\n\n2: 10% Attack damage, 40% after casting\n4: 15% Attack damage, 60% after casting\n6: 25% Attack damage, 100% after casting\n\n"
+            "Bruiser": "Your team gains 100 maximum Health. Bruisers gain additional maximum Health.\n\n2: 20% Health\n4: 40% Health\n6: 65% Health\n8: 80% Health; Every 3 seconds, Bruisers deal 6% Health bonus physical damage on their next attack.\n\n"
         }
     },
     "Garen": {
-        "cost": 2,
-        "ability_text": "Gain 170/190/210 max Health. Garen's next attack deals 163/267/441 physical damage.\n\nHeadliner Effect: +400 Health",
-        "origin_details": {},
+        "cost": 1,
+        "ability_text": "Gain 275/325/375% Shield for 5 seconds. Garen's next attack deals 248/371/557 physical damage.",
+        "origin_details": {
+            "Storyweaver": "Storyweavers summon a Hero named Kayle and evolve her. Storyweavers gain max Health.\n\n3: Pick a supportive effect. 60 Health\n5: Pick a combat effect. 100 Health\n7: Pick a combat effect. 150 Health\n10: Ascend. 250 Health\n\n"
+        },
         "class_details": {
-            "Sentinel": "Your team gains Armor and Magic Resist. Sentinels gain double.\n\n2: 16 Armor, 16 Magic resist\n4: 35 Armor, 35 Magic resist\n6: 60 Armor, 60 Magic resist\n8: 125 Armor, 125 Magic resist\n\n"
+            "Warden": "Wardens take less damage. For the first 10 seconds of combat, they take an additional 12% less damage.\n\n2: 15% less damage\n4: 25% less damage\n6: 40% less damage\n\n"
         }
     },
     "Gnar": {
         "cost": 2,
-        "ability_text": "Leap over the current target and transform into Mega Gnar for the rest of combat, gaining 500/600/750 Health and 70% Attack Damage. Subsequent casts deal 184/276/421 physical damage to the current target.\n\nHeadliner Effect: At combat start, transform into Mega Gnar.",
+        "ability_text": "Passive: Gain 4% Attack Damage upon attacking or getting hit, up to 25 times.\n\nActive: Fling a boulder at the current target, dealing 186/279/432 physical damage to targets in a line.",
         "origin_details": {
-            "Pentakill": "Pentakill champions reduce incoming damage by 15% and deal bonus damage. For each champon kill, a Pentakill champion rocks out and increases their damage bonus by 25%.\nOn the 5th kill, all Pentakill champions rock out and your team gains 50% Attack Speed.\n\n3: 15% bonus damage\n5: 30% bonus damage\n7: 45% bonus damage\n10: 50% damage reduction and 110% bonus damage\n\n"
+            "Dryad": "Dryads gain Ability Power and 200 Health. Each enemy death grants permanent additional Health.\n\n2: 15 Ability power; 2 Health per enemy death\n4: 30 Ability power; 6 Health per enemy death\n6: 65 Ability power; 10 Health per enemy death\n\n"
         },
         "class_details": {
-            "Mosher": "Moshers gain Attack Speed and Omnivamp, which increases up to 100% based on their missing Health.\n\n2: 20% Attack speed, 10% Omnivamp\n4: 30% Attack speed, 15% Omnivamp\n6: 50% Attack speed, 20% Omnivamp\n\n",
-            "Superfan": "Superfans improve your Headliner!\n\n3: Headliner gets a completed item\n4: Headliner gets 250 Health and 15% Omnivamp\n5: Item upgrades to radiant\n\n"
+            "Warden": "Wardens take less damage. For the first 10 seconds of combat, they take an additional 12% less damage.\n\n2: 15% less damage\n4: 25% less damage\n6: 40% less damage\n\n"
         }
     },
-    "Gragas": {
-        "cost": 2,
-        "ability_text": "Heal 500/575/650 Health over 2 seconds. Then, deal 150/225/350 magic damage to adjacent enemies and Chill them for 3 seconds.\n\nHeadliner Effect: Gragas takes 8% less damage and deals 15% more damage.",
+    "Hwei": {
+        "cost": 5,
+        "ability_text": "Create an expanding paint pool around the most units that heals allies within for 40/60/1000 Health every second for 3 seconds. After 3 seconds, it explodes, healing allies within for 80/120/1000% Health and dealing 180/270/2000% magic damage to enemies.",
         "origin_details": {
-            "Disco": "Summon a movable Disco Ball.\nCombat start: Allies next to it gain Attack Speed and healing immediately and every 3 seconds.\n\n3: 5% Attack speed and 3% max Health\n4: 10% Attack speed and 4% max Health\n5: 2 Disco Balls, 15% Attack speed and 4% max Health\n6: 20% Attack speed and 6% max Health\n\n"
+            "Mythic": "Mythic champions gain Health, Ability Power, and Attack Damage.\nAfter 4 player combats, they become Epic, increasing the bonus by 50%.\n\n3: +8% Health, 10% Ability power & Attack damage\n5: +18% Health, 20% Ability power & Attack damage\n7: +25% Health, 32% Ability power & Attack damage\n10: Instantly become Epic. The bonus is increased by 250% instead.\n\n"
         },
         "class_details": {
-            "Bruiser": "Your team gains 100 Health. Bruisers gain bonus max Health.\n\n2: 20% max Health\n4: 40% max Health\n6: 80% max Health\n\n",
-            "Spellweaver": "Your team gains 15 Ability Power. Spellweavers gain more, plus extra Ability Power whenever a Spellweaver casts an Ability.\n\n3: +20 Ability power, +1 Ability power per cast\n5: +35 Ability power, +1 Ability power per cast\n7: +60 Ability power, +2 Ability power per cast\n10: +120 Ability power, +10 Ability power per cast\n\n"
+            "Artist": "(1) The Artist paints the champion you place in a special bench slot. Get a 1-star copy of the champion placed there when the Artist's work is complete.\n\nRounds to Complete = Unit Cost (Decreases with Artist Star Level)"
         }
     },
     "Illaoi": {
-        "cost": 5,
-        "ability_text": "Passive: Every 3 seconds, Illaoi's tentacles deal 120/120/1000 magic damage to nearby enemies.\n\nActive: Gain 100/150/400 Armor and Magic Resist for 3.5 seconds. Revive or fully heal the lowest Health tentacle. Leap at the nearest enemy and deal 100/150/4000 magic damage in a large circle 3/3/7 times as tentacles slam in unison.\n\nHeadliner Effect: +10 Ability power, +10 Armor +10 Magic resist and tentacles slam every 2 seconds.",
-        "origin_details": {},
+        "cost": 3,
+        "ability_text": "Gain 400/450/550 Shield and summon a tentacle near the current target for 4 seconds. The tentacle slams every second, dealing 80/120/190 magic damage in a line and healing Illaoi for 50/60/70 Health.",
+        "origin_details": {
+            "Ghostly": "Upon dealing or taking damage 7 times, Ghostly units send 2 spectres to haunt nearby enemies and heal 3% max Health every 2 seconds.\nHaunted enemies take bonus damage for each spectre on them, and pass spectres on death.\n\n2: 5% per spectre\n4: 10% per spectre\n6: 16% per spectre\n8: 32% per spectre\n\n"
+        },
         "class_details": {
-            "Bruiser": "Your team gains 100 Health. Bruisers gain bonus max Health.\n\n2: 20% max Health\n4: 40% max Health\n6: 80% max Health\n\n"
+            "Arcanist": "Arcanists gain Ability Power and grant Ability Power to allies.\n\n2: 20 Ability power to all allies.\n4: 50 Ability power for Arcanists; 20 Ability power for others\n6: 85 Ability power for Arcanists; 40 Ability power for others\n8: 125 Ability power for Arcanists; 125 Ability power for others\n\n",
+            "Warden": "Wardens take less damage. For the first 10 seconds of combat, they take an additional 12% less damage.\n\n2: 15% less damage\n4: 25% less damage\n6: 40% less damage\n\n"
+        }
+    },
+    "Irelia": {
+        "cost": 5,
+        "ability_text": "Passive: Attacks send blades that dart between enemies, dealing 113/169/1181 physical damage and 30% Sunder for 5 seconds. Cast every 8 attacks.\n\nActive: Command the blades to swiftly strike the three lowest Health enemies, dealing 325/438/3475 physical damage and applying on-hit effects.\n\nIrelia converts 25% of bonus attack speed into faster blade movement, and 50% into Attack Damage.",
+        "origin_details": {
+            "Storyweaver": "Storyweavers summon a Hero named Kayle and evolve her. Storyweavers gain max Health.\n\n3: Pick a supportive effect. 60 Health\n5: Pick a combat effect. 100 Health\n7: Pick a combat effect. 150 Health\n10: Ascend. 250 Health\n\n"
+        },
+        "class_details": {
+            "Duelist": "Duelists gain Attack Speed on each attack, stacking up to 12 times.\n\n2: 5% Attack speed\n4: 9% Attack speed\n6: 13% Attack speed; Duelists take 12% less damage\n8: 18% Attack speed; Duelists take 18% less damage\n\n"
+        }
+    },
+    "Janna": {
+        "cost": 2,
+        "ability_text": "Grant 120/170/220 Shield to the 2 lowest Health allies for 4 seconds. Then, deal 180/270/415 magic damage to the 2 nearest enemies.",
+        "origin_details": {
+            "Dragonlord": "After 8 seconds of combat, the Dragon strikes the board, dealing true damage to enemies and granting all allies Attack Speed for the rest of combat.\n\n2: 5% Health damage, 22% Attack speed\n3: 10% Health damage, 18% Attack speed\n4: 10% Health damage and Stuns for 1.5 seconds\n5: 15% Health damage, 45% Attack speed\n\n"
+        },
+        "class_details": {
+            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana to all allies.\n4: 20 Mana to Invokers; 5 Mana to others.\n6: 35 Mana to Invokers; 20 Mana to others.\n\n"
         }
     },
     "Jax": {
-        "cost": 2,
-        "ability_text": "Leap at the highest Health enemy within 2 hexes and deal 250/375/565 magic damage to them. Then, deal 150/225/335 magic damage to all adjacent enemies. Gain 10% Attack Damage and Ability Power for the rest of combat.\n\nHeadliner Effect: +200 Health and +20 Ability power",
-        "origin_details": {},
-        "class_details": {
-            "Mosher": "Moshers gain Attack Speed and Omnivamp, which increases up to 100% based on their missing Health.\n\n2: 20% Attack speed, 10% Omnivamp\n4: 30% Attack speed, 15% Omnivamp\n6: 50% Attack speed, 20% Omnivamp\n\n"
-        }
-    },
-    "Jhin": {
-        "cost": 5,
-        "ability_text": "Passive: Attacks generate 10 additional Mana. If your bench has 4 Grand Finale Rifles, begin conducting instead of attacking. Each Rifle fires at the same rate as the Maestro and deals 57/88/843 physical damage. Every 4th volley deals 200% damage.\n\nActive: Put 1/1/4 Grand Finale Rifle into one of your empty bench slots.\n\nHeadliner Effect: +10% Attack damage. Combat Start: Put 1 Grand Finale Rifle onto an empty bench slot.",
-        "origin_details": {
-            "Maestro": "(unique) The Maestro always attacks at a fixed pace, converting 1% bonus Attack Speed into 0.7% Attack Damage."
-        },
-        "class_details": {
-            "Big Shot": "Big Shots gain Attack Damage, which increases for 3 seconds when they use their Ability.\n\n2: 10% Attack damage, 40% after casting\n4: 15% Attack damage, 60% after casting\n6: 25% Attack damage, 100% after casting\n\n"
-        }
-    },
-    "Jinx": {
         "cost": 1,
-        "ability_text": "Passive Minigun: Attacks grant 4% Attack Speed.\nPassive Rocket Launcher: Attacks deal 20/30/46 bonus physical damage.\n\nActive: Swap between Minigun and Rocket Launcher.\n\nHeadliner Effect: Minigun attacks grant an extra 1% Attack Speed, Rocket Launcher attacks deal an extra 10% bonus damage.",
+        "ability_text": "Gain 60 Armor and Magic Resist for the next 2 seconds. Afterwards, deal 100/150/225 magic damage to adjacent enemies. The current target takes 325/490/735 magic damage and is Stunned for 1.5 seconds.",
         "origin_details": {
-            "Punk": "Punks gain bonus Health and Attack Damage, which increases by 1% every time you spend gold on a Shop reroll.\nAfter Punks fight in combat, your 1st Shop reroll costs 1 gold and grants 3% bonus instead!\n\n2: 160 Health and 16% Attack damage\n4: 260 Health and 26% Attack damage\n6: 420 Health and 42% Attack damage\n\n"
+            "Inkshadow": "Gain unique Inkshadow items. Inkshadow champions gain 5/10/20% bonus damage and damage reduction.\n\n3: 1 Item\n5: 2 Items and 5% more bonus damage and damage reduction\n7: 4 Items\n\n"
         },
         "class_details": {
-            "Rapidfire": "Your team gains 10% Attack Speed.\nRapidfire champions gain more on every attack, up to 10 stacks.\n\n2: 4% Attack speed\n4: 7% Attack speed\n6: 12% Attack speed\n\n"
-        }
-    },
-    "K'Sante": {
-        "cost": 1,
-        "ability_text": "Enter a defensive stance, reducing damage taken by 50/50/55% for 2.5 seconds. Afterwards, deal 350/525/788 physical damage to the current target.\n\nHeadliner Effect: +225 Health",
-        "origin_details": {
-            "Heartsteel": "Earn Hearts by killing enemies. Gain even more by losing player combat. Every 4 player combats, convert Hearts into powerful rewards!\n\n3: 1x Hearts\n5: 2.5x Hearts\n7: 6x Hearts\n9: 10x Hearts, Gain rewards every round and keep 80% of your Hearts!\n\n"
-        },
-        "class_details": {
-            "Sentinel": "Your team gains Armor and Magic Resist. Sentinels gain double.\n\n2: 16 Armor, 16 Magic resist\n4: 35 Armor, 35 Magic resist\n6: 60 Armor, 60 Magic resist\n8: 125 Armor, 125 Magic resist\n\n"
-        }
-    },
-    "K/DA Akali": {
-        "cost": 4,
-        "ability_text": "Throw a shuriken at the farthest unmarked target, marking them. Dash to every marked enemy, striking them for 114/171/513 physical damage and dealing 80/120/400 physical damage to enemies dashed through.\n\nHeadliner Effect: +100 Health and +10% Attack speed",
-        "origin_details": {
-            "Breakout": "(unique) Akali is a member of K/DA or True Damage depending on which trait has more fielded champions. She gains a different Ability depending on which form she takes."
-        },
-        "class_details": {
-            "Executioner": "Executioner Abilities can critically strike and they gain Critical Strike Damage. Their Critical Strike Chance is increased based on their target's missing Health.\n\n2: 15% Critical strike damage. Up to 15% Critical strike chance\n4: 30% Critical strike damage. Up to 35% Critical strike chance\n6: 55% Critical strike damage. Up to 55% Critical strike chance\n\n"
+            "Warden": "Wardens take less damage. For the first 10 seconds of combat, they take an additional 12% less damage.\n\n2: 15% less damage\n4: 25% less damage\n6: 40% less damage\n\n"
         }
     },
     "Kai'Sa": {
-        "cost": 2,
-        "ability_text": "Dash up to 2 hexes and fire a missile at the current target. It deals 205/308/467 physical damage to the first enemy hit.\n\nHeadliner Effect: +15% Attack damage, +2 Range and dash farther.",
-        "origin_details": {},
-        "class_details": {
-            "Big Shot": "Big Shots gain Attack Damage, which increases for 3 seconds when they use their Ability.\n\n2: 10% Attack damage, 40% after casting\n4: 15% Attack damage, 60% after casting\n6: 25% Attack damage, 100% after casting\n\n"
-        }
-    },
-    "Karthus": {
         "cost": 4,
-        "ability_text": "Deal 220/330/1000 magic damage to the 5 lowest Health enemies. Gain 10 Mana for each that dies.\n\nHeadliner Effect: +15 Ability power",
+        "ability_text": "Fire 20 waves at the current target over 2 seconds, each dealing 42/62/203 physical damage to the first enemy hit. If an enemy is hit by 10 waves, they take 59/89/266 damage per wave instead.",
         "origin_details": {
-            "Pentakill": "Pentakill champions reduce incoming damage by 15% and deal bonus damage. For each champon kill, a Pentakill champion rocks out and increases their damage bonus by 25%.\nOn the 5th kill, all Pentakill champions rock out and your team gains 50% Attack Speed.\n\n3: 15% bonus damage\n5: 30% bonus damage\n7: 45% bonus damage\n10: 50% damage reduction and 110% bonus damage\n\n"
+            "Inkshadow": "Gain unique Inkshadow items. Inkshadow champions gain 5/10/20% bonus damage and damage reduction.\n\n3: 1 Item\n5: 2 Items and 5% more bonus damage and damage reduction\n7: 4 Items\n\n"
         },
         "class_details": {
-            "Executioner": "Executioner Abilities can critically strike and they gain Critical Strike Damage. Their Critical Strike Chance is increased based on their target's missing Health.\n\n2: 15% Critical strike damage. Up to 15% Critical strike chance\n4: 30% Critical strike damage. Up to 35% Critical strike chance\n6: 55% Critical strike damage. Up to 55% Critical strike chance\n\n"
-        }
-    },
-    "Katarina": {
-        "cost": 2,
-        "ability_text": "Throw a blade at the current target that bounces 3 times, dealing 140/210/315 magic damage and applying Wound for 6 seconds.\n\nHeadliner Effect: +200 Health and the final blade bounce deals 45% more magic damage.",
-        "origin_details": {
-            "Country": "When your team loses 30% of their Health, call a Dreadsteed that empowers your team. Each Country star level increases the Dreadsteed's Health and Attack Damage.\n\n3: Dreadsteed\n5: Midnight Dreadsteed\n7: Infernal Invocation Dreadsteed\n\n"
-        },
-        "class_details": {
-            "Crowd Diver": "After Crowd Divers die, they leap onto the furthest enemy, dealing 400 magic damage. Enemies within 1 hex are Stunned for 1.5 seconds.\nThey also deal bonus damage, increased by 1% each second.\n\n2: 5% bonus damage\n4: 20% bonus damage\n6: 50% bonus damage\n\n"
+            "Trickshot": "Trickshots' abilities ricochet. Each ricochet deals a percentage of the previous bounce's damage.\n\n2: 1 ricochet; 40% of previous damage\n4: 2 ricochets; 60% of previous damage\n\n"
         }
     },
     "Kayle": {
-        "cost": 2,
-        "ability_text": "For 5 seconds, attacks deal 30/45/70 bonus magic damage in waves at the current target and behind them. Shred enemies hit for 4 seconds. Finally, deal 190/285/430 magic damage to enemies around the target.\n\nHeadliner Effect: +25% Attack speed",
-        "origin_details": {
-            "Pentakill": "Pentakill champions reduce incoming damage by 15% and deal bonus damage. For each champon kill, a Pentakill champion rocks out and increases their damage bonus by 25%.\nOn the 5th kill, all Pentakill champions rock out and your team gains 50% Attack Speed.\n\n3: 15% bonus damage\n5: 30% bonus damage\n7: 45% bonus damage\n10: 50% damage reduction and 110% bonus damage\n\n"
-        },
-        "class_details": {
-            "Edgelord": "Edgelords gain Attack Speed, which doubles when their target drops below 50% Health. Edgelords with 1-hex range also dash through them on their next attack.\n\n3: 30% Attack speed\n5: 50% Attack speed\n7: 85% Attack speed\n\n"
-        }
+        "cost": 6,
+        "ability_text": "",
+        "origin_details": {},
+        "class_details": {}
     },
     "Kayn": {
-        "cost": 5,
-        "ability_text": "Dash, then deal 350/525/4000 magic damage to adjacent enemies and Chill them for 3 seconds. If Kayn only hits one target, he immediately casts again.\n\nHeadliner Effect: +10 Ability power. Shadow Assassin rewards an extra 2 gold. Rhaast rewards an extra 1 Tactician Health.",
+        "cost": 4,
+        "ability_text": "On first cast, transform, dealing 320/480/1800 physical damage to nearby enemies. While transformed, gain 30% Critical Strike Chance and critical attacks damage adjacent enemies. If the spin only hits one enemy, the damage is increased by 100%.\n\nSubsequent casts deal 190/285/1035 physical damage to units in a line through the target instead.",
         "origin_details": {
-            "Heartsteel": "Earn Hearts by killing enemies. Gain even more by losing player combat. Every 4 player combats, convert Hearts into powerful rewards!\n\n3: 1x Hearts\n5: 2.5x Hearts\n7: 6x Hearts\n9: 10x Hearts, Gain rewards every round and keep 80% of your Hearts!\n\n"
+            "Ghostly": "Upon dealing or taking damage 7 times, Ghostly units send 2 spectres to haunt nearby enemies and heal 3% max Health every 2 seconds.\nHaunted enemies take bonus damage for each spectre on them, and pass spectres on death.\n\n2: 5% per spectre\n4: 10% per spectre\n6: 16% per spectre\n8: 32% per spectre\n\n"
         },
         "class_details": {
-            "Edgelord": "Edgelords gain Attack Speed, which doubles when their target drops below 50% Health. Edgelords with 1-hex range also dash through them on their next attack.\n\n3: 30% Attack speed\n5: 50% Attack speed\n7: 85% Attack speed\n\n",
-            "Wildcard": "(unique) If you win player combat, Kayn becomes the Shadow Assassin. If not, he becomes Rhaast. You receive a reward based on his form every time he kills 2 enemy champions.\n\nShadow Assassin: 3 Gold\nRhaast: 1 player health.\n"
+            "Reaper": "(2) Reapers' Abilities can critically strike and they gain 20% Critical Strike Chance.\n\n(4) Additionally, Reapers bleed enemies for 45% bonus true damage over 3 seconds."
         }
     },
-    "Kennen": {
+    "Kha'Zix": {
         "cost": 1,
-        "ability_text": "Discharge 2 Jolts over 2 seconds. Each Jolt deals 160/240/360 magic damage to a random enemy within range and Stuns them for 0.75 seconds.\n\nBling Bonus: Discharge at 2nd target for 80% damage and Stun duration.\n\nHeadliner Effect: +75 Health Jolts heal 4% Maximum Health",
+        "ability_text": "Leap towards the lowest Health enemy within 3 hexes and deal 340% physical damage.",
         "origin_details": {
-            "True Damage": "True Damage champions deal bonus true damage. If they are holding an item, they gain a unique Bling Bonus for their Ability.\n\n2: 15% damage\n4: 30% damage\n6: 45% damage\n9: 125% damage, Bling Bonuses go Platinum!\n\n"
+            "Heavenly": "Heavenly units grant unique stats to your team, increased by their star level and each Heavenly unit in play.\n\n2: 100% bonus.\n3: 115% bonus.\n4: 135% bonus.\n5: 165% bonus.\n6: 200% bonus.\n7: 225% bonus.\n\n\nKha'Zix - 10% Critical strike chance\nMalphite - 8 Armor & Magic resist\nNeeko - 10 Health\nQiyana - 10% Attack damage\nSoraka - 10% Ability power\nWukong - 10% Attack speed\nEmblem - 6% Omnivamp\n\n"
         },
         "class_details": {
-            "Guardian": "Once per combat at 50% Health, Guardians shield themselves and their closest ally for a percent of their max Health.\n\n2: 30%\n4: 50%\n6: 70%\n\n",
-            "Superfan": "Superfans improve your Headliner!\n\n3: Headliner gets a completed item\n4: Headliner gets 250 Health and 15% Omnivamp\n5: Item upgrades to radiant\n\n"
+            "Reaper": "(2) Reapers' Abilities can critically strike and they gain 20% Critical Strike Chance.\n\n(4) Additionally, Reapers bleed enemies for 45% bonus true damage over 3 seconds."
+        }
+    },
+    "Kindred": {
+        "cost": 2,
+        "ability_text": "Dash away from the current target and deal 125/185/285% magic damage to them and 70/105/165% magic damage to the nearest enemy.\n\nFated Bonus: Gain 20% Attack Speed.",
+        "origin_details": {
+            "Dryad": "Dryads gain Ability Power and 200 Health. Each enemy death grants permanent additional Health.\n\n2: 15 Ability power; 2 Health per enemy death\n4: 30 Ability power; 6 Health per enemy death\n6: 65 Ability power; 10 Health per enemy death\n\n",
+            "Fated": "Hover one Fated unit over another to form a pair and unlock a Fated Bonus. Your pair gains 20% Health.\n\n3: Pair gets the Fated Bonus.\n5: All Fated champions get 200% of the Fated Bonus\n7: All Fated champions get 300% of the Fated Bonus\n10: All Fated champions gain 300% of EVERY Fated Bonus\n\n"
+        },
+        "class_details": {
+            "Reaper": "(2) Reapers' Abilities can critically strike and they gain 20% Critical Strike Chance.\n\n(4) Additionally, Reapers bleed enemies for 45% bonus true damage over 3 seconds."
+        }
+    },
+    "Kobuko": {
+        "cost": 1,
+        "ability_text": "Passive: Gain 10/12/20 permanent Health for each gold gained from interest.\n\nActive: Heal 300/350/400 Health over 2 seconds. Kobuko's next attack deals 15% HP as bonus magic damage.",
+        "origin_details": {
+            "Fortune": "When you lose a fight, gain Luck. The more fights in a row you lose, the more Luck you get.\nLose Luck when you win.\n\n3: Roll a die; in that many player combats, hold a Festival where you may convert your Luck into rewards.\n5: Heal 2 player health at the start of each player combat.\n7: Fortune smiles! Gain extra rewards and more luck every turn no matter what, and hold a Festival every turn.\n\n"
+        },
+        "class_details": {
+            "Bruiser": "Your team gains 100 maximum Health. Bruisers gain additional maximum Health.\n\n2: 20% Health\n4: 40% Health\n6: 65% Health\n8: 80% Health; Every 3 seconds, Bruisers deal 6% Health bonus physical damage on their next attack.\n\n"
+        }
+    },
+    "Kog'Maw": {
+        "cost": 1,
+        "ability_text": "Deal 160/225/315 magic damage to the lowest Health enemy within range. Every 3 casts, gain +1 Attack Range.",
+        "origin_details": {
+            "Mythic": "Mythic champions gain Health, Ability Power, and Attack Damage.\nAfter 4 player combats, they become Epic, increasing the bonus by 50%.\n\n3: +8% Health, 10% Ability power & Attack damage\n5: +18% Health, 20% Ability power & Attack damage\n7: +25% Health, 32% Ability power & Attack damage\n10: Instantly become Epic. The bonus is increased by 250% instead.\n\n"
+        },
+        "class_details": {
+            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana to all allies.\n4: 20 Mana to Invokers; 5 Mana to others.\n6: 35 Mana to Invokers; 20 Mana to others.\n\n",
+            "Sniper": "Innate: Snipers gain 1 Attack Range.\nSnipers deal more damage to targets farther away.\n\n2: 7% damage per hex.\n4: 15% damage per hex.\n6: 30% damage per hex. Snipers gain an additional 2 Attack Range.\n\n"
+        }
+    },
+    "Lee Sin": {
+        "cost": 4,
+        "ability_text": "Kick the target's spirit out of their body, dealing 293/439/1316 physical damage, 30% Mana Reaving them, and Stunning them. Enemies hit by the spirit take 98/146/658 physical damage. Gain 200/250/1000 Shield for 3 seconds.",
+        "origin_details": {
+            "Dragonlord": "After 8 seconds of combat, the Dragon strikes the board, dealing true damage to enemies and granting all allies Attack Speed for the rest of combat.\n\n2: 5% Health damage, 22% Attack speed\n3: 10% Health damage, 18% Attack speed\n4: 10% Health damage and Stuns for 1.5 seconds\n5: 15% Health damage, 45% Attack speed\n\n"
+        },
+        "class_details": {
+            "Duelist": "Duelists gain Attack Speed on each attack, stacking up to 12 times.\n\n2: 5% Attack speed\n4: 9% Attack speed\n6: 13% Attack speed; Duelists take 12% less damage\n8: 18% Attack speed; Duelists take 18% less damage\n\n"
         }
     },
     "Lillia": {
-        "cost": 1,
-        "ability_text": "Deal 180/270/400 magic damage to adjacent enemies. Heal Lillia for 180/220/260 and her nearest ally for 90/110/130.\n\nHeadliner Effect: +100 Health Confetti Bloom heals 20% more.",
-        "origin_details": {},
+        "cost": 4,
+        "ability_text": "Hurl an orb towards the current target, dealing 240/360/900% magic damage to the first enemy hit and adjacent enemies. It continues rolling as a smaller orb, dealing 120/180/400% magic damage to enemies it hits.\n\nEvery third cast launches a mega orb at her target that deals 300/450/1350 magic damage and splits into 3 smaller orbs that roll towards the farthest enemies.",
+        "origin_details": {
+            "Mythic": "Mythic champions gain Health, Ability Power, and Attack Damage.\nAfter 4 player combats, they become Epic, increasing the bonus by 50%.\n\n3: +8% Health, 10% Ability power & Attack damage\n5: +18% Health, 20% Ability power & Attack damage\n7: +25% Health, 32% Ability power & Attack damage\n10: Instantly become Epic. The bonus is increased by 250% instead.\n\n"
+        },
         "class_details": {
-            "Sentinel": "Your team gains Armor and Magic Resist. Sentinels gain double.\n\n2: 16 Armor, 16 Magic resist\n4: 35 Armor, 35 Magic resist\n6: 60 Armor, 60 Magic resist\n8: 125 Armor, 125 Magic resist\n\n",
-            "Superfan": "Superfans improve your Headliner!\n\n3: Headliner gets a completed item\n4: Headliner gets 250 Health and 15% Omnivamp\n5: Item upgrades to radiant\n\n"
+            "Invoker": "Every 3 seconds, your units gain Mana.\n\n2: 5 Mana to all allies.\n4: 20 Mana to Invokers; 5 Mana to others.\n6: 35 Mana to Invokers; 20 Mana to others.\n\n"
         }
     },
-    "Lucian": {
+    "Lissandra": {
         "cost": 5,
-        "ability_text": "Fire 14 shots toward the furthest enemy. Each shot explodes on the first enemy hit, dealing 59/88/1675 physical damage to all nearby enemies and reducing their Armor by 3/5/20 for the rest of combat.\n\nIf Arpeggio ends early, gain Mana based on the number of unused shots.\n\nHeadliner Effect: +10% Attack damage and Arpeggio fires 3 more shots.",
+        "ability_text": "Steep the current target in a teapot, Stunning and dealing 640/960/8888 magic damage over 3/3/15 seconds. If they die, there's a 50% chance that Lissandra turns them into a loot orb. Otherwise, Lissandra throws the teapot at the largest group of enemies, dealing 150/225/600 magic damage to all enemies hit.\n\nIf the target is the last enemy remaining, kill them instantly.",
         "origin_details": {
-            "Jazz": "For each active trait (except uniques), your team gains bonus Health and deals bonus damage.\n\n2: 2% Health, 1% Damage\n3: 3% Health, 2% Damage\n4: 4% Health, 3% Damage\n\n"
+            "Porcelain": "After casting, Porcelain champions boil, gaining Attack Speed and taking less damage for 4 seconds.\n\n2: 30% Attack speed; 20% reduced damage\n4: 60% Attack speed; 35% reduced damage\n6: 100% Attack speed; 50% reduced damage\n\n"
         },
         "class_details": {
-            "Rapidfire": "Your team gains 10% Attack Speed.\nRapidfire champions gain more on every attack, up to 10 stacks.\n\n2: 4% Attack speed\n4: 7% Attack speed\n6: 12% Attack speed\n\n"
-        }
-    },
-    "Lulu": {
-        "cost": 3,
-        "ability_text": "Fire a bolt toward the current target. It deals 240/360/575 magic damage to the first enemy it passes through and 150/225/360 magic damage to the second. Every 3rd cast, Stun the 3 nearest enemies for 1.25 seconds and deal 180/270/430 magic damage instead.\n\nHeadliner Effect: +25 Ability power",
-        "origin_details": {
-            "Hyperpop": "When Hyperpop champions use an Ability, they grant Mana and 4 seconds of Attack Speed to their 2 closest allies.\n\n1: 3 Mana and 10% Attack speed\n2: 5 Mana and 20% Attack speed\n3: 7 Mana and 35% Attack speed\n4: 10 Mana and 60% Attack speed\n\n"
-        },
-        "class_details": {
-            "Spellweaver": "Your team gains 15 Ability Power. Spellweavers gain more, plus extra Ability Power whenever a Spellweaver casts an Ability.\n\n3: +20 Ability power, +1 Ability power per cast\n5: +35 Ability power, +1 Ability power per cast\n7: +60 Ability power, +2 Ability power per cast\n10: +120 Ability power, +10 Ability power per cast\n\n"
+            "Arcanist": "Arcanists gain Ability Power and grant Ability Power to allies.\n\n2: 20 Ability power to all allies.\n4: 50 Ability power for Arcanists; 20 Ability power for others\n6: 85 Ability power for Arcanists; 40 Ability power for others\n8: 125 Ability power for Arcanists; 125 Ability power for others\n\n"
         }
     },
     "Lux": {
-        "cost": 3,
-        "ability_text": "Fire a beam at the farthest enemy, dealing 230/345/550 magic damage to all enemies it hits.\n\nHeadliner Effect: +15% Critical strike chance and this ability can critically strike.",
-        "origin_details": {},
-        "class_details": {
-            "Dazzler": "Dazzlers' Abilities reduce their target's damage by 15% and deal bonus magic damage over 2 seconds.\n\n2: 20% magic damage\n4: 60% magic damage\n6: 100% magic damage\n\n"
-        }
-    },
-    "Miss Fortune": {
-        "cost": 3,
-        "ability_text": "Deal 149/223/340 physical damage to the current target and 99/149/223 physical damage to the closest enemy behind them. If either die, gain 40% Attack Speed for 4 seconds.\n\nHeadliner Effect: +25% Attack damage",
+        "cost": 2,
+        "ability_text": "Throw a spirit bunny towards the farthest enemy, dealing 225/340/525% magic damage to enemies along the way, reduced by 30% each time it hits an enemy. The first 2 enemies hit are Stunned for 1.5 seconds.",
         "origin_details": {
-            "Jazz": "For each active trait (except uniques), your team gains bonus Health and deals bonus damage.\n\n2: 2% Health, 1% Damage\n3: 3% Health, 2% Damage\n4: 4% Health, 3% Damage\n\n"
+            "Porcelain": "After casting, Porcelain champions boil, gaining Attack Speed and taking less damage for 4 seconds.\n\n2: 30% Attack speed; 20% reduced damage\n4: 60% Attack speed; 35% reduced damage\n6: 100% Attack speed; 50% reduced damage\n\n"
         },
         "class_details": {
-            "Big Shot": "Big Shots gain Attack Damage, which increases for 3 seconds when they use their Ability.\n\n2: 10% Attack damage, 40% after casting\n4: 15% Attack damage, 60% after casting\n6: 25% Attack damage, 100% after casting\n\n"
+            "Arcanist": "Arcanists gain Ability Power and grant Ability Power to allies.\n\n2: 20 Ability power to all allies.\n4: 50 Ability power for Arcanists; 20 Ability power for others\n6: 85 Ability power for Arcanists; 40 Ability power for others\n8: 125 Ability power for Arcanists; 125 Ability power for others\n\n"
         }
     },
-    "Mordekaiser": {
-        "cost": 3,
-        "ability_text": "Gain a 500/575/650 Shield and deal 200/300/480 magic damage to adjacent enemies over 3 seconds. Afterwards, deal 200/300/480 magic damage to nearby enemies.\n\nWhen Face-Melter kills an enemy, gain 4% Ability Power and Attack Damage, and 4 Armor and Magic Resist.\n\nHeadliner Effect: +100 Health and +5 Ability power When this ability kills, permanently gain 1% permanent Ability Power.",
-        "origin_details": {
-            "Pentakill": "Pentakill champions reduce incoming damage by 15% and deal bonus damage. For each champon kill, a Pentakill champion rocks out and increases their damage bonus by 25%.\nOn the 5th kill, all Pentakill champions rock out and your team gains 50% Attack Speed.\n\n3: 15% bonus damage\n5: 30% bonus damage\n7: 45% bonus damage\n10: 50% damage reduction and 110% bonus damage\n\n"
-        },
-        "class_details": {
-            "Sentinel": "Your team gains Armor and Magic Resist. Sentinels gain double.\n\n2: 16 Armor, 16 Magic resist\n4: 35 Armor, 35 Magic resist\n6: 60 Armor, 60 Magic resist\n8: 125 Armor, 125 Magic resist\n\n"
-        }
-    },
-    "Nami": {
+    "Malphite": {
         "cost": 1,
-        "ability_text": "Deal 300/450/675 magic damage to the current target and Stun them for 1.5 seconds.\n\nHeadliner Effect: +20 Ability power",
+        "ability_text": "For 8 seconds, gain 75/90/110 Armor and attacks deal 45/90/180 magic damage to enemies in a cone.",
         "origin_details": {
-            "Disco": "Summon a movable Disco Ball.\nCombat start: Allies next to it gain Attack Speed and healing immediately and every 3 seconds.\n\n3: 5% Attack speed and 3% max Health\n4: 10% Attack speed and 4% max Health\n5: 2 Disco Balls, 15% Attack speed and 4% max Health\n6: 20% Attack speed and 6% max Health\n\n"
+            "Heavenly": "Heavenly units grant unique stats to your team, increased by their star level and each Heavenly unit in play.\n\n2: 100% bonus.\n3: 115% bonus.\n4: 135% bonus.\n5: 165% bonus.\n6: 200% bonus.\n7: 225% bonus.\n\n\nKha'Zix - 10% Critical strike chance\nMalphite - 8 Armor & Magic resist\nNeeko - 10 Health\nQiyana - 10% Attack damage\nSoraka - 10% Ability power\nWukong - 10% Attack speed\nEmblem - 6% Omnivamp\n\n"
         },
         "class_details": {
-            "Dazzler": "Dazzlers' Abilities reduce their target's damage by 15% and deal bonus magic damage over 2 seconds.\n\n2: 20% magic damage\n4: 60% magic damage\n6: 100% magic damage\n\n"
+            "Behemoth": "Behemoths gain increased Armor and Magic Resist. Whenever a Behemoth dies, the nearest Behemoth gains 50% more for 5 seconds.\n\n2: 25 Armor & Magic resist\n4: 55 Armor & Magic resist\n6: 80 Armor & Magic resist\n\n"
+        }
+    },
+    "Morgana": {
+        "cost": 4,
+        "ability_text": "Create a blizzard around a random enemy that deals 265/400/1600% magic damage over 3 seconds and Chills for 1 second.",
+        "origin_details": {
+            "Ghostly": "Upon dealing or taking damage 7 times, Ghostly units send 2 spectres to haunt nearby enemies and heal 3% max Health every 2 seconds.\nHaunted enemies take bonus damage for each spectre on them, and pass spectres on death.\n\n2: 5% per spectre\n4: 10% per spectre\n6: 16% per spectre\n8: 32% per spectre\n\n"
+        },
+        "class_details": {
+            "Sage": "Combat start: Allies in the front 2 rows gain Omnivamp. Allies in the back 2 rows gain Ability Power.\n\n2: 12% Omnivamp, 15 Ability power\n3: 20% Omnivamp, 30 Ability power\n4: 30% Omnivamp, 45 Ability power\n5: 45% Omnivamp, 75 Ability power\n\n"
+        }
+    },
+    "Nautilus": {
+        "cost": 4,
+        "ability_text": "Send 3 shockwaves towards the most enemies in a line, dealing 150/225/1000 magic damage and Stunning all enemies hit for 1.75/2/8 seconds.",
+        "origin_details": {
+            "Mythic": "Mythic champions gain Health, Ability Power, and Attack Damage.\nAfter 4 player combats, they become Epic, increasing the bonus by 50%.\n\n3: +8% Health, 10% Ability power & Attack damage\n5: +18% Health, 20% Ability power & Attack damage\n7: +25% Health, 32% Ability power & Attack damage\n10: Instantly become Epic. The bonus is increased by 250% instead.\n\n"
+        },
+        "class_details": {
+            "Warden": "Wardens take less damage. For the first 10 seconds of combat, they take an additional 12% less damage.\n\n2: 15% less damage\n4: 25% less damage\n6: 40% less damage\n\n"
         }
     },
     "Neeko": {
-        "cost": 3,
-        "ability_text": "Cosplay the highest Health ally and gain a 250/300/350 Shield + 5% of the ally's Health for 4 seconds. When it breaks, deal 70/90/115% of its initial value as magic damage to adjacent enemies.\n\nHeadliner Effect: +200 Health Neeko grants 20 Mana to the ally she copies.",
-        "origin_details": {},
-        "class_details": {
-            "Guardian": "Once per combat at 50% Health, Guardians shield themselves and their closest ally for a percent of their max Health.\n\n2: 30%\n4: 50%\n6: 70%\n\n",
-            "Superfan": "Superfans improve your Headliner!\n\n3: Headliner gets a completed item\n4: Headliner gets 250 Health and 15% Omnivamp\n5: Item upgrades to radiant\n\n"
-        }
-    },
-    "Olaf": {
-        "cost": 1,
-        "ability_text": "Passive: Heal 20/25/35 Health on attack. For every 1% missing Health, gain 0.1% Attack Speed.\n\nHeadliner Effect: +75 Health, +10 Armor and +10 Magic resist",
-        "origin_details": {
-            "Pentakill": "Pentakill champions reduce incoming damage by 15% and deal bonus damage. For each champon kill, a Pentakill champion rocks out and increases their damage bonus by 25%.\nOn the 5th kill, all Pentakill champions rock out and your team gains 50% Attack Speed.\n\n3: 15% bonus damage\n5: 30% bonus damage\n7: 45% bonus damage\n10: 50% damage reduction and 110% bonus damage\n\n"
-        },
-        "class_details": {
-            "Bruiser": "Your team gains 100 Health. Bruisers gain bonus max Health.\n\n2: 20% max Health\n4: 40% max Health\n6: 80% max Health\n\n"
-        }
-    },
-    "Pantheon": {
         "cost": 2,
-        "ability_text": "Reduce damage taken by 40/40/45% for 2.5 seconds. Afterwards, deal 110/165/248 physical damage to the 3 enemies who dealt the most damage to Pantheon during the duration.\n\nHeadliner Effect: +200 Health, +20 Armor and +20 Magic resist",
+        "ability_text": "Hop into the air, reducing damage taken by 35/35/40% and Healing 250/280/320 Health over 2 seconds. After, slam down and deal 200/300/475 magic damage to adjacent enemies.",
         "origin_details": {
-            "Punk": "Punks gain bonus Health and Attack Damage, which increases by 1% every time you spend gold on a Shop reroll.\nAfter Punks fight in combat, your 1st Shop reroll costs 1 gold and grants 3% bonus instead!\n\n2: 160 Health and 16% Attack damage\n4: 260 Health and 26% Attack damage\n6: 420 Health and 42% Attack damage\n\n"
+            "Heavenly": "Heavenly units grant unique stats to your team, increased by their star level and each Heavenly unit in play.\n\n2: 100% bonus.\n3: 115% bonus.\n4: 135% bonus.\n5: 165% bonus.\n6: 200% bonus.\n7: 225% bonus.\n\n\nKha'Zix - 10% Critical strike chance\nMalphite - 8 Armor & Magic resist\nNeeko - 10 Health\nQiyana - 10% Attack damage\nSoraka - 10% Ability power\nWukong - 10% Attack speed\nEmblem - 6% Omnivamp\n\n",
+            "Mythic": "Mythic champions gain Health, Ability Power, and Attack Damage.\nAfter 4 player combats, they become Epic, increasing the bonus by 50%.\n\n3: +8% Health, 10% Ability power & Attack damage\n5: +18% Health, 20% Ability power & Attack damage\n7: +25% Health, 32% Ability power & Attack damage\n10: Instantly become Epic. The bonus is increased by 250% instead.\n\n"
         },
         "class_details": {
-            "Guardian": "Once per combat at 50% Health, Guardians shield themselves and their closest ally for a percent of their max Health.\n\n2: 30%\n4: 50%\n6: 70%\n\n"
+            "Arcanist": "Arcanists gain Ability Power and grant Ability Power to allies.\n\n2: 20 Ability power to all allies.\n4: 50 Ability power for Arcanists; 20 Ability power for others\n6: 85 Ability power for Arcanists; 40 Ability power for others\n8: 125 Ability power for Arcanists; 125 Ability power for others\n\n"
         }
     },
-    "Poppy": {
+    "Ornn": {
         "cost": 4,
-        "ability_text": "Passive: Gain Attack Damage based on bonus Health. (Current: 30/54/97%)\n\nActive: Gain 80 Armor and Magic Resistance for 6 seconds. Hammer the nearest enemy 3 times; each deals 144/216/675 physical damage and heals 40/72/130 Health. If this kills an enemy, slam an additional time.\n\nHeadliner Effect: +150 Health and +10% Attack damage",
+        "ability_text": "Gain 500/710/1848 shield for 4 seconds. Channel and forge unstoppably over 2 seconds, dealing 300/450/1500 magic damage to adjacent enemies over the duration. After, toss an ephemeral Completed item to the nearest ally.",
         "origin_details": {
-            "Emo": "Emo champions' Abilities cost less Mana to cast, and they gain Mana whenever an allied champion dies.\n\n2: 20% less, gain 10 Mana\n4: 25% less, gain 20 Mana\n6: 20 Ability power; 30% less, gain 25 Mana\n\n"
+            "Dryad": "Dryads gain Ability Power and 200 Health. Each enemy death grants permanent additional Health.\n\n2: 15 Ability power; 2 Health per enemy death\n4: 30 Ability power; 6 Health per enemy death\n6: 65 Ability power; 10 Health per enemy death\n\n"
         },
         "class_details": {
-            "Mosher": "Moshers gain Attack Speed and Omnivamp, which increases up to 100% based on their missing Health.\n\n2: 20% Attack speed, 10% Omnivamp\n4: 30% Attack speed, 15% Omnivamp\n6: 50% Attack speed, 20% Omnivamp\n\n"
+            "Behemoth": "Behemoths gain increased Armor and Magic Resist. Whenever a Behemoth dies, the nearest Behemoth gains 50% more for 5 seconds.\n\n2: 25 Armor & Magic resist\n4: 55 Armor & Magic resist\n6: 80 Armor & Magic resist\n\n"
         }
     },
     "Qiyana": {
-        "cost": 5,
-        "ability_text": "Copy 1/2/3 of the current target's items and throw them to an ally. Deal 356/534/3375 physical damage and knock them back. If the target had no items, deal 267/401/16875 additional true damage and knock them back to the edge of the board instead.\n\nBling Bonus: After Sample & Remix kills a champion and copies an item, create 1 permanent component.\n\nHeadliner Effect: +15% Attack damage. When Qiyana copies an item, she permanently gains 5% Attack Damage.",
+        "cost": 2,
+        "ability_text": "For 4 seconds, attacks deal 150% bonus physical damage to the target and 88/131/197 physical damage to enemies behind them. Qiyana will dash to find the best angle.",
         "origin_details": {
-            "True Damage": "True Damage champions deal bonus true damage. If they are holding an item, they gain a unique Bling Bonus for their Ability.\n\n2: 15% damage\n4: 30% damage\n6: 45% damage\n9: 125% damage, Bling Bonuses go Platinum!\n\n"
+            "Heavenly": "Heavenly units grant unique stats to your team, increased by their star level and each Heavenly unit in play.\n\n2: 100% bonus.\n3: 115% bonus.\n4: 135% bonus.\n5: 165% bonus.\n6: 200% bonus.\n7: 225% bonus.\n\n\nKha'Zix - 10% Critical strike chance\nMalphite - 8 Armor & Magic resist\nNeeko - 10 Health\nQiyana - 10% Attack damage\nSoraka - 10% Ability power\nWukong - 10% Attack speed\nEmblem - 6% Omnivamp\n\n"
         },
         "class_details": {
-            "Crowd Diver": "After Crowd Divers die, they leap onto the furthest enemy, dealing 400 magic damage. Enemies within 1 hex are Stunned for 1.5 seconds.\nThey also deal bonus damage, increased by 1% each second.\n\n2: 5% bonus damage\n4: 20% bonus damage\n6: 50% bonus damage\n\n"
+            "Duelist": "Duelists gain Attack Speed on each attack, stacking up to 12 times.\n\n2: 5% Attack speed\n4: 9% Attack speed\n6: 13% Attack speed; Duelists take 12% less damage\n8: 18% Attack speed; Duelists take 18% less damage\n\n"
+        }
+    },
+    "Rakan": {
+        "cost": 5,
+        "ability_text": "Grand Entrance:\n\nDash into the largest group of enemies and deal 240/360/1500 magic damage to enemies in a 2-hex range. Gain 175/225/500 Shield for each enemy hit for 2 seconds and reduce their damage by 10% for 4 seconds.\n\nDeadly Plumage:\n\nXayah deals 200/300/800 physical damage to all enemies hit by Rakan's ability.",
+        "origin_details": {
+            "Dragonlord": "After 8 seconds of combat, the Dragon strikes the board, dealing true damage to enemies and granting all allies Attack Speed for the rest of combat.\n\n2: 5% Health damage, 22% Attack speed\n3: 10% Health damage, 18% Attack speed\n4: 10% Health damage and Stuns for 1.5 seconds\n5: 15% Health damage, 45% Attack speed\n\n"
+        },
+        "class_details": {
+            "Altruist": "Altruists heal the lowest Health ally for 15% of damage they deal. Your team gains Armor and Magic Resist.\n\n2: 10 Armor & Magic resist\n3: 20 Armor & Magic resist\n4: 40 Armor & Magic resist\n\n",
+            "Lovers": "(1) Change which Lover takes the field depending on whether they are placed in the front or back 2 rows. When the fielded Lover casts, the other provides a bonus effect.\n\nFront: Altruist Rakan\nBack: Trickshot Xayah\n\n"
+        }
+    },
+    "Rek'Sai": {
+        "cost": 1,
+        "ability_text": "Gain 50 Armor and Magic Resist for 5 seconds. Stun nearby enemies for 1 second and deal 148/230/373 magic damage.",
+        "origin_details": {
+            "Dryad": "Dryads gain Ability Power and 200 Health. Each enemy death grants permanent additional Health.\n\n2: 15 Ability power; 2 Health per enemy death\n4: 30 Ability power; 6 Health per enemy death\n6: 65 Ability power; 10 Health per enemy death\n\n"
+        },
+        "class_details": {
+            "Bruiser": "Your team gains 100 maximum Health. Bruisers gain additional maximum Health.\n\n2: 20% Health\n4: 40% Health\n6: 65% Health\n8: 80% Health; Every 3 seconds, Bruisers deal 6% Health bonus physical damage on their next attack.\n\n"
         }
     },
     "Riven": {
-        "cost": 3,
-        "ability_text": "For the next 6 seconds, gain a 250/345/478 Shield and attacks deal 30/45/68 bonus physical damage to enemies within 1 hex of the target.\n\nHeadliner Effect: +200 Health, +10% Attack damage, +10 Armor and +10 Magic resist.",
-        "origin_details": {},
-        "class_details": {
-            "Edgelord": "Edgelords gain Attack Speed, which doubles when their target drops below 50% Health. Edgelords with 1-hex range also dash through them on their next attack.\n\n3: 30% Attack speed\n5: 50% Attack speed\n7: 85% Attack speed\n\n"
-        }
-    },
-    "Samira": {
-        "cost": 3,
-        "ability_text": "Passive: Attacks that critically strike grant a stack of Style, up to 6 stacks. Each stack grants 20% Attack Speed.\n\nActive: Deal 144/216/338 physical damage to the current target, then another 66/99/149 physical damage per Style stack. Afterwards, reset Style.\n\nHeadliner Effect: +15% Attack damage and +10% Critical strike chance.",
+        "cost": 2,
+        "ability_text": "Deal 75/113/174 physical damage to the current target. Every 3rd cast, instead deal 150/225/349 physical damage to the current target and enemies adjacent to them, then heal for 175/225/275% Health.",
         "origin_details": {
-            "Country": "When your team loses 30% of their Health, call a Dreadsteed that empowers your team. Each Country star level increases the Dreadsteed's Health and Attack Damage.\n\n3: Dreadsteed\n5: Midnight Dreadsteed\n7: Infernal Invocation Dreadsteed\n\n"
+            "Storyweaver": "Storyweavers summon a Hero named Kayle and evolve her. Storyweavers gain max Health.\n\n3: Pick a supportive effect. 60 Health\n5: Pick a combat effect. 100 Health\n7: Pick a combat effect. 150 Health\n10: Ascend. 250 Health\n\n"
         },
         "class_details": {
-            "Executioner": "Executioner Abilities can critically strike and they gain Critical Strike Damage. Their Critical Strike Chance is increased based on their target's missing Health.\n\n2: 15% Critical strike damage. Up to 15% Critical strike chance\n4: 30% Critical strike damage. Up to 35% Critical strike chance\n6: 55% Critical strike damage. Up to 55% Critical strike chance\n\n"
+            "Altruist": "Altruists heal the lowest Health ally for 15% of damage they deal. Your team gains Armor and Magic Resist.\n\n2: 10 Armor & Magic resist\n3: 20 Armor & Magic resist\n4: 40 Armor & Magic resist\n\n",
+            "Bruiser": "Your team gains 100 maximum Health. Bruisers gain additional maximum Health.\n\n2: 20% Health\n4: 40% Health\n6: 65% Health\n8: 80% Health; Every 3 seconds, Bruisers deal 6% Health bonus physical damage on their next attack.\n\n"
         }
     },
     "Senna": {
         "cost": 2,
-        "ability_text": "Fire a blast of sound at the current target's location. It pulses 3 times, each dealing 105/155/225 magic damage to enemies within 1 hex.\n\nBling Bonus: -15 max Mana\n\nHeadliner Effect: +5 Ability power and each pulse grows larger.",
+        "ability_text": "Fire a laser 2 Hexes beyond the current target, dealing 230/230/240% physical damage and 10/15/25% magic damage to enemies hit. Grant 20/25/30% Attack Damage to Senna and allies to the left and right for 4 seconds.",
         "origin_details": {
-            "True Damage": "True Damage champions deal bonus true damage. If they are holding an item, they gain a unique Bling Bonus for their Ability.\n\n2: 15% damage\n4: 30% damage\n6: 45% damage\n9: 125% damage, Bling Bonuses go Platinum!\n\n"
+            "Inkshadow": "Gain unique Inkshadow items. Inkshadow champions gain 5/10/20% bonus damage and damage reduction.\n\n3: 1 Item\n5: 2 Items and 5% more bonus damage and damage reduction\n7: 4 Items\n\n"
         },
         "class_details": {
-            "Rapidfire": "Your team gains 10% Attack Speed.\nRapidfire champions gain more on every attack, up to 10 stacks.\n\n2: 4% Attack speed\n4: 7% Attack speed\n6: 12% Attack speed\n\n"
-        }
-    },
-    "Seraphine": {
-        "cost": 2,
-        "ability_text": "Send a high note to the largest clump of units that hits all units within 1 hex. Enemies take 140/210/315 magic damage. Allies heal for 80/120/160 Health.\n\nHeadliner Effect: Every other cast, send another High Note that deals 60% damage and heals 60%.",
-        "origin_details": {},
-        "class_details": {
-            "Spellweaver": "Your team gains 15 Ability Power. Spellweavers gain more, plus extra Ability Power whenever a Spellweaver casts an Ability.\n\n3: +20 Ability power, +1 Ability power per cast\n5: +35 Ability power, +1 Ability power per cast\n7: +60 Ability power, +2 Ability power per cast\n10: +120 Ability power, +10 Ability power per cast\n\n"
+            "Sniper": "Innate: Snipers gain 1 Attack Range.\nSnipers deal more damage to targets farther away.\n\n2: 7% damage per hex.\n4: 15% damage per hex.\n6: 30% damage per hex. Snipers gain an additional 2 Attack Range.\n\n"
         }
     },
     "Sett": {
-        "cost": 3,
-        "ability_text": "Gain a 375/425/475 Shield for 2 seconds, increased by 1 for every 4 missing Health. Deal 275/420/680 magic damage to the current target and 130/210/340 magic damage to enemies in a cone around them.\n\nHeadliner Effect: +250 Health. At 15% Health, gain 50 max Health permanently.",
+        "cost": 5,
+        "ability_text": "Passive: At the start of combat, squat adjacent units in the same row. Permanently gain 2% Attack Damage for each 1000 Health squatted.\n\nActive: Slam the current target forward, Stunning them and dealing 176/263/13164 physical damage. Deal 108/162/2176 plus 8/12/1000% of the target's maximum health as physical damage to enemies within 2.5 hexes.\n\nFated Bonus: Gain 15% Omnivamp.",
         "origin_details": {
-            "Heartsteel": "Earn Hearts by killing enemies. Gain even more by losing player combat. Every 4 player combats, convert Hearts into powerful rewards!\n\n3: 1x Hearts\n5: 2.5x Hearts\n7: 6x Hearts\n9: 10x Hearts, Gain rewards every round and keep 80% of your Hearts!\n\n"
+            "Fated": "Hover one Fated unit over another to form a pair and unlock a Fated Bonus. Your pair gains 20% Health.\n\n3: Pair gets the Fated Bonus.\n5: All Fated champions get 200% of the Fated Bonus\n7: All Fated champions get 300% of the Fated Bonus\n10: All Fated champions gain 300% of EVERY Fated Bonus\n\n",
+            "Umbral": "The moon illuminates hexes, Shielding units placed in them at the start of combat.\nUmbral units in illuminated hexes execute low Health enemies.\n\n2: 200 Shield; 10% Health execute\n4: 500 Shield; 18% Health execute. More hexes are illuminated.\n6: 1000 Shield and illuminate the whole board\n8: Executed enemies have a 100% chance to drop loot; 45% Health execute\n\n"
         },
         "class_details": {
-            "Bruiser": "Your team gains 100 Health. Bruisers gain bonus max Health.\n\n2: 20% max Health\n4: 40% max Health\n6: 80% max Health\n\n",
-            "Mosher": "Moshers gain Attack Speed and Omnivamp, which increases up to 100% based on their missing Health.\n\n2: 20% Attack speed, 10% Omnivamp\n4: 30% Attack speed, 15% Omnivamp\n6: 50% Attack speed, 20% Omnivamp\n\n"
+            "Warden": "Wardens take less damage. For the first 10 seconds of combat, they take an additional 12% less damage.\n\n2: 15% less damage\n4: 25% less damage\n6: 40% less damage\n\n"
         }
     },
-    "Sona": {
-        "cost": 5,
-        "ability_text": "Passive: Attacks instead send a beat to an ally, healing them for 4/7/100% of their maximum Health.\n\nActive: Send a beat to all allies and grant them a 350/550/3333 Shield for 2/2/30 seconds.\n\nHeadliner Effect: +5% Attack speed. Gains 2% Attack Speed every time she attacks.",
+    "Shen": {
+        "cost": 2,
+        "ability_text": "For 4 seconds, reduce damage taken by 40/50/70 for Shen and 15/20/30 for adjacent allies. Shen's next 3 attacks deal 55/124/291 bonus true damage.",
         "origin_details": {
-            "Mixmaster": "(unique) Choose a mode that changes the Mixmaster's attacks and Ability!"
+            "Ghostly": "Upon dealing or taking damage 7 times, Ghostly units send 2 spectres to haunt nearby enemies and heal 3% max Health every 2 seconds.\nHaunted enemies take bonus damage for each spectre on them, and pass spectres on death.\n\n2: 5% per spectre\n4: 10% per spectre\n6: 16% per spectre\n8: 32% per spectre\n\n"
         },
         "class_details": {
-            "Spellweaver": "Your team gains 15 Ability Power. Spellweavers gain more, plus extra Ability Power whenever a Spellweaver casts an Ability.\n\n3: +20 Ability power, +1 Ability power per cast\n5: +35 Ability power, +1 Ability power per cast\n7: +60 Ability power, +2 Ability power per cast\n10: +120 Ability power, +10 Ability power per cast\n\n"
+            "Behemoth": "Behemoths gain increased Armor and Magic Resist. Whenever a Behemoth dies, the nearest Behemoth gains 50% more for 5 seconds.\n\n2: 25 Armor & Magic resist\n4: 55 Armor & Magic resist\n6: 80 Armor & Magic resist\n\n"
+        }
+    },
+    "Sivir": {
+        "cost": 1,
+        "ability_text": "Gain 95/95/100% Attack Damage and grant 15/20/25% Attack Speed to self and adjacent allies for 6 seconds.",
+        "origin_details": {
+            "Storyweaver": "Storyweavers summon a Hero named Kayle and evolve her. Storyweavers gain max Health.\n\n3: Pick a supportive effect. 60 Health\n5: Pick a combat effect. 100 Health\n7: Pick a combat effect. 150 Health\n10: Ascend. 250 Health\n\n"
+        },
+        "class_details": {
+            "Trickshot": "Trickshots' abilities ricochet. Each ricochet deals a percentage of the previous bounce's damage.\n\n2: 1 ricochet; 40% of previous damage\n4: 2 ricochets; 60% of previous damage\n\n"
+        }
+    },
+    "Soraka": {
+        "cost": 3,
+        "ability_text": "Passive: Each time your team loses 20% of their total Health, gain 10 Ability Power for the rest of combat.\n\nActive: Mana Reave the largest group of enemies within range. Deal 230/345/550% magic damage to the center enemy and 120/180/290% magic damage to adjacent enemies.",
+        "origin_details": {
+            "Heavenly": "Heavenly units grant unique stats to your team, increased by their star level and each Heavenly unit in play.\n\n2: 100% bonus.\n3: 115% bonus.\n4: 135% bonus.\n5: 165% bonus.\n6: 200% bonus.\n7: 225% bonus.\n\n\nKha'Zix - 10% Critical strike chance\nMalphite - 8 Armor & Magic resist\nNeeko - 10 Health\nQiyana - 10% Attack damage\nSoraka - 10% Ability power\nWukong - 10% Attack speed\nEmblem - 6% Omnivamp\n\n"
+        },
+        "class_details": {
+            "Altruist": "Altruists heal the lowest Health ally for 15% of damage they deal. Your team gains Armor and Magic Resist.\n\n2: 10 Armor & Magic resist\n3: 20 Armor & Magic resist\n4: 40 Armor & Magic resist\n\n"
+        }
+    },
+    "Sylas": {
+        "cost": 4,
+        "ability_text": "Dash around the target and slam, dealing 150/225/675 magic damage and healing for 125/150/400 Health. Then, swipe twice, dealing 100/150/450 magic damage to nearby enemies.",
+        "origin_details": {
+            "Umbral": "The moon illuminates hexes, Shielding units placed in them at the start of combat.\nUmbral units in illuminated hexes execute low Health enemies.\n\n2: 200 Shield; 10% Health execute\n4: 500 Shield; 18% Health execute. More hexes are illuminated.\n6: 1000 Shield and illuminate the whole board\n8: Executed enemies have a 100% chance to drop loot; 45% Health execute\n\n"
+        },
+        "class_details": {
+            "Bruiser": "Your team gains 100 maximum Health. Bruisers gain additional maximum Health.\n\n2: 20% Health\n4: 40% Health\n6: 65% Health\n8: 80% Health; Every 3 seconds, Bruisers deal 6% Health bonus physical damage on their next attack.\n\n"
+        }
+    },
+    "Syndra": {
+        "cost": 4,
+        "ability_text": "Passive: Start combat with 7/7/10 butterflies and gain one every 1 casts.\n\nActive: Throw all butterflies at the current target, dealing 40/60/180 magic damage for each butterfly.\n\nFated Bonus: Deal 12% more damage.",
+        "origin_details": {
+            "Fated": "Hover one Fated unit over another to form a pair and unlock a Fated Bonus. Your pair gains 20% Health.\n\n3: Pair gets the Fated Bonus.\n5: All Fated champions get 200% of the Fated Bonus\n7: All Fated champions get 300% of the Fated Bonus\n10: All Fated champions gain 300% of EVERY Fated Bonus\n\n"
+        },
+        "class_details": {
+            "Arcanist": "Arcanists gain Ability Power and grant Ability Power to allies.\n\n2: 20 Ability power to all allies.\n4: 50 Ability power for Arcanists; 20 Ability power for others\n6: 85 Ability power for Arcanists; 40 Ability power for others\n8: 125 Ability power for Arcanists; 125 Ability power for others\n\n"
         }
     },
     "Tahm Kench": {
-        "cost": 1,
-        "ability_text": "Passive: Reduce each instance of incoming damage by 12/15/25.\n\nHeadliner Effect: +225 Health",
+        "cost": 3,
+        "ability_text": "Gain 170/306/551 Shield for 3 seconds and deal 300/450/700 magic damage to the current target. If Tahm Kench has more Health than them, deal 480/720/1120 magic damage instead. Otherwise, gain 200/250/300 more Shield.",
         "origin_details": {
-            "Country": "When your team loses 30% of their Health, call a Dreadsteed that empowers your team. Each Country star level increases the Dreadsteed's Health and Attack Damage.\n\n3: Dreadsteed\n5: Midnight Dreadsteed\n7: Infernal Invocation Dreadsteed\n\n"
+            "Mythic": "Mythic champions gain Health, Ability Power, and Attack Damage.\nAfter 4 player combats, they become Epic, increasing the bonus by 50%.\n\n3: +8% Health, 10% Ability power & Attack damage\n5: +18% Health, 20% Ability power & Attack damage\n7: +25% Health, 32% Ability power & Attack damage\n10: Instantly become Epic. The bonus is increased by 250% instead.\n\n"
         },
         "class_details": {
-            "Bruiser": "Your team gains 100 Health. Bruisers gain bonus max Health.\n\n2: 20% max Health\n4: 40% max Health\n6: 80% max Health\n\n"
+            "Bruiser": "Your team gains 100 maximum Health. Bruisers gain additional maximum Health.\n\n2: 20% Health\n4: 40% Health\n6: 65% Health\n8: 80% Health; Every 3 seconds, Bruisers deal 6% Health bonus physical damage on their next attack.\n\n"
         }
     },
-    "Taric": {
-        "cost": 1,
-        "ability_text": "Gain a 279/360/456 Shield for 4 seconds. Taric's next 2 attacks deal 100/150/225 bonus magic damage.\n\nHeadliner Effect: +100 Health and +15 Armor",
+    "Teemo": {
+        "cost": 2,
+        "ability_text": "Throw a spoiled dumpling at the nearest non-poisoned enemy, poisoning them for 420/630/1050% magic damage over 10 seconds.",
         "origin_details": {
-            "Disco": "Summon a movable Disco Ball.\nCombat start: Allies next to it gain Attack Speed and healing immediately and every 3 seconds.\n\n3: 5% Attack speed and 3% max Health\n4: 10% Attack speed and 4% max Health\n5: 2 Disco Balls, 15% Attack speed and 4% max Health\n6: 20% Attack speed and 6% max Health\n\n"
+            "Fortune": "When you lose a fight, gain Luck. The more fights in a row you lose, the more Luck you get.\nLose Luck when you win.\n\n3: Roll a die; in that many player combats, hold a Festival where you may convert your Luck into rewards.\n5: Heal 2 player health at the start of each player combat.\n7: Fortune smiles! Gain extra rewards and more luck every turn no matter what, and hold a Festival every turn.\n\n"
         },
         "class_details": {
-            "Guardian": "Once per combat at 50% Health, Guardians shield themselves and their closest ally for a percent of their max Health.\n\n2: 30%\n4: 50%\n6: 70%\n\n"
+            "Trickshot": "Trickshots' abilities ricochet. Each ricochet deals a percentage of the previous bounce's damage.\n\n2: 1 ricochet; 40% of previous damage\n4: 2 ricochets; 60% of previous damage\n\n"
         }
     },
     "Thresh": {
-        "cost": 4,
-        "ability_text": "Stun the largest group of nearby enemies for 1.75/2/8 seconds and deal 150/225/1200 magic damage to each. Thresh heals for 250/300/600 + 50% of the total damage dealt.\n\nHeadliner Effect: +100 Health. Reduce max Mana by 25.",
-        "origin_details": {
-            "Country": "When your team loses 30% of their Health, call a Dreadsteed that empowers your team. Each Country star level increases the Dreadsteed's Health and Attack Damage.\n\n3: Dreadsteed\n5: Midnight Dreadsteed\n7: Infernal Invocation Dreadsteed\n\n"
-        },
-        "class_details": {
-            "Guardian": "Once per combat at 50% Health, Guardians shield themselves and their closest ally for a percent of their max Health.\n\n2: 30%\n4: 50%\n6: 70%\n\n"
-        }
-    },
-    "True Damage Akali": {
-        "cost": 4,
-        "ability_text": "Deal 175/263/788 physical damage three times split between the three closest enemies within three hexes. For each enemy that survives all three waves, refund 12/12/20 Mana.\n\nBling Bonus: Heal for 20% of the damage dealt with Three Point Strike.\n\nHeadliner Effect: +100 Health and +10% Attack speed",
-        "origin_details": {
-            "Breakout": "(unique) Akali is a member of K/DA or True Damage depending on which trait has more fielded champions. She gains a different Ability depending on which form she takes.",
-            "True Damage": "True Damage champions deal bonus true damage. If they are holding an item, they gain a unique Bling Bonus for their Ability.\n\n2: 15% damage\n4: 30% damage\n6: 45% damage\n9: 125% damage, Bling Bonuses go Platinum!\n\n"
-        },
-        "class_details": {
-            "Executioner": "Executioner Abilities can critically strike and they gain Critical Strike Damage. Their Critical Strike Chance is increased based on their target's missing Health.\n\n2: 15% Critical strike damage. Up to 15% Critical strike chance\n4: 30% Critical strike damage. Up to 35% Critical strike chance\n6: 55% Critical strike damage. Up to 55% Critical strike chance\n\n"
-        }
-    },
-    "Twisted Fate": {
-        "cost": 4,
-        "ability_text": "Throw 21 cards divided between the current target and 3 nearest enemies. They reduce Magic Resist by 1 and deal 45/70/210 magic damage.\n\nHeadliner Effect: Throws 3 extra cards.",
-        "origin_details": {
-            "Disco": "Summon a movable Disco Ball.\nCombat start: Allies next to it gain Attack Speed and healing immediately and every 3 seconds.\n\n3: 5% Attack speed and 3% max Health\n4: 10% Attack speed and 4% max Health\n5: 2 Disco Balls, 15% Attack speed and 4% max Health\n6: 20% Attack speed and 6% max Health\n\n"
-        },
-        "class_details": {
-            "Dazzler": "Dazzlers' Abilities reduce their target's damage by 15% and deal bonus magic damage over 2 seconds.\n\n2: 20% magic damage\n4: 60% magic damage\n6: 100% magic damage\n\n"
-        }
-    },
-    "Twitch": {
-        "cost": 2,
-        "ability_text": "Throw a bottle at the current target, which deals 90/135/203 physical damage to enemies within 1 hex. It explodes into 6 shards; each dealing 35/50/80 magic damage to a random enemy within 2 hexes. Each enemy critically struck by the bottle creates 1 more shard.\n\nHeadliner Effect: +15% Attack damage and +20% Critical strike change",
-        "origin_details": {
-            "Punk": "Punks gain bonus Health and Attack Damage, which increases by 1% every time you spend gold on a Shop reroll.\nAfter Punks fight in combat, your 1st Shop reroll costs 1 gold and grants 3% bonus instead!\n\n2: 160 Health and 16% Attack damage\n4: 260 Health and 26% Attack damage\n6: 420 Health and 42% Attack damage\n\n"
-        },
-        "class_details": {
-            "Executioner": "Executioner Abilities can critically strike and they gain Critical Strike Damage. Their Critical Strike Chance is increased based on their target's missing Health.\n\n2: 15% Critical strike damage. Up to 15% Critical strike chance\n4: 30% Critical strike damage. Up to 35% Critical strike chance\n6: 55% Critical strike damage. Up to 55% Critical strike chance\n\n"
-        }
-    },
-    "Urgot": {
         "cost": 3,
-        "ability_text": "For 8 seconds, convert bonus Attack Speed to Attack Damage. Attacks deal 120/183/283 physical damage in a cone and grant Urgot 30% of the damage dealt as a 5 second Shield.\n\nHeadliner Effect: +15% Attack damage and +10% Omnivamp",
+        "ability_text": "Grant 360/400/450 Shield to Thresh and the lowest Health ally for 4 seconds and deal 100/150/250 magic damage to enemies adjacent to both. Thresh shares 15/15/20% of his Armor and Magic Resist with the shielded ally for 6 seconds.\n\nFated Bonus: Gain 18 Armor and Magic Resist.",
         "origin_details": {
-            "Country": "When your team loses 30% of their Health, call a Dreadsteed that empowers your team. Each Country star level increases the Dreadsteed's Health and Attack Damage.\n\n3: Dreadsteed\n5: Midnight Dreadsteed\n7: Infernal Invocation Dreadsteed\n\n"
+            "Fated": "Hover one Fated unit over another to form a pair and unlock a Fated Bonus. Your pair gains 20% Health.\n\n3: Pair gets the Fated Bonus.\n5: All Fated champions get 200% of the Fated Bonus\n7: All Fated champions get 300% of the Fated Bonus\n10: All Fated champions gain 300% of EVERY Fated Bonus\n\n"
         },
         "class_details": {
-            "Mosher": "Moshers gain Attack Speed and Omnivamp, which increases up to 100% based on their missing Health.\n\n2: 20% Attack speed, 10% Omnivamp\n4: 30% Attack speed, 15% Omnivamp\n6: 50% Attack speed, 20% Omnivamp\n\n"
+            "Behemoth": "Behemoths gain increased Armor and Magic Resist. Whenever a Behemoth dies, the nearest Behemoth gains 50% more for 5 seconds.\n\n2: 25 Armor & Magic resist\n4: 55 Armor & Magic resist\n6: 80 Armor & Magic resist\n\n"
         }
     },
-    "Vex": {
+    "Tristana": {
         "cost": 3,
-        "ability_text": "Send a shadow to the current target that Stuns enemies within 1 hex for 1.5 seconds. Then, it deals 255/380/610 magic damage to enemies within 1 hex.",
+        "ability_text": "Gain 50/50/60% Attack Damage for 6 seconds. Jump on the current target and deal 221/334/519 physical damage to adjacent enemies, before bouncing to a safe location.",
         "origin_details": {
-            "Emo": "Emo champions' Abilities cost less Mana to cast, and they gain Mana whenever an allied champion dies.\n\n2: 20% less, gain 10 Mana\n4: 25% less, gain 20 Mana\n6: 20 Ability power; 30% less, gain 25 Mana\n\n"
+            "Fortune": "When you lose a fight, gain Luck. The more fights in a row you lose, the more Luck you get.\nLose Luck when you win.\n\n3: Roll a die; in that many player combats, hold a Festival where you may convert your Luck into rewards.\n5: Heal 2 player health at the start of each player combat.\n7: Fortune smiles! Gain extra rewards and more luck every turn no matter what, and hold a Festival every turn.\n\n"
         },
         "class_details": {
-            "Executioner": "Executioner Abilities can critically strike and they gain Critical Strike Damage. Their Critical Strike Chance is increased based on their target's missing Health.\n\n2: 15% Critical strike damage. Up to 15% Critical strike chance\n4: 30% Critical strike damage. Up to 35% Critical strike chance\n6: 55% Critical strike damage. Up to 55% Critical strike chance\n\n"
+            "Duelist": "Duelists gain Attack Speed on each attack, stacking up to 12 times.\n\n2: 5% Attack speed\n4: 9% Attack speed\n6: 13% Attack speed; Duelists take 12% less damage\n8: 18% Attack speed; Duelists take 18% less damage\n\n"
         }
     },
-    "Vi": {
-        "cost": 1,
-        "ability_text": "Deal 121/182/272 physical damage to the current target, or 154/231/347 if they have more current Health than Vi. Stun them for 1.5/1.75/2 seconds and reduce their Armor by 10/12/15 for the rest of combat.\n\nHeadliner Effect: +150 Health and +10% Attack damage",
+    "Udyr": {
+        "cost": 5,
+        "ability_text": "Ram Slam: Gain 350/425/3000 Shield for 3 seconds and charge through the current target, briefly knocking up any enemies he hits. Grab the nearest enemy and slam them into the ground, dealing 300/450/5555 total magic damage to them and adjacent enemies.\n\nTiger Strikes: Gain 80/80/500% Attack Speed and empower Udyr's attacks for the next 6/6/30 seconds to strike 4/4/20 additional times dealing 150/225/1500 bonus magic damage.",
         "origin_details": {
-            "Punk": "Punks gain bonus Health and Attack Damage, which increases by 1% every time you spend gold on a Shop reroll.\nAfter Punks fight in combat, your 1st Shop reroll costs 1 gold and grants 3% bonus instead!\n\n2: 160 Health and 16% Attack damage\n4: 260 Health and 26% Attack damage\n6: 420 Health and 42% Attack damage\n\n"
+            "Inkshadow": "Gain unique Inkshadow items. Inkshadow champions gain 5/10/20% bonus damage and damage reduction.\n\n3: 1 Item\n5: 2 Items and 5% more bonus damage and damage reduction\n7: 4 Items\n\n"
         },
         "class_details": {
-            "Mosher": "Moshers gain Attack Speed and Omnivamp, which increases up to 100% based on their missing Health.\n\n2: 20% Attack speed, 10% Omnivamp\n4: 30% Attack speed, 15% Omnivamp\n6: 50% Attack speed, 20% Omnivamp\n\n"
+            "Behemoth": "Behemoths gain increased Armor and Magic Resist. Whenever a Behemoth dies, the nearest Behemoth gains 50% more for 5 seconds.\n\n2: 25 Armor & Magic resist\n4: 55 Armor & Magic resist\n6: 80 Armor & Magic resist\n\n",
+            "Spirit Walker": "(1) The first time the Spirit Walker drops below 50% Health, he unleashes the rage within, healing to full Health, gaining increased movement speed, and changing his Ability from Ram Slam to Tiger Strikes."
         }
     },
-    "Viego": {
-        "cost": 4,
-        "ability_text": "Slam on a nearby hex. Deal 105/158/473 physical damage to enemies within two hexes and mark them for 5 seconds. Marked enemies take 10% increased damage from all sources.\n\nViego's attacks on marked enemies deal 119/179/536 physical damage instead.\n\nHeadliner Effect: +150 Health and +10% Attack damage",
+    "Voidspawn": {
+        "cost": 6,
+        "ability_text": "",
+        "origin_details": {},
+        "class_details": {}
+    },
+    "Volibear": {
+        "cost": 3,
+        "ability_text": "Empower the next three attacks. The first two heal for 210/240/270 Health and deal 50/75/120 bonus magic damage. The final attack deals 190/312/532 magic damage and Stuns the target for 1 second.",
         "origin_details": {
-            "Pentakill": "Pentakill champions reduce incoming damage by 15% and deal bonus damage. For each champon kill, a Pentakill champion rocks out and increases their damage bonus by 25%.\nOn the 5th kill, all Pentakill champions rock out and your team gains 50% Attack Speed.\n\n3: 15% bonus damage\n5: 30% bonus damage\n7: 45% bonus damage\n10: 50% damage reduction and 110% bonus damage\n\n"
+            "Inkshadow": "Gain unique Inkshadow items. Inkshadow champions gain 5/10/20% bonus damage and damage reduction.\n\n3: 1 Item\n5: 2 Items and 5% more bonus damage and damage reduction\n7: 4 Items\n\n"
         },
         "class_details": {
-            "Edgelord": "Edgelords gain Attack Speed, which doubles when their target drops below 50% Health. Edgelords with 1-hex range also dash through them on their next attack.\n\n3: 30% Attack speed\n5: 50% Attack speed\n7: 85% Attack speed\n\n"
+            "Duelist": "Duelists gain Attack Speed on each attack, stacking up to 12 times.\n\n2: 5% Attack speed\n4: 9% Attack speed\n6: 13% Attack speed; Duelists take 12% less damage\n8: 18% Attack speed; Duelists take 18% less damage\n\n"
+        }
+    },
+    "Wukong": {
+        "cost": 5,
+        "ability_text": "Cycle through the following abilities:\n\nThrow staff out, dealing 240/360/1620 physical damage to the current target and Stunning them for 1.5/1.5/8 seconds.\n\nSpin, dealing 240/360/1620 physical damage to enemies within 1-hex range.\n\nDash to hit the most enemies in a 3-hex line, then slam down staff dealing 310/465/2855 physical damage to enemies hit.",
+        "origin_details": {
+            "Heavenly": "Heavenly units grant unique stats to your team, increased by their star level and each Heavenly unit in play.\n\n2: 100% bonus.\n3: 115% bonus.\n4: 135% bonus.\n5: 165% bonus.\n6: 200% bonus.\n7: 225% bonus.\n\n\nKha'Zix - 10% Critical strike chance\nMalphite - 8 Armor & Magic resist\nNeeko - 10 Health\nQiyana - 10% Attack damage\nSoraka - 10% Ability power\nWukong - 10% Attack speed\nEmblem - 6% Omnivamp\n\n"
+        },
+        "class_details": {
+            "Great": "(1) Every 3 casts, Wukong grows his weapon, modifying his Abilities.",
+            "Sage": "Combat start: Allies in the front 2 rows gain Omnivamp. Allies in the back 2 rows gain Ability Power.\n\n2: 12% Omnivamp, 15 Ability power\n3: 20% Omnivamp, 30 Ability power\n4: 30% Omnivamp, 45 Ability power\n5: 45% Omnivamp, 75 Ability power\n\n"
+        }
+    },
+    "Xayah": {
+        "cost": 5,
+        "ability_text": "Feathers Fly!:\n\nThrow 12/12/30 feathers at the 4 closest enemies, each dealing 56/84/900 physical damage. Then, recall the feathers, dealing 39/61/255 physical damage to enemies they pass through.\n\nGleaming Quill:\n\nRakan throws feathers at the 3 lowest Health allies, healing them for 150/250/1000 Health.\nThis is affected by Trickshot.",
+        "origin_details": {
+            "Dragonlord": "After 8 seconds of combat, the Dragon strikes the board, dealing true damage to enemies and granting all allies Attack Speed for the rest of combat.\n\n2: 5% Health damage, 22% Attack speed\n3: 10% Health damage, 18% Attack speed\n4: 10% Health damage and Stuns for 1.5 seconds\n5: 15% Health damage, 45% Attack speed\n\n"
+        },
+        "class_details": {
+            "Lovers": "(1) Change which Lover takes the field depending on whether they are placed in the front or back 2 rows. When the fielded Lover casts, the other provides a bonus effect.\n\nFront: Altruist Rakan\nBack: Trickshot Xayah\n\n",
+            "Trickshot": "Trickshots' abilities ricochet. Each ricochet deals a percentage of the previous bounce's damage.\n\n2: 1 ricochet; 40% of previous damage\n4: 2 ricochets; 60% of previous damage\n\n"
         }
     },
     "Yasuo": {
         "cost": 1,
-        "ability_text": "Passive: Yasuo permanently gains 1% Attack Damage when he kills an enemy champion (doubled in Hyper Roll).\n\nActive: Deal 144/206/298 damage to the current target.\n\nBling Bonus: Synthesizer Strike executes enemies under 15% Health\n\nHeadliner Effect: +100 Health and +15% Omnivamp",
+        "ability_text": "Passive: Attacks while Shielded deal 14/21/35 bonus magic damage.\n\nActive: Gain 175/200/250 + 50/60/75% Armor & MR as Shield for 5 seconds and deal 200/300/450 magic damage to the current target.\n\nFated Bonus: Gain 400 Shield at the start of combat.",
         "origin_details": {
-            "True Damage": "True Damage champions deal bonus true damage. If they are holding an item, they gain a unique Bling Bonus for their Ability.\n\n2: 15% damage\n4: 30% damage\n6: 45% damage\n9: 125% damage, Bling Bonuses go Platinum!\n\n"
+            "Fated": "Hover one Fated unit over another to form a pair and unlock a Fated Bonus. Your pair gains 20% Health.\n\n3: Pair gets the Fated Bonus.\n5: All Fated champions get 200% of the Fated Bonus\n7: All Fated champions get 300% of the Fated Bonus\n10: All Fated champions gain 300% of EVERY Fated Bonus\n\n"
         },
         "class_details": {
-            "Edgelord": "Edgelords gain Attack Speed, which doubles when their target drops below 50% Health. Edgelords with 1-hex range also dash through them on their next attack.\n\n3: 30% Attack speed\n5: 50% Attack speed\n7: 85% Attack speed\n\n"
+            "Duelist": "Duelists gain Attack Speed on each attack, stacking up to 12 times.\n\n2: 5% Attack speed\n4: 9% Attack speed\n6: 13% Attack speed; Duelists take 12% less damage\n8: 18% Attack speed; Duelists take 18% less damage\n\n"
         }
     },
     "Yone": {
         "cost": 3,
-        "ability_text": "Gain stacking Move Speed and 8% Omnivamp for the rest of combat. Slash twice, dealing 130/195/300 physical damage to enemies in a cone each time.\n\nHeadliner Effect: +200 Health and +20% Attack damage",
+        "ability_text": "Dash in spirit form to the farthest enemy within 3 Hexes for 3 seconds, dealing 107/161/256 physical damage and Wounding enemies along the way for 5 seconds. While in spirit form, gain 250/300/350% Shield and 80% Attack Speed. Afterwards, Yone returns to his starting position.\n\nEach cast this combat increases his dash range by 1 Hex.",
         "origin_details": {
-            "Heartsteel": "Earn Hearts by killing enemies. Gain even more by losing player combat. Every 4 player combats, convert Hearts into powerful rewards!\n\n3: 1x Hearts\n5: 2.5x Hearts\n7: 6x Hearts\n9: 10x Hearts, Gain rewards every round and keep 80% of your Hearts!\n\n"
+            "Umbral": "The moon illuminates hexes, Shielding units placed in them at the start of combat.\nUmbral units in illuminated hexes execute low Health enemies.\n\n2: 200 Shield; 10% Health execute\n4: 500 Shield; 18% Health execute. More hexes are illuminated.\n6: 1000 Shield and illuminate the whole board\n8: Executed enemies have a 100% chance to drop loot; 45% Health execute\n\n"
         },
         "class_details": {
-            "Crowd Diver": "After Crowd Divers die, they leap onto the furthest enemy, dealing 400 magic damage. Enemies within 1 hex are Stunned for 1.5 seconds.\nThey also deal bonus damage, increased by 1% each second.\n\n2: 5% bonus damage\n4: 20% bonus damage\n6: 50% bonus damage\n\n",
-            "Edgelord": "Edgelords gain Attack Speed, which doubles when their target drops below 50% Health. Edgelords with 1-hex range also dash through them on their next attack.\n\n3: 30% Attack speed\n5: 50% Attack speed\n7: 85% Attack speed\n\n"
+            "Reaper": "(2) Reapers' Abilities can critically strike and they gain 20% Critical Strike Chance.\n\n(4) Additionally, Reapers bleed enemies for 45% bonus true damage over 3 seconds."
         }
     },
     "Yorick": {
-        "cost": 5,
-        "ability_text": "Summon 9/10/25 headbanging ghouls that pile towards the center of the board. Each deals 132/198/1980 physical damage over three attacks. Ghouls' damage 20% Sunders for 3 seconds.\n\nEvery other cast also summons a BIG ghoul with 900/1750/9001 Health that deals 220/330/3960 physical damage each attack.\n\nHeadliner Effect: +200 Health. Summons 2 extra ghouls. The BIG ghoul is BIGGER and deals 10% extra damage.",
+        "cost": 2,
+        "ability_text": "Sap power from the 2 nearest enemies, gaining 300/360/420 max Health and dealing 160/240/375 magic damage to them over 3 seconds.",
         "origin_details": {
-            "Pentakill": "Pentakill champions reduce incoming damage by 15% and deal bonus damage. For each champon kill, a Pentakill champion rocks out and increases their damage bonus by 25%.\nOn the 5th kill, all Pentakill champions rock out and your team gains 50% Attack Speed.\n\n3: 15% bonus damage\n5: 30% bonus damage\n7: 45% bonus damage\n10: 50% damage reduction and 110% bonus damage\n\n"
+            "Umbral": "The moon illuminates hexes, Shielding units placed in them at the start of combat.\nUmbral units in illuminated hexes execute low Health enemies.\n\n2: 200 Shield; 10% Health execute\n4: 500 Shield; 18% Health execute. More hexes are illuminated.\n6: 1000 Shield and illuminate the whole board\n8: Executed enemies have a 100% chance to drop loot; 45% Health execute\n\n"
         },
         "class_details": {
-            "Mosher": "Moshers gain Attack Speed and Omnivamp, which increases up to 100% based on their missing Health.\n\n2: 20% Attack speed, 10% Omnivamp\n4: 30% Attack speed, 15% Omnivamp\n6: 50% Attack speed, 20% Omnivamp\n\n",
-            "Guardian": "Once per combat at 50% Health, Guardians shield themselves and their closest ally for a percent of their max Health.\n\n2: 30%\n4: 50%\n6: 70%\n\n"
+            "Behemoth": "Behemoths gain increased Armor and Magic Resist. Whenever a Behemoth dies, the nearest Behemoth gains 50% more for 5 seconds.\n\n2: 25 Armor & Magic resist\n4: 55 Armor & Magic resist\n6: 80 Armor & Magic resist\n\n"
         }
     },
-    "Zac": {
-        "cost": 4,
-        "ability_text": "Bounce 3 times on nearby enemies. Each bounce deals 120/180/1200 magic damage, Stuns for 1 second, and heals Zac for 180/240/800 Health.\n\nHeadliner Effect: +150 Health and +10 Ability power",
-        "origin_details": {},
-        "class_details": {
-            "Bruiser": "Your team gains 100 Health. Bruisers gain bonus max Health.\n\n2: 20% max Health\n4: 40% max Health\n6: 80% max Health\n\n"
-        }
-    },
-    "Zed": {
-        "cost": 4,
-        "ability_text": "Mark the current target and spawn an untargetable Shadow with 131/197/591 Attack Damage for 4 seconds. After a brief delay or when the marked enemy falls below 15% health, deal an additional 263/394/1181 physical damage.\n\nHeadliner Effect: +100 Health. Zed's Shadows gain +10% Attack damage and +10% Attack speed.",
-        "origin_details": {},
-        "class_details": {
-            "Crowd Diver": "After Crowd Divers die, they leap onto the furthest enemy, dealing 400 magic damage. Enemies within 1 hex are Stunned for 1.5 seconds.\nThey also deal bonus damage, increased by 1% each second.\n\n2: 5% bonus damage\n4: 20% bonus damage\n6: 50% bonus damage\n\n"
-        }
-    },
-    "Ziggs": {
-        "cost": 5,
-        "ability_text": "Throw a bomb at the current target that deals 360/540/4000 magic damage. It splits into 5 smaller bombs that Shred their target for 4 seconds and deal 80/120/400 magic damage. Each cast increases the number of smaller bombs by 2.\n\nHeadliner Effect: +10 Ability power. Reduce max Mana by 10.",
+    "Zoe": {
+        "cost": 3,
+        "ability_text": "Passive: Kills increase the number of ricochets by 1 for the rest of combat.\n\nActive: Fire a missile dealing 220/330/530 magic damage to the current target. The missile ricochets to the farthest unit within 2 hexes, dealing 100/150/240 magic damage.",
         "origin_details": {
-            "Hyperpop": "When Hyperpop champions use an Ability, they grant Mana and 4 seconds of Attack Speed to their 2 closest allies.\n\n1: 3 Mana and 10% Attack speed\n2: 5 Mana and 20% Attack speed\n3: 7 Mana and 35% Attack speed\n4: 10 Mana and 60% Attack speed\n\n"
+            "Fortune": "When you lose a fight, gain Luck. The more fights in a row you lose, the more Luck you get.\nLose Luck when you win.\n\n3: Roll a die; in that many player combats, hold a Festival where you may convert your Luck into rewards.\n5: Heal 2 player health at the start of each player combat.\n7: Fortune smiles! Gain extra rewards and more luck every turn no matter what, and hold a Festival every turn.\n\n",
+            "Storyweaver": "Storyweavers summon a Hero named Kayle and evolve her. Storyweavers gain max Health.\n\n3: Pick a supportive effect. 60 Health\n5: Pick a combat effect. 100 Health\n7: Pick a combat effect. 150 Health\n10: Ascend. 250 Health\n\n"
         },
         "class_details": {
-            "Dazzler": "Dazzlers' Abilities reduce their target's damage by 15% and deal bonus magic damage over 2 seconds.\n\n2: 20% magic damage\n4: 60% magic damage\n6: 100% magic damage\n\n"
+            "Arcanist": "Arcanists gain Ability Power and grant Ability Power to allies.\n\n2: 20 Ability power to all allies.\n4: 50 Ability power for Arcanists; 20 Ability power for others\n6: 85 Ability power for Arcanists; 40 Ability power for others\n8: 125 Ability power for Arcanists; 125 Ability power for others\n\n"
+        }
+    },
+    "Zyra": {
+        "cost": 2,
+        "ability_text": "Summon 2 Vine Lashers that attack the nearest enemy 3 times. Their attacks deal 95/140/220% magic damage and Wound their targets for 6 seconds.",
+        "origin_details": {
+            "Storyweaver": "Storyweavers summon a Hero named Kayle and evolve her. Storyweavers gain max Health.\n\n3: Pick a supportive effect. 60 Health\n5: Pick a combat effect. 100 Health\n7: Pick a combat effect. 150 Health\n10: Ascend. 250 Health\n\n"
+        },
+        "class_details": {
+            "Sage": "Combat start: Allies in the front 2 rows gain Omnivamp. Allies in the back 2 rows gain Ability Power.\n\n2: 12% Omnivamp, 15 Ability power\n3: 20% Omnivamp, 30 Ability power\n4: 30% Omnivamp, 45 Ability power\n5: 45% Omnivamp, 75 Ability power\n\n"
         }
     }
 }
