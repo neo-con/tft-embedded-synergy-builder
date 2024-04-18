@@ -6,7 +6,7 @@ TFT Embedded Synergy Builder is a recommendation system for the game Teamfight T
 
 ## Interactive Demo
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tft-embedded.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tft-embedded-synergy-builder.streamlit.app/)
 
 ## Setup and Installation
 To set up the project, follow these steps:
@@ -19,7 +19,7 @@ To set up the project, follow these steps:
 6. You can now run the application using `streamlit run app.py`.
 
 ## Usage
-Input your chosen champion into the text box provided. The system will then generate a team composition based on the champion's embeddings match. An example of the application in use can be found at the live Streamlit app [here](https://tft-embedded.streamlit.app).
+Input your chosen champion into the text box provided. The system will then generate a team composition based on the champion's embeddings match. An example of the application in use can be found at the live Streamlit app [here](https://tft-embedded-synergy-builder.streamlit.app/).
 
 ## Project Structure
 Below is a brief overview of the key files and folders:
